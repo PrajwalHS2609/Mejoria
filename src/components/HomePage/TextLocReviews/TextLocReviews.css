@@ -1,0 +1,38 @@
+.textReviewContainer {
+  /* border: solid; */
+  width: 100%;
+  height: 500px;
+  /* margin-top: 5%; */
+  background-color: var(--customColorBlack);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.textReviewContent {
+  /* border: solid green; */
+  height: 100%;
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.reviewStar {
+  color: gold;
+}
+.textReviewContent > p {
+  font-size: 120%;
+  font-weight: bold;
+  color: white;
+}
+.reviews-wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+}
+.reviews-container {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  padding: 0px;
+}

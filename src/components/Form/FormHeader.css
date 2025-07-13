@@ -1,0 +1,60 @@
+.form-container {
+  border: solid;
+  width: 100%;
+  padding: 40px;
+  background: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.horizontal-form {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.horizontal-form input,
+.horizontal-form select {
+  padding: 12px 20px;
+  border: 2px solid var(--customColor1);
+  border-radius: 8px;
+  font-size: 16px;
+  flex: 1 1 200px;
+  min-width: 200px;
+  background-color: black;
+  color: var(--customColor1);
+}
+.horizontal-form input::placeholder {
+  color: var(--customColor1);
+}
+.horizontal-form input:focus,
+.horizontal-form select:focus {
+  border-color: var(--customColor1);
+  outline: none;
+}
+
+.horizontal-form button {
+  padding: 12px 30px;
+  background-color: black;
+  color: var(--customColor1);
+  border: 2px solid var(--customColor1);
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.horizontal-form button:hover {
+  background-color: var(--customColor1);
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .horizontal-form {
+    flex-direction: column;
+  }
+  .horizontal-form input,
+  .horizontal-form select {
+    flex: 1 1 100%;
+  }
+}

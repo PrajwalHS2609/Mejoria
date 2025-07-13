@@ -1,0 +1,370 @@
+
+.instaContainer {
+  /* border: solid; */
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  /* margin-top: 100px; */
+  background-color: white;
+  padding: 10px;
+  /* background-image: url("./../../../Images/HomeBg/instafeedBg.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.instaHeadContainer {
+  /* border: solid; */
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.instaHeadContainer > h6 {
+  font-size: 30px;
+  color: var(--customColorBlack);
+}
+.instaUnderline {
+  border: 2px solid;
+  width: 80px;
+  color: var(--customColorBlack);
+}
+.instaParaContainer {
+  /* border: solid; */
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.instaParaContainer > pre {
+  font-weight: lighter;
+  font-size: 20px;
+}
+.instaParaContainer > p > a {
+  font-weight: lighter;
+  font-size: 15px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.instaImgWrapper {
+  /* border: solid blue; */
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.instaFeedVidContainer {
+  border: solid transparent;
+  width: 328px;
+  margin: 10px;
+  margin-left: 50px;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.instaSlider {
+  /* border: solid teal; */
+  height: 90%;
+  width: 90%;
+  padding: 20px;
+}
+.instaInnerSlider {
+  /* border: solid; */
+  height: 100%;
+  width: 50%;
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .instaContainer {
+    /* border: solid; */
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 100px;
+  }
+  .instaHeadContainer {
+    /* border: solid; */
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* .instaHeadContainer > h6 {
+    font-size: 30px;
+    color: var(--customColor);
+    text-align: center;
+  }
+  .instaUnderline {
+    border: 2px solid;
+    width: 80px;
+    color: var(--customColor);
+  } */
+  .instaParaContainer {
+    /* border: solid; */
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .instaParaContainer > pre {
+    font-weight: lighter;
+    font-size: 20px;
+  }
+  .instaParaContainer > p {
+    font-weight: lighter;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .instaImgWrapper {
+    /* border: solid blue; */
+    max-width: 350px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  .instaFeedVidContainer {
+    /* border: solid red; */
+    width: 100%;
+    margin: 0px;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .instaSlider {
+    /* border: solid teal; */
+    height: 100%;
+    width: 100%;
+  }
+  .instaInnerSlider {
+    /* border: solid; */
+    height: 100%;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  .instaContainer {
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+  }
+  .instaItem1 > h6 {
+    font-size: 30px;
+  }
+  .instaContent2 > p {
+    font-size: 30px;
+  }
+  .instaContent3 > p {
+    font-weight: lighter;
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  .instaContent4 {
+    /* border: solid blue; */
+    height: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .instaItem {
+    /* border: solid red; */
+    width: 100%;
+    height: 90%;
+    position: relative;
+  }
+  .instaFeedVidContainer {
+    /* border: solid red; */
+    width: 100%;
+    margin: 0px;
+    height: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .instaSlider {
+    /* border: solid teal; */
+    height: 100%;
+    width: 90%;
+    margin: 10px;
+  }
+  .instaInnerSlider {
+    /* border: solid; */
+    height: 100%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+  .instaContainer {
+    /* border: solid; */
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 10px;
+  }
+  .instaHeadContainer {
+    /* border: solid; */
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* .instaHeadContainer > h6 {
+    font-size: 30px;
+    color: var(--customColor);
+  }
+  .instaUnderline {
+    border: 2px solid;
+    width: 80px;
+    color: var(--customColor);
+  } */
+  .instaParaContainer {
+    /* border: solid; */
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .instaParaContainer > pre {
+    font-weight: lighter;
+    font-size: 20px;
+  }
+  .instaParaContainer > p {
+    font-weight: lighter;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .instaImgWrapper {
+    /* border: solid blue; */
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .instaFeedVidContainer {
+      /* border: solid red ; */
+    width: 328px;
+    margin: 0px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .instaSlider {
+    /* border: solid teal; */
+    height: 100%;
+    width: 95%;
+  }
+  .instaInnerSlider {
+    /* border: solid; */
+    height: 100%;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .instaContainer {
+    /* border: solid; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    gap: 10px;
+  }
+  .instaHeadContainer {
+    /* border: solid; */
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* .instaHeadContainer > h6 {
+    font-size: 30px;
+    color: var(--customColor);
+  }
+  .instaUnderline {
+    border: 2px solid;
+    width: 80px;
+    color: var(--customColor);
+  } */
+  .instaParaContainer {
+    /* border: solid green; */
+
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  .instaParaContainer > pre {
+    font-weight: lighter;
+    font-size: 20px;
+  }
+  .instaParaContainer > p {
+    font-weight: lighter;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .instaImgWrapper {
+    /* border: solid blue; */
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  .instaFeedVidContainer {
+    /* border: solid red ; */
+    width: 328px;
+    margin: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 45px;
+  }
+  .instaSlider {
+    /* border: solid teal; */
+    height: 100%;
+    width: 90%;
+  }
+  .instaInnerSlider {
+    /* border: solid; */
+    height: 100%;
+    width: 50%;
+  }
+}

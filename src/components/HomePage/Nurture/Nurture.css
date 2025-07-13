@@ -1,0 +1,165 @@
+.aboutUs3Skill-container {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--pets3Bg);
+  padding: 20px;
+}
+.aboutUs3Skill-content:nth-child(2) {
+  overflow: hidden;
+}
+.aboutUs3Skill-content:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUs3Skill-content:nth-child(2) > video {
+  /* border: solid; */
+  width: 300px;
+  height: 500px;
+  object-fit: cover;
+}
+.aboutUs3Skill-wrapper {
+  /* border: solid blue; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 0px;
+}
+.aboutUs3Skill-content:nth-child(1) {
+  width: 50%;
+}
+.aboutUs3Skill-content {
+  /* border: solid green; */
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+.aboutUs3Skill-key {
+  /* border: solid teal; */
+  width: 80%;
+  height: 150px;
+  padding: 20px;
+  margin-bottom: -100px;
+  background-color: var(--pets3Color1);
+  background-image: url("https://wgl-dsites.net/pawscare/wp-content/uploads/2021/04/portfolio-single-meta-bg-2.png");
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+}
+.aboutUs3Skill-content > h5 {
+  color: var(--pets3Color1);
+  font-weight: bold;
+}
+.aboutUs3Skill-content > h2 {
+  font-size: 2rem;
+  color: var(--pets3Color2);
+  font-weight: bold;
+}
+.aboutUs3Skill-content > p {
+  color: grey;
+}
+.aboutUs3Skill-skillContent {
+  /* border: solid green; */
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.nurture-icon {
+  width: 80px;
+  height: 80px;
+  color: var(--customColor1);
+}
+.nurture-icon1 {
+  width: 60px;
+  height: 60px;
+  color: var(--customColor1);
+}
+.aboutUs3Skill-skillContent > span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.aboutUs3Skill-skillContent > span > h3 {
+  font-weight: bold;
+  text-align: start;
+  width: 100%;
+}
+.aboutUsSkill-keyContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutUsSkill-keyContent > h3 {
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+}
+.aboutUsSkill-keyContent > b {
+  color: white;
+}
+.nurture-button {
+  /* border: solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nurture-button > button {
+  padding: 10px;
+  background-color: var(--customColor1);
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  .aboutUs3Skill-wrapper {
+    flex-direction: column;
+  }
+  .aboutUs3Skill-content {
+    /* border: solid green; */
+    width: 100% !important;
+    padding: 10px;
+  }
+  .aboutUs3Skill-skillContent {
+    /* border: solid green; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .aboutUs3Skill-content > h2 {
+    font-weight: bold;
+    text-align: center;
+  }
+  .aboutUs3Skill-skillContent > span > h3 {
+    text-align: center;
+  }
+
+  .aboutUs3Skill-skillContent > span > p {
+    text-align: justify;
+  }
+}
