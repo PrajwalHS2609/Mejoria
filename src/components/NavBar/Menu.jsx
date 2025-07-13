@@ -32,25 +32,25 @@ const Menu = () => {
           <Link href={"/"}>HOME</Link>
         </li>
         <li>
-          <Link href={"/service"}>ABOUT MEJORIA</Link>
+          <Link href={"/"}>ABOUT MEJORIA</Link>
           <MdKeyboardArrowDown className="menuIcon" />
           <div className="menuDrop">
-            <Link href={"/hair-salon"}>
+            <Link href={"/"}>
               <div className="dropItems">
                 <p>WHO WE ARE</p>
               </div>
             </Link>
-            <Link href={"/nails-salon"}>
+            <Link href={"/"}>
               <div className="dropItems">
                 <p>OUR EXPERTISE</p>
               </div>
             </Link>
-            <Link href={"/facial"}>
+            <Link href={"/"}>
               <div className="dropItems">
                 <p>OUR FACULTY</p>
               </div>
             </Link>
-            <Link href={"/beauty-essentials"}>
+            <Link href={"/"}>
               <div className="dropItems">
                 <p>OUR PARTNERSHIP</p>
               </div>
@@ -58,15 +58,15 @@ const Menu = () => {
           </div>
         </li>
         <li>
-          <Link href={"/service"}>DIPLOMA PROGRAM</Link>
+          <Link href={"/"}>DIPLOMA PROGRAM</Link>
           <MdKeyboardArrowDown className="menuIcon" />
           <div className="menuDrop">
-            <Link href={"/hair-salon"}>
+            <Link href={"/"}>
               <div className="dropItems">
                 <p>EGGFREE DIPLOMA COURSE</p>
               </div>
             </Link>
-            <Link href={"/nails-salon"}>
+            <Link href={"/"}>
               <div className="dropItems">
                 <p>CLASSIC DIPLOMA COURSE</p>
               </div>
@@ -74,25 +74,25 @@ const Menu = () => {
           </div>
         </li>
         <li>
-          <Link href={"/service"}>CERTIFICATION COURSES</Link>
+          <Link href={"/"}>CERTIFICATION COURSES</Link>
           <MdKeyboardArrowDown className="menuIcon" />
           <div className="menuDrop">
-            <Link href={"/hair-salon"}>
+            <Link href={"/"}>
               <div className="dropItems">
                 <p>EGGFREE CERTIFICATION COURSE</p>
               </div>
             </Link>
-            <Link href={"/nails-salon"}>
+            <Link href={"/"}>
               <div className="dropItems">
                 <p>CLASSIC CERTIFICATION COURSE</p>
               </div>
             </Link>
-            <Link href={"/facial"}>
+            <Link href={"/"}>
               <div className="dropItems">
                 <p>CAKE MASTERY</p>
               </div>
             </Link>
-            <Link href={"/beauty-essentials"}>
+            <Link href={"/"}>
               <div className="dropItems">
                 <p>HOME BAKER'S CERTIFICATION COURSE</p>
               </div>
@@ -100,15 +100,15 @@ const Menu = () => {
           </div>
         </li>
         <li>
-          <Link href={"/service"}>SHORT COURSES</Link>
+          <Link href={"/"}>SHORT COURSES</Link>
           <MdKeyboardArrowDown className="menuIcon" />
           <div className="menuDrop">
-            <Link href={"/hair-salon"}>
+            <Link href={"/"}>
               <div className="dropItems">
                 <p>MASTER CLASSES</p>
               </div>
             </Link>
-            <Link href={"/nails-salon"}>
+            <Link href={"/"}>
               <div className="dropItems">
                 <p>ONE DAY COURSE</p>
               </div>
@@ -116,7 +116,7 @@ const Menu = () => {
           </div>
         </li>
         <li>
-          <Link href={"/contact-us"}>CONTACT US</Link>
+          <Link href={"/"}>CONTACT US</Link>
         </li>
       </ul>
 
@@ -142,7 +142,7 @@ const Menu = () => {
           {/* ABOUT MEJORIA */}
           <ul className="serviceDrop">
             <h2>
-              <Link onClick={hideSideBar} href={"/service"}>
+              <Link onClick={hideSideBar} href={"/"}>
                 ABOUT MEJORIA
               </Link>
               <MdKeyboardArrowDown
@@ -154,28 +154,28 @@ const Menu = () => {
               <span className="respMenuSpan">
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/hair-salon"}>
+                    <Link onClick={hideSideBar} href={"/"}>
                       WHO WE ARE
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/nails-salon"}>
+                    <Link onClick={hideSideBar} href={"/"}>
                       OUR EXPERTISE
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/facial"}>
+                    <Link onClick={hideSideBar} href={"/"}>
                       OUR FACULTY
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/beauty-essentials"}>
+                    <Link onClick={hideSideBar} href={"/"}>
                       OUR PARTNERSHIP
                     </Link>
                   </h4>
@@ -199,14 +199,14 @@ const Menu = () => {
               <span className="respMenuSpan">
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/hair-salon"}>
+                    <Link onClick={hideSideBar} href={"/"}>
                       EGGFREE DIPLOMA COURSE
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/nails-salon"}>
+                    <Link onClick={hideSideBar} href={"/"}>
                       CLASSIC DIPLOMA COURSE
                     </Link>
                   </h4>
@@ -218,7 +218,7 @@ const Menu = () => {
           {/* CERTIFICATION COURSES */}
           <ul className="serviceDrop">
             <h2>
-              <Link onClick={hideSideBar} href={"/service"}>
+              <Link onClick={hideSideBar} href={"/"}>
                 CERTIFICATION COURSES
               </Link>
               <MdKeyboardArrowDown
@@ -230,28 +230,28 @@ const Menu = () => {
               <span className="respMenuSpan">
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/hair-salon"}>
+                    <Link onClick={hideSideBar} href={"/"}>
                       EGGFREE CERTIFICATION COURSE
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/nails-salon"}>
+                    <Link onClick={hideSideBar} href={"/"}>
                       CLASSIC CERTIFICATION COURSE
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/facial"}>
+                    <Link onClick={hideSideBar} href={"/"}>
                       CAKE MASTERY
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/beauty-essentials"}>
+                    <Link onClick={hideSideBar} href={"/"}>
                       HOME BAKER'S CERTIFICATION COURSE
                     </Link>
                   </h4>
@@ -263,7 +263,7 @@ const Menu = () => {
           {/* SHORT COURSES */}
           <ul className="serviceDrop">
             <h2>
-              <Link onClick={hideSideBar} href={"/service"}>
+              <Link onClick={hideSideBar} href={"/"}>
                 SHORT COURSES
               </Link>
               <MdKeyboardArrowDown
@@ -275,14 +275,14 @@ const Menu = () => {
               <span className="respMenuSpan">
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/hair-salon"}>
+                    <Link onClick={hideSideBar} href={"/"}>
                       MASTER CLASSES
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/nails-salon"}>
+                    <Link onClick={hideSideBar} href={"/"}>
                       ONE DAY COURSE
                     </Link>
                   </h4>

@@ -25,19 +25,19 @@ const Footer = () => {
           </div>
           <div className="footerTxt2">
             <div className="footerTxt">
-              <Link href={"/hair-salon"}>Home</Link>
+              <Link href={"/"}>Home</Link>
             </div>
             <div className="footerTxt">
-              <Link href={"/nails-salon"}>About Mejoria</Link>
+              <Link href={"/"}>About Mejoria</Link>
             </div>
             <div className="footerTxt">
-              <Link href={"/facial"}>Certification Course</Link>
+              <Link href={"/"}>Certification Course</Link>
             </div>
             <div className="footerTxt">
-              <Link href={"/beauty-essentials"}>Diploma Program</Link>
+              <Link href={"/"}>Diploma Program</Link>
             </div>
             <div className="footerTxt">
-              <Link href={"/spa"}>Courses</Link>
+              <Link href={"/"}>Courses</Link>
             </div>
           </div>
         </div>

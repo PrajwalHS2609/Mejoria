@@ -43,7 +43,7 @@
   flex-direction: column;
   gap: 10px;
   margin: 20px;
-  box-shadow: 0 0px 1px var(--customColor1);
+  box-shadow: 0 8px 1px var(--customColor1);
 }
 
 .fromCourse-card:hover {
