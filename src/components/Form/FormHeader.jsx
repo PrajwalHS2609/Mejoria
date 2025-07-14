@@ -15,7 +15,7 @@ const FormHeader = () => {
           <option value="bread">Cake Mastery</option>
           <option value="chocolate">Home Baker's Certification Course</option>
         </select>
-        <button type="submit">Submit</button>
+        <button type="submit">Apply</button>
       </form>
     </div>
   );
