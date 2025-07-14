@@ -1,6 +1,6 @@
 .footerContainer {
   /* border: solid red; */
-  height: 500px;
+  height: 100%;
   width: 100%;
   background-color: black;
   /* margin-top: 40px; */
@@ -86,11 +86,12 @@
 }
 .footerContent2 {
   border-top: 2px solid white;
-  height: 27%;
+  height: 80px;
   width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
 .footerIcon {

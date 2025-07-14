@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <div className="footerContainer">
       <div className="footerContent1">
-         {/* <div className="footerItem" >
+        {/* <div className="footerItem" >
           <img src="https://mejoria.in/wp-content/uploads/2024/11/Mejoria-Logo-ver2-blck.png" alt="" />
          </div> */}
         <div className="footerItem1" id="footerItem1">
@@ -83,19 +83,16 @@ const Footer = () => {
           </div>
           <div className="footerTxt2">
             <div className="footerTxt">
+              <Link href={"/terms"}>Terms & Conditions</Link>
+            </div>
+            <div className="footerTxt">
               <Link href={"/terms"}>Returns & Refund Policy</Link>
-            </div>
-            <div className="footerTxt">
-              <Link href={"/terms"}>Cancellation Policy</Link>
-            </div>
-            <div className="footerTxt">
-              <Link href={"/terms"}>Payment Mode</Link>
             </div>
             <div className="footerTxt">
               <Link href={"/terms"}>Pricing Policy</Link>
             </div>
             <div className="footerTxt">
-              <Link href={"/terms"}>Shipping</Link>
+              <Link href={"/terms"}>Shipping Policy</Link>
             </div>
           </div>
         </div>
@@ -145,11 +142,6 @@ const Footer = () => {
         <div className="footerCopy">
           <div className="footerCopy1">
             <p>Mejoria©Copyright 2025</p>
-          </div>
-          <div className="footerCopy2">
-            <a href="https://tryseoservices.com/">
-              <Image src={TSS} alt="" />
-            </a>
           </div>
         </div>
       </div>

@@ -138,7 +138,7 @@
 }
 @media screen and (max-width: 768px) {
   .aboutUs3Skill-wrapper {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .aboutUs3Skill-content {
     /* border: solid green; */
