@@ -11,6 +11,7 @@ import About from "./../components/HomePage/About/About";
 import Nurture from "./../components/HomePage/Nurture/Nurture";
 import Faculty from "./../components/HomePage/Faculty/Faculty";
 import FormHeader from './../components/Form/FormHeader';
+import Testimonial from './../components/HomePage/Testimonial/Testimonial';
 export default function Home() {
   return (
     <div>
@@ -26,6 +27,7 @@ export default function Home() {
       {/* <OurSalon /> */}
       {/* <InstaFeed /> */}
       {/* <HelpNearYou /> */}
+      <Testimonial/>
       <TextLocReviews />
     </div>
   );
