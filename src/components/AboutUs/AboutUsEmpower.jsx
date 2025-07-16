@@ -27,11 +27,7 @@ const AboutUsEmpower = () => {
             world of pastry and baking.
           </p>
 
-          <Link href={"/contact-us"}>
-            <button>Contact Us </button>
-          </Link>
-
-          {/* <div className="nsdc">
+          <div className="nsdc">
             <img
               src="https://mejoria.in/wp-content/uploads/2024/12/ebbafe7b-1b5c-428b-bda9-68db4460c584.jpeg"
               className=""
@@ -41,7 +37,11 @@ const AboutUsEmpower = () => {
               programs leading to certification, placement, capacity building &
               entrepreneurship focusing on the Food Processing Industry.
             </p>
-          </div> */}
+          </div>
+          <br />
+          <Link href={"/contact-us"}>
+            <button>Contact Us </button>
+          </Link>
         </div>
 
         <div className="partner-right">
