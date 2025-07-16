@@ -6,6 +6,9 @@ import { FaYoutube } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
+import { FiPhoneCall } from "react-icons/fi";
+import { IoMailOutline } from "react-icons/io5";
+import { GrLocation } from "react-icons/gr";
 
 import TSS from "@/Image/TSS.png";
 import Link from "next/link";
@@ -93,6 +96,30 @@ const Footer = () => {
             </div>
             <div className="footerTxt">
               <Link href={"/terms"}>Shipping Policy</Link>
+            </div>
+          </div>
+        </div>
+        <div className="footerItem1" id="footerItem6">
+          <div className="footerTxt1" id="footerTxtTerms">
+            <h3>
+              <Link href={"/contact-us"}>Contact Us</Link>{" "}
+            </h3>
+          </div>
+          <div className="footerTxt2">
+            <div className="footerTxt" id="footerContact-content">
+              <FiPhoneCall className="contact-icon" />
+              <a href="tel:8777575992">+91-87775 75992</a>
+            </div>
+            <div className="footerTxt" id="footerContact-content">
+              <IoMailOutline className="contact-icon" />
+              <a href="mailto:info@mejoria.in">info@mejoria.in</a>
+            </div>
+            <div className="footerTxt" id="footerContact-content">
+              <GrLocation className="contact-icon" />
+              <a href={"/terms"}>
+                8, Dr.Sarat Banerjee Rd,Lake Market, Kalighat, Kolkata, West
+                Bengal 700029
+              </a>
             </div>
           </div>
         </div>

@@ -1,11 +1,9 @@
 "use client";
 
 import React from "react";
-import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./Services.css";
-import { FaAngleRight } from "react-icons/fa6";
 
 import ServiceHead from "./ServiceHead";
 import leftArrow from "@/Image/left.png";
@@ -19,7 +17,12 @@ import rightArrow from "@/Image/right.png";
 // import bridal from "./../../../video/HomeServiceVids/bridalVid.mp4";
 // import micro from "./../../../video/HomeServiceVids/microbladingVid.mp4";
 import Link from "next/link";
+import classicCourse from "@/Image/courses/classicCourse.png";
+import cakeMastery from "@/Image/courses/cakeMasteryCourse.png";
+import eggFree from "@/Image/courses/eggFreeCourse.png";
+import homeBaker from "@/Image/courses/homeBakersCourse.png";
 
+import Image from "next/image";
 const Services = () => {
   return (
     <div className="service-container">
@@ -27,10 +30,9 @@ const Services = () => {
       <div className="service-content">
         <div className="serviceCard-container">
           <div className="serviceCard-content">
-            <img
-              src="https://mejoria.in/wp-content/uploads/2024/12/ClassicCertificateKickstartYourPastryCareerwithClassicCertificationCourse-ezgif.com-optiwebp-1285x1536.webp"
+            <Image
+              src={classicCourse}
               alt="Classic Certification Course"
-              loading=""
             />
           </div>
           <h3>
@@ -41,10 +43,9 @@ const Services = () => {
         </div>
         <div className="serviceCard-container">
           <div className="serviceCard-content">
-            <img
-              src="https://mejoria.in/wp-content/uploads/2024/12/StartYourPastryCareerwithEggFreeCertificationCourse-ezgif.com-optiwebp-1152x1536.webp"
+            <Image
+              src={eggFree}
               alt="Eggfree Certification Course"
-              loading="lazy"
             />
           </div>
           <h3>
@@ -55,10 +56,9 @@ const Services = () => {
         </div>
         <div className="serviceCard-container">
           <div className="serviceCard-content">
-            <img
-              src="https://mejoria.in/wp-content/uploads/2024/12/7d6664ac-04a6-47fa-a4fe-a6e11623e480.jpeg"
+            <Image
+              src={homeBaker}
               alt="Home Bakers Certificate Course"
-              loading=""
             />
           </div>
           <h3>
@@ -69,11 +69,7 @@ const Services = () => {
         </div>
         <div className="serviceCard-container">
           <div className="serviceCard-content">
-            <img
-              src="https://mejoria.in/wp-content/uploads/2024/12/CakeMastery2-ezgif.com-optiwebp-scaled-1-1536x2048.webp"
-              alt="Cake Mastery"
-              loading=""
-            />
+            <Image src={cakeMastery} alt="Cake Mastery"  />
           </div>
           <h3>
             <Link href={"/cake-mastery"}>Cake Mastery</Link>

@@ -32,10 +32,10 @@ const Menu = () => {
           <Link href={"/"}>HOME</Link>
         </li>
         <li>
-          <Link href={"/"}>ABOUT MEJORIA</Link>
+          <Link href={"/about-mejoria"}>ABOUT MEJORIA</Link>
           <MdKeyboardArrowDown className="menuIcon" />
           <div className="menuDrop">
-            <Link href={"/"}>
+            <Link href={"/who-we-are"}>
               <div className="dropItems">
                 <p>WHO WE ARE</p>
               </div>

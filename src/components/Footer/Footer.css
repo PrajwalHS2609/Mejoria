@@ -194,7 +194,23 @@
   text-decoration: none;
   color: white;
 }
-
+#footerItem6 {
+  /* border: solid red; */
+  width: 300px;
+}
+#footerContact-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+#footerContact-content > a {
+  width: 90%;
+}
+.contact-icon {
+  width: 30px;
+  height: 30px;
+}
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   .footerContainer {
     /* border: solid blue; */
