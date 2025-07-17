@@ -40,17 +40,17 @@ const Menu = () => {
                 <p>WHO WE ARE</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/our-expertise"}>
               <div className="dropItems">
                 <p>OUR EXPERTISE</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/our-faculty"}>
               <div className="dropItems">
                 <p>OUR FACULTY</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/our-partnerships"}>
               <div className="dropItems">
                 <p>OUR PARTNERSHIP</p>
               </div>
@@ -61,12 +61,12 @@ const Menu = () => {
           <Link href={"/"}>DIPLOMA PROGRAM</Link>
           <MdKeyboardArrowDown className="menuIcon" />
           <div className="menuDrop">
-            <Link href={"/"}>
+            <Link href={"/eggfee-diploma-course"}>
               <div className="dropItems">
                 <p>EGGFREE DIPLOMA COURSE</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/classic-diploma-course"}>
               <div className="dropItems">
                 <p>CLASSIC DIPLOMA COURSE</p>
               </div>
@@ -77,22 +77,22 @@ const Menu = () => {
           <Link href={"/"}>CERTIFICATION COURSES</Link>
           <MdKeyboardArrowDown className="menuIcon" />
           <div className="menuDrop">
-            <Link href={"/"}>
+            <Link href={"/eggfree-certification-course"}>
               <div className="dropItems">
                 <p>EGGFREE CERTIFICATION COURSE</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/classic-certification-course"}>
               <div className="dropItems">
                 <p>CLASSIC CERTIFICATION COURSE</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/cake-mastery"}>
               <div className="dropItems">
                 <p>CAKE MASTERY</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/home-bakers-certification-course"}>
               <div className="dropItems">
                 <p>HOME BAKER'S CERTIFICATION COURSE</p>
               </div>
@@ -103,20 +103,20 @@ const Menu = () => {
           <Link href={"/"}>SHORT COURSES</Link>
           <MdKeyboardArrowDown className="menuIcon" />
           <div className="menuDrop">
-            <Link href={"/"}>
+            <Link href={"/master-classes"}>
               <div className="dropItems">
                 <p>MASTER CLASSES</p>
               </div>
             </Link>
-            <Link href={"/"}>
+            <Link href={"/one-day-courses"}>
               <div className="dropItems">
-                <p>ONE DAY COURSE</p>
+                <p>ONE DAY COURSES</p>
               </div>
             </Link>
           </div>
         </li>
         <li>
-          <Link href={"/"}>CONTACT US</Link>
+          <Link href={"/contact-us"}>CONTACT US</Link>
         </li>
       </ul>
 

@@ -1,3 +1,9 @@
+import Faculty from "./../../components/HomePage/Faculty/Faculty";
+
 export default function OurFaculty() {
-  return <div></div>;
+  return (
+    <div>
+      <Faculty />
+    </div>
+  );
 }
