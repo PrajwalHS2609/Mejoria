@@ -33,9 +33,18 @@ const ContactUsForm = () => {
             <FaBook className="icon" />
             <select required>
               <option value="">Select Course*</option>
-              <option value="weekend">Weekend Course</option>
-              <option value="professional">Professional Diploma</option>
-              <option value="online">Online Classes</option>
+              <option value="weekend">Classic Diploma (6 months)</option>
+              <option value="professional">Eggfree Diploma (6 months)</option>
+              <option value="online">
+                Classic Certificate Course (2 months)
+              </option>
+              <option value="online">
+                Eggfree Certificate Course (2 months)
+              </option>
+              <option value="online">Cake Mastery (1 month)</option>
+              <option value="online">Hands-On Short Courses</option>
+              <option value="online">Weekend Certificate Courses</option>
+              <option value="online">Personalized Courses(lonl)</option>
             </select>
           </div>
           <button type="submit">Request Call Back</button>
