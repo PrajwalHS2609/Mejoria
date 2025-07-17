@@ -142,7 +142,7 @@ const Menu = () => {
           {/* ABOUT MEJORIA */}
           <ul className="serviceDrop">
             <h2>
-              <Link onClick={hideSideBar} href={"/"}>
+              <Link onClick={hideSideBar} href={"/about-mejoria"}>
                 ABOUT MEJORIA
               </Link>
               <MdKeyboardArrowDown
@@ -154,28 +154,28 @@ const Menu = () => {
               <span className="respMenuSpan">
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"/who-we-are"}>
                       WHO WE ARE
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"/our-expertise"}>
                       OUR EXPERTISE
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"/our-faculty"}>
                       OUR FACULTY
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"/our-partnerships"}>
                       OUR PARTNERSHIP
                     </Link>
                   </h4>
