@@ -96,7 +96,9 @@
   overflow: hidden;
   /* box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); */
 }
-
+#img-container {
+  box-shadow: none;
+}
 .partner-image {
   width: 100%;
   height: auto;

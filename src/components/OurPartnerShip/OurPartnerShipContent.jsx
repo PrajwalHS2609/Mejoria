@@ -50,7 +50,7 @@ const OurPartnerShipContent = () => {
         </div>
 
         <div className="partner-right">
-          <div className="image-container">
+          <div className="image-container" id="img-container">
             <img
               src="https://mejoria.in/wp-content/uploads/2024/12/IMG_8514.webp"
               alt="Mejoria Certification"
