@@ -35,11 +35,11 @@ const Services = () => {
               alt="Classic Certification Course"
             />
           </div>
-          <h3>
+          <h4>
             <Link href={"/classic-certification-course"}>
               Classic Certification Course
             </Link>
-          </h3>
+          </h4>
         </div>
         <div className="serviceCard-container">
           <div className="serviceCard-content">
@@ -48,11 +48,11 @@ const Services = () => {
               alt="Eggfree Certification Course"
             />
           </div>
-          <h3>
+          <h4>
             <Link href={"/eggfree-certification-course"}>
               Eggfree Certification Course
             </Link>
-          </h3>
+          </h4>
         </div>
         <div className="serviceCard-container">
           <div className="serviceCard-content">
@@ -61,19 +61,19 @@ const Services = () => {
               alt="Home Bakers Certificate Course"
             />
           </div>
-          <h3>
+          <h4>
             <Link href={"/home-bakers-certificate-course"}>
               Home Bakers Certificate Course
             </Link>
-          </h3>
+          </h4>
         </div>
         <div className="serviceCard-container">
           <div className="serviceCard-content">
             <Image src={cakeMastery} alt="Cake Mastery"  />
           </div>
-          <h3>
+          <h4>
             <Link href={"/cake-mastery"}>Cake Mastery</Link>
-          </h3>
+          </h4>
         </div>
       </div>
       <div className="service-desp">

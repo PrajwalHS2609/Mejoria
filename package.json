@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.3.7",
     "next": "15.3.5",
     "number-counter": "^1.0.3",
     "react": "^19.0.0",
+    "react-accessible-accordion": "^5.0.1",
+    "react-bootstrap": "^2.10.10",
     "react-countup": "^6.5.3",
     "react-dom": "^19.0.0",
     "react-floating-whatsapp": "^5.0.8",

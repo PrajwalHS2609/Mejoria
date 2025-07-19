@@ -44,7 +44,10 @@
   height: 100%;
   object-fit: cover;
 }
-.serviceCard-container > h3 > a {
+.serviceCard-container > h4 {
+  text-align: center;
+font-size: 18px;}
+.serviceCard-container > h4 > a {
   color: var(--customColor1);
   text-decoration: none;
 }
@@ -81,7 +84,6 @@
   align-items: flex-start;
   flex-direction: column;
   gap: 20px;
-
 }
 .service-desp > p {
   font-size: 20px;

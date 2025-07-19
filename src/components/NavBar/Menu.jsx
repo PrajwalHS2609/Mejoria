@@ -61,7 +61,7 @@ const Menu = () => {
           <Link href={"/"}>DIPLOMA PROGRAM</Link>
           <MdKeyboardArrowDown className="menuIcon" />
           <div className="menuDrop">
-            <Link href={"/eggfee-diploma-course"}>
+            <Link href={"/eggfree-diploma-course"}>
               <div className="dropItems">
                 <p>EGGFREE DIPLOMA COURSE</p>
               </div>
@@ -127,8 +127,8 @@ const Menu = () => {
 
       {/* Responsive Sidebar */}
       <div className="respMenu">
-        <div className="respMenuScroll">
-          <ul>
+        <div className="respMenuScroll" id="respMenuScrollId">
+          <ul id="respMenuScrollUl">
             <h2>
               <Link onClick={hideSideBar} href={"/"}>
                 HOME

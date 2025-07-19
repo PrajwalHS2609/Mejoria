@@ -3,6 +3,8 @@ import "./globals.css";
 import NavBar from "./../components/NavBar/NavBar";
 import Footer from "./../components/Footer/Footer";
 import Whatsapp from "./../components/Whatsapp/Whatsapp";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export default function RootLayout({
   children,
