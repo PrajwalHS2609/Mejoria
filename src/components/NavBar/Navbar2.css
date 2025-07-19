@@ -1,339 +1,238 @@
-/* .navContainer {
-  border: solid red;
-  height: 14vh;
-  width: 100%;
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 6;
-  gap: 30px;
-}
-.navContainer1 {
-  border: solid;
-  height: 14vh;
-  width: 100%;
-  background-color: black;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  z-index: 6;
-  gap: 30px;
-} */
+/* ------------ DESKTOP NAVBAR ------------ */
+
 .navContainer {
-  /* border: solid red; */
   background-color: white;
   position: sticky;
-  top: 0px;
+  top: 0;
   z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100px;
   width: 100%;
+  padding: 0 20px;
 }
+
 .logo {
-  /* border: green solid; */
-  width: 80px;
+  width: 100px;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 40px;
-  overflow: hidden;
   padding: 5px;
 }
+
 .logo > a {
   width: 100%;
   height: 100%;
-  /* border: solid orange; */
 }
+
 .logo > a > img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
 }
+
 .menuContainer {
-  /* border: solid red; */
-  width: 100%;
-  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  width: 100%;
 }
+
 .menuContent {
-  /* border: solid blueviolet; */
-  color: white;
-  width: 100%;
-  height: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
   gap: 45px;
-  align-items: center;
-  /* position: relative; */
-  margin-right: 30px;margin-top: 15px;
+  margin-right: 30px;
 }
+
 .menuContent > li {
-  /* border: solid blueviolet; */
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 100%;
   list-style: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
   font-size: 15px;
   font-weight: 400;
-  letter-spacing: 1px;
-  /* text-shadow: 0px 0px 5px black; */
-  cursor: pointer;
-  position: relative;
+  /* border: solid red; */
 }
+
 .menuContent > li > a {
   color: black;
-  font-weight: 400;
   text-decoration: none;
 }
 
 .menuIcon {
-  margin-top: 4px;
-  margin-left: 4px;
-  font-size: 20px;
+  margin-left: 5px;
+  font-size: 18px;
   color: var(--customColor1);
 }
+
 .menuDrop {
-  /* border: solid red; */
   position: absolute;
-  background-color: transparent;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  display: none;
-  gap: 10px;
-  top: 91px;
+  top: 100%;
   left: 0;
+  display: none;
+  flex-direction: column;
+  /* background-color: white; */
+  z-index: 1000;
+  min-width: 200px;
+  padding: 10px 0;
 }
-/* #menudrop1 {
-  width: 170px;
-  height: 150px;
-}
-#menudrop2 {
-  width: fit-content;
-  height: 230px;
-} */
-/* #menudrop3 {
-  width: 130px;
-  height: 30px;
-} */
-.menuDrop > a {
-  text-decoration: none;
-}
+
 .menuContent > li:hover .menuDrop {
   display: flex;
 }
-#menudrop2 > a {
-  color: white;
+
+.menuDrop > a {
   text-decoration: none;
 }
+
 .dropItems {
-  /* border: solid green; */
-  width: 200px;
-  height: 100% !important;
+  padding: 10px 20px;
+  color: black;
+  font-size: 14px;
+  transition: background 0.3s, color 0.3s;
+  margin-top: 20px;
   background-color: white;
-  display: flex;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.dropItems:hover {
+  background-color: var(--customColor1);
+  color: white;
+}
+
+.dropItems:hover p {
+  color: white;
+}
+
+.dropItems > p {
+  margin: 0;
+}
+
+/* ------------ HAMBURGER + RESPONSIVE SIDEMENU ------------ */
+
+.mainMenu {
+  display: none;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  color: black;
-  text-decoration: none;
-  padding: 0px 5px !important;
-  box-shadow: 0 0 5px grey;
 }
-.dropItems:hover {
-  color: white;
-  background-color: var(--customColor1);
-}
-.dropItems:hover p {
-  color: var(--customColor);
-  text-shadow: none;
-}
-.dropItems > p {
-  font-size: 15px;
-  width: 100%;
-  margin-top: 10px;
-}
-.mainMenu {
-  margin-right: 0px;
-  display: none;
-  /* border: solid red; */
-  width: 50px;
-  height: 50px;
-  justify-content: center;
-  align-items: center;
-}
+
 .hamIcon {
-  /* border: solid yellow; */
+  font-size: 28px;
   color: black;
-  width: fit-content;
-  margin-left: -20px;
-  font-size: 30px;
 }
+
 .respMenu {
-  /* border: solid red; */
+  display: none;
   position: fixed;
-  z-index: 9999;
   top: 0;
   right: 0;
   height: 100%;
   width: 80%;
-  overflow-y: scroll;
-  display: none;
-  transition: 1s ease-in-out;
   background-color: #1d1d20;
-  /* transform: translateX(500px); */
+  z-index: 9999;
+  overflow-y: auto;
+  transition: transform 0.3s ease-in-out;
 }
+
 .respMenuScroll {
-  height: 100%;
+  padding: 20px 10px;
   width: 100%;
-  margin-left: 0px;
-  /* border: solid red; */
-}
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-thumb {
-  background-color: rgb(58, 58, 58);
-}
-::-webkit-scrollbar-track {
-  width: 10px;
-  background-color: gray;
-}
-.main {
-  position: relative;
-}
-.cross {
-  position: fixed;
-  right: 120px;
-  top: 0;
 }
 
 .respMenuScroll > ul {
-  border-top: solid 1px black;
-  background-color: #1d1d20;
+  border-top: 1px solid #333;
+  padding: 10px 0;
+  /* border: solid blue; */
   width: 100%;
 }
-#respMenuScrollUl > h2 {
-  /* border: solid red; */
-  margin-top: 0px;
-}
+
 .respMenuScroll > ul > h2 {
   color: white;
-  height: 80px;
+  font-size: 18px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  font-size: 150%;
-  font-weight: lighter;
-  margin-left: 0px;
 }
-.respMenuSpan > li > h4 {
-  color: white;
-  height: 10px;
+#respMenuScrollUl {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  font-size: 100%;
-  font-weight: lighter;
-  margin-left: 0px;
 }
-.respMenuScroll > ul > h2 > a {
+
+.respMenuScroll h4 > a,
+.respMenuScroll h2 > a {
   color: white;
   text-decoration: none;
-  font-size: 20px;
 }
+
+.respMenuSpan {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 1px;
+}
+
 .respMenuSpan > li {
   list-style: none;
-  border-top: solid 1px black;
   background-color: #25252a;
-  height: 70px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%;
+  padding: 15px;
 }
-.respMenuSpan > li > h4 {
+
+.respMenuSpan > li > h4 > a {
+  font-size: 16px;
   color: white;
-  list-style: none;
-  margin-left: 30px;
-  font-size: 18px;
-  font-weight: lighter;
-}
-.respMenuSpan li > h4 > a {
   text-decoration: none;
+}
+
+.cross {
+  position: static;
+  right: 0px;
+  top: 0px;
+  font-size: 30px;
   color: white;
 }
-.respMenuIcon {
-  /* border: solid white; */
-  width: 30px;
-  height: 30%;
-  font-size: 100%;
+
+/* ------------ SCROLLBAR STYLING ------------ */
+
+::-webkit-scrollbar {
+  width: 8px;
 }
-.respMenuSpan {
-  /* border: solid; */
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  width: 100%;
-  margin-left: -20px;
+
+::-webkit-scrollbar-thumb {
+  background-color: #555;
 }
-/* .respMenuScroll > ul > span {
-  display: none;
-} */
-.respDropIcon {
-  /* border: solid; */
-  margin-left: 50px;
+
+::-webkit-scrollbar-track {
+  background-color: #2d2d2d;
 }
-.respMenuGap {
-  /* border: solid red; */
-  height: 225px;
-}
+
+/* ------------ RESPONSIVE STYLING ------------ */
+
 @media only screen and (max-width: 768px) {
   .navContainer {
-    /* border: solid red; */
     height: 80px;
-    width: 100%;
   }
-  .navContainer1 {
-    /* border: solid red; */
-    height: 80px;
-    width: 100%;
-  }
-  .menuContainer {
-    /* border: solid red; */
-    width: 100%;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .logo {
-    /* border: green solid; */
-    width: 100px;
-  }
+
   .menuContent {
     display: none;
   }
+
   .mainMenu {
     display: flex;
   }
+
   .menuContainer {
-    /* border: solid red; */
-    width: 100%;
-    height: 80px;
-    display: flex;
     justify-content: flex-end;
-    align-items: center;
-    padding: 20px;
+    padding: 0 20px;
+  }
+
+  .logo {
+    margin-left: 10px;
   }
 }

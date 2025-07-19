@@ -187,7 +187,7 @@ const Menu = () => {
           {/* DIPLOMA PROGRAM */}
           <ul className="serviceDrop">
             <h2>
-              <Link onClick={hideSideBar} href={"/service"}>
+              <Link onClick={hideSideBar} href={"#"}>
                 DIPLOMA PROGRAM
               </Link>
               <MdKeyboardArrowDown
@@ -199,14 +199,14 @@ const Menu = () => {
               <span className="respMenuSpan">
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"/eggfree-diploma-course"}>
                       EGGFREE DIPLOMA COURSE
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"/classic-diploma-course"}>
                       CLASSIC DIPLOMA COURSE
                     </Link>
                   </h4>
@@ -218,7 +218,7 @@ const Menu = () => {
           {/* CERTIFICATION COURSES */}
           <ul className="serviceDrop">
             <h2>
-              <Link onClick={hideSideBar} href={"/"}>
+              <Link onClick={hideSideBar} href={"#"}>
                 CERTIFICATION COURSES
               </Link>
               <MdKeyboardArrowDown
