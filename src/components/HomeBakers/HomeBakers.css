@@ -1,0 +1,106 @@
+.home-bakers-section {
+  /* background: linear-gradient(135deg, #fffaf0, #fce6d0); */
+  padding: 4rem 2rem;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.home-bakers-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+  align-items: center;
+}
+
+.home-bakers-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.course-title {
+  font-size: 2.4rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.course-description {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
+.course-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 2rem;
+}
+
+.course-list li {
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.course-list li strong {
+  color: var(--customColor1);
+}
+
+.course-list li::after {
+  content: attr(data-days);
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background-color: var(--customColor1);
+  color: var(--customColor1);
+  font-size: 0.85rem;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.sublist {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  color: #5a5a5a;
+  font-size: 0.95rem;
+}
+
+.sublist li {
+  margin: 0.3rem 0;
+  transition: transform 0.2s ease;
+}
+
+.sublist li:hover {
+  transform: translateX(5px);
+  color: var(--customColor1);
+}
+
+.course-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--customColor1);
+  background-color: black;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.course-price span {
+  color: var(--customColor1);
+}
+
+.home-bakers-image {
+  flex: 1;
+  min-width: 280px;
+}
+
+.home-bakers-image img {
+  width: 100%;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}

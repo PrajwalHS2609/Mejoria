@@ -130,35 +130,25 @@ const Footer = () => {
           <div className="socialBlocks">
             <div className="innerSocialBlocks">
               <div className="block">
-                <a href="https://www.instagram.com/scentlifestyle/">
+                <a href="https://www.instagram.com/mejoriabaking/">
                   <FaInstagram className="footerIcon" />
                 </a>
               </div>
               <div className="block">
-                <a href="https://www.facebook.com/ScentSalonSpas/">
+                <a href="https://www.facebook.com/Mejoriabaking">
                   <FaFacebook className="footerIcon" />
-                </a>
-              </div>
-              <div className="block">
-                <a href="https://in.pinterest.com/scentlifestyle/">
-                  <FaPinterest className="footerIcon" />
                 </a>
               </div>
             </div>
             <div className="innerSocialBlocks">
               <div className="block">
-                <a href="https://twitter.com/scentlifestyle">
-                  <FaXTwitter className="footerIcon" />
-                </a>
-              </div>
-              <div className="block">
-                <a href="https://www.youtube.com/@scentlifestyle">
+                <a href="https://www.youtube.com/@MejoriA">
                   <FaYoutube className="footerIcon" />
                 </a>
               </div>
               <div className="block">
-                <a href="https://scent.zenoti.com/webstoreNew/services">
-                  <FaWhatsapp className="footerIcon" />
+                <a href="https://in.pinterest.com/">
+                  <FaPinterest className="footerIcon" />
                 </a>
               </div>
             </div>

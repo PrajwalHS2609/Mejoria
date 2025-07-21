@@ -92,7 +92,7 @@ const Menu = () => {
                 <p>CAKE MASTERY</p>
               </div>
             </Link>
-            <Link href={"/home-bakers-certification-course"}>
+            <Link href={"/home-bakers-certificate-course"}>
               <div className="dropItems">
                 <p>HOME BAKER'S CERTIFICATION COURSE</p>
               </div>

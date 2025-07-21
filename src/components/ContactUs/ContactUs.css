@@ -34,6 +34,10 @@
     height: 100%;
     position: relative;
   }
+  .contactUs-headerCover > h2 {
+  font-size: 3rem;
+  font-weight: 400;
+}
 }
 /* --------------------------------ContactForm---------------------------------- */
 

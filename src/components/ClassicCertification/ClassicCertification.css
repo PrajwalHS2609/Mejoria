@@ -1,0 +1,369 @@
+.classicCerti-headerContainer {
+  /* border: solid red; */
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+.classicCerti-headerContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.classicCerti-headerCover {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.447);
+}
+.classicCerti-headerCover > h2 {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  .classicCerti-headerContainer {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .classicCerti-headerCover > h2 {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 400;
+}
+}
+
+/* ---------------ClassicCertiContent------------------------------------------ */
+.classicCerti-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+  background: linear-gradient(135deg, #fff9f7, #ffe8e4);
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.06);
+}
+
+.classicCerti-content {
+  /* border: solid; */
+  width: 50%;
+  height: 100%;
+}
+
+.tag {
+  background-color: #a34646;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.classicCerti-content h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 1.5rem;
+  line-height: 1.3;
+}
+
+
+.classicCerti-content .desc {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+.enroll-btn {
+  background-color: #551818;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+.enroll-btn:hover {
+  background-color: #330e0e;
+}
+
+.certification {
+  /* border: solid; */
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #9b0055;
+}
+
+.certification img {
+  width: 100px;
+}
+.classicCerti-images {
+  /* border: solid green; */
+  width: 40%;
+  height: 100%;
+}
+/* .classicCerti-images .image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1rem;
+} */
+
+.image-grid img {
+  width: 100%;
+  height: 100%;
+  border-radius: 14px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+@media screen and (max-width: 768px) {
+  .classicCerti-section {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .classicCerti-content {
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+  }
+  .classicCerti-images {
+    /* border: solid green; */
+    width: 100%;
+    height: 100%;
+  }
+  .image-grid img {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+}
+/* ----------------------------FromCourse------------------------------------- */
+.fromCourse-container {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 30px;
+}
+.fromCourse-content {
+  /* border: solid green; */
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.fromCourse-content > h2 {
+  width: 100%;
+  font-size: 40px;
+  text-align: center;
+}
+
+.fromCourse-card {
+  /* background: linear-gradient(135deg, #fdf1ec, #fff9f5); */
+  background-color: black;
+  border-radius: 20px;
+  padding: 28px 22px;
+  width: 230px;
+  max-width: 250px;
+  height: 260px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px;
+  box-shadow: 0 8px 1px var(--customColor1);
+}
+
+.fromCourse-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 25px 65px rgba(0, 0, 0, 0.15);
+}
+
+/* .fromCourse-card::after {
+  content: "";
+  position: absolute;
+  top: -40%;
+  left: -40%;
+  width: 180%;
+  height: 180%;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.15) 10%,
+    transparent 60%
+  );
+  animation: rotateBg 10s linear infinite;
+  pointer-events: none;
+} */
+
+@keyframes rotateBg {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.fromCourse-card .icon-watermark {
+  font-size: 100px;
+  color: rgba(200, 150, 190, 0.1);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  pointer-events: none;
+}
+.fromCourse-cardIco {
+  font-size: 40px;
+  color: var(--customColor1);
+}
+.course-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--customColor1);
+  margin-bottom: 14px;
+  position: relative;
+  z-index: 1;
+}
+
+.course-desc {
+  font-size: 0.95rem;
+  color: var(--customColor1);
+  line-height: 1.6;
+  position: relative;
+  z-index: 1;
+}
+
+/* --------------------------ClassicCoursesCard-------------------------------- */
+
+.classicCertiCourse-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.classicCertiCourse-content > h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.module-cards-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.module-card-modern {
+  background: black;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  height: 500px;
+  width: 350px;
+  margin: 20px;
+}
+
+.module-card-modern:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--customColor1);
+}
+
+.module-card-img-container {
+  height: 300px;
+  overflow: hidden;
+}
+
+.module-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.module-card-modern:hover .module-image {
+  transform: scale(1.05);
+}
+
+.module-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 1.2rem 1rem 0.5rem;
+  color: var(--customColor1);
+  position: relative;
+  text-align: center;
+}
+
+.module-desc {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: white;
+  margin: 0 1rem 1.5rem;
+  text-align: justify;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .classicCertiCourse-content > h2 {
+    font-size: 30px;
+  }
+  .module-cards-wrapper {
+    /* border: solid red; */
+    width: 100%;
+    padding: 0;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}

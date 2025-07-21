@@ -6,7 +6,7 @@ import "./EggFreeDiploma.css"; // Update CSS for smoothness and icons
 const EggFreeDiplomaIntro = () => {
   const curriculumData = [
     {
-      title: "1. Introduction to Cakes, Fillings and Icing",
+      title: "1.Cake",
       topics: [
         {
           heading: "Introduction To Cakes, Fillings And Icing",
@@ -237,7 +237,7 @@ const EggFreeDiplomaIntro = () => {
   return (
     <div className="eggFreeIntro-container">
       <div className="eggFreeIntro-heading">
-        <h6>HERE'S WHAT YOU'LL LEARN ABOUT TIS COURSE</h6>
+        <h6>HERE'S WHAT YOU'LL LEARN ABOUT THIS COURSE</h6>
         <h2>Introducing the EggFree Diploma Program on Baking & Pastry</h2>
       </div>
       <div className="curriculum-wrapper">

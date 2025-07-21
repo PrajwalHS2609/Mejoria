@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/page.jsx", "src/components/HomePage/Nurture/NurtureKey.jsx", "src/app/about-mejoria/page.jsx", "src/app/contact-us/page.jsx", "src/app/our-expertise/page.jsx", "src/app/eggfree-diploma-course/page.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/page.jsx", "src/components/HomePage/Nurture/NurtureKey.jsx", "src/app/about-mejoria/page.jsx", "src/app/contact-us/page.jsx", "src/app/our-expertise/page.jsx", "src/app/eggfree-diploma-course/page.jsx", "src/app/cake-mastery/page.jsx"],
   "exclude": ["node_modules"]
 }
