@@ -82,7 +82,7 @@ const Menu = () => {
                 <p>EGGFREE CERTIFICATION COURSE</p>
               </div>
             </Link>
-            <Link href={"/classic-certification-course"}>
+            <Link href={"/eggfree-certification-course"}>
               <div className="dropItems">
                 <p>CLASSIC CERTIFICATION COURSE</p>
               </div>
@@ -230,28 +230,28 @@ const Menu = () => {
               <span className="respMenuSpan">
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"/eggfree-certification-course"}>
                       EGGFREE CERTIFICATION COURSE
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"/eggfree-certification-course"}>
                       CLASSIC CERTIFICATION COURSE
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"/cake-mastery"}>
                       CAKE MASTERY
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"/home-bakers-certificate-course"}>
                       HOME BAKER'S CERTIFICATION COURSE
                     </Link>
                   </h4>
@@ -263,7 +263,7 @@ const Menu = () => {
           {/* SHORT COURSES */}
           <ul className="serviceDrop">
             <h2>
-              <Link onClick={hideSideBar} href={"/"}>
+              <Link onClick={hideSideBar} href={"#"}>
                 SHORT COURSES
               </Link>
               <MdKeyboardArrowDown
@@ -275,14 +275,14 @@ const Menu = () => {
               <span className="respMenuSpan">
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"/master-classes"}>
                       MASTER CLASSES
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/"}>
+                    <Link onClick={hideSideBar} href={"/one-day-courses"}>
                       ONE DAY COURSE
                     </Link>
                   </h4>
