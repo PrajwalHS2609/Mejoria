@@ -129,7 +129,26 @@
   object-fit: cover;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
+.nsdc {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px rgba(114, 26, 26, 0.1);
+  margin-top: 30px;
+  background-color: white;
+}
 
+.nsdc-desc {
+  font-size: 15px;
+  color: #333;
+  font-weight: 400;
+  text-align: justify;
+}
+.nsdc > img {
+  width: 200px;
+}
 @media screen and (max-width: 768px) {
   .masterClass-section {
     flex-direction: column;

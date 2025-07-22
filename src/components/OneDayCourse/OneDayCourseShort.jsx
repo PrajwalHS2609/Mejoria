@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./OneDayCourse.css"
 const OneDayCourseShort = () => {
   const masterclasses = [
     {
