@@ -17,7 +17,7 @@
 }
 
 .tag {
-  background-color: #a34646;
+  background-color: var(--customColor1);
   color: white;
   padding: 6px 16px;
   border-radius: 999px;
@@ -43,7 +43,7 @@
 }
 
 .enroll-btn {
-  background-color: #551818;
+  background-color: var(--customColor1);
   color: white;
   padding: 12px 28px;
   border-radius: 10px;
@@ -55,7 +55,7 @@
 }
 
 .enroll-btn:hover {
-  background-color: #330e0e;
+  background-color: black;
 }
 
 .certification {

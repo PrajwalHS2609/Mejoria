@@ -134,7 +134,9 @@
   border-radius: 10px;
   font-size: 18px;
   font-weight: 500;
-  border: none;
+  border: none;&:hover{
+    background-color: black;
+  }
 }
 @media screen and (max-width: 768px) {
   .aboutUs3Skill-wrapper {

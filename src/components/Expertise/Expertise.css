@@ -45,7 +45,7 @@
 
 .course-card h3 {
   font-size: 20px;
-  color: #3c1e12;
+  color: black;
   margin-bottom: 20px;
   font-weight: 700;
 }
@@ -106,12 +106,15 @@
 }
 
 .new-price {
-  background: #3c1e12;
+  background: var(--customColor1);
   color: #fff;
   padding: 8px 16px;
   border-radius: 8px;
   font-weight: 700;
-  font-size: 16px;
+  cursor: pointer;
+  font-size: 16px;&:hover{
+    background-color: black;
+  }
 }
 @media screen and (max-width: 768px) {
   .coursePrice-content > h2 {

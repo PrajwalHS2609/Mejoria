@@ -82,7 +82,7 @@ const Menu = () => {
                 <p>EGGFREE CERTIFICATION COURSE</p>
               </div>
             </Link>
-            <Link href={"/eggfree-certification-course"}>
+            <Link href={"/classic-certification-course"}>
               <div className="dropItems">
                 <p>CLASSIC CERTIFICATION COURSE</p>
               </div>

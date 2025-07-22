@@ -107,7 +107,7 @@
 button[type="submit"] {
   width: 100%;
   padding: 12px;
-  background-color: #333;
+  background-color: var(--customColor1);
   color: #fff;
   border: none;
   border-radius: 10px;

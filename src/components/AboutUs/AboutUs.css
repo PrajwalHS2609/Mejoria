@@ -27,21 +27,21 @@
   font-size: 4rem;
   font-weight: 400;
 }
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .aboutUsHeader-container {
-  /* border: solid red; */
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
 
-.aboutUsHeader-cover > h2 {
-  color: white;
-  width: 100%;
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 400;
-}
+  .aboutUsHeader-cover > h2 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+  }
 }
 /* ------------------------AboutUsCareer----------------- */
 /* .aboutUsCareer-container {
@@ -179,7 +179,7 @@
 }
 
 .aboutUsCareer-btn:hover {
-  background-color: var(--customColor1);
+  background-color: black;
 }
 
 .aboutUsCareer-image {
@@ -317,19 +317,18 @@
   transform: scale(1.05);
 }
 .partner-left > a > button {
-  border: solid var(--customColor1);
+  border: none;
   padding: 10px;
   background-color: var(--customColor1);
   color: white;
   border-radius: 10px;
   font-size: 20px;
   &:hover {
-    border: solid var(--customColor1);
     background-color: black;
   }
 }
 .partner-left > a > button:hover {
-  color: var(--customColor1);
+  color: white;
 }
 .partner-left > a > button {
   text-decoration: none;
