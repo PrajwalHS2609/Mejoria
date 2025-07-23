@@ -4,7 +4,7 @@ import NavBar from "./../components/NavBar/NavBar";
 import Footer from "./../components/Footer/Footer";
 import Whatsapp from "./../components/Whatsapp/Whatsapp";
 import "bootstrap/dist/css/bootstrap.min.css";
-import LandingNav from './../components/LandingPage/LandingNav/LandingNav';
+// import LandingNav from "./../components/LandingPage/LandingNav/LandingNav";
 import { usePathname } from "next/navigation";
 
 export default function RootLayout({
@@ -12,7 +12,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-    const pathname = usePathname();
+  const pathname = usePathname();
   const isLanding = pathname.startsWith("/landing");
   return (
     <html>
@@ -24,10 +24,10 @@ export default function RootLayout({
         <link rel="icon" type="image/png" href="./favicon.png" />
       </head>
       <body>
-        {isLanding ? <LandingNav /> : <NavBar />}
+        <NavBar />
         {children}
-        {!isLanding && <Footer />}
-        {!isLanding && <Whatsapp />}
+        <Footer />
+        <Whatsapp />
       </body>
     </html>
   );
