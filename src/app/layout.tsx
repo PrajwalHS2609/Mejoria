@@ -15,7 +15,7 @@ export default function RootLayout({
     const pathname = usePathname();
   const isLanding = pathname.startsWith("/landing");
   return (
-    <html lang="en">
+    <html>
       <head>
         <meta
           name="viewport"
