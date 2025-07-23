@@ -52,8 +52,8 @@
     flex-direction: column;
   }
   .cakeCourseOverview-content {
-  width: 100%;
-}
+    width: 100%;
+  }
 }
 /* -----------------------------------------Why------------------------------------ */
 .why-choose-wrapper {
@@ -181,7 +181,16 @@
   padding-left: 20px;
   list-style-type: disc;
 }
-
+.accordion-button:focus {
+  box-shadow: none;
+  outline: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: var(--pets3Bg);
+  box-shadow: none;
+  color: var(--pets3Color1);
+  border: 1px transparent solid;
+}
 .accordion-body li {
   margin-bottom: 6px;
   color: #444;
