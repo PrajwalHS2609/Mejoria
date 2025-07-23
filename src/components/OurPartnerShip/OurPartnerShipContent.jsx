@@ -1,6 +1,9 @@
 import Link from "next/link";
 import React from "react";
 import "./OurPartnerShip.css";
+import Image from "next/image";
+import nsdc from "@/Image/nsdc.jpeg"
+import cityGuilds from "@/Image/cityGuildLargeImg.png"
 const OurPartnerShipContent = () => {
   return (
     <div className="partner-section">
@@ -33,8 +36,8 @@ const OurPartnerShipContent = () => {
             excel in their culinary careers.
           </p>
           <div className="nsdc">
-            <img
-              src="https://mejoria.in/wp-content/uploads/2024/12/ebbafe7b-1b5c-428b-bda9-68db4460c584.jpeg"
+            <Image
+              src={nsdc}
               className=""
             />
             <p className="nsdc-desc">
@@ -51,8 +54,8 @@ const OurPartnerShipContent = () => {
 
         <div className="partner-right">
           <div className="image-container" id="img-container">
-            <img
-              src="https://mejoria.in/wp-content/uploads/2024/12/IMG_8514.webp"
+            <Image
+              src={cityGuilds}
               alt="Mejoria Certification"
               className="partner-image"
             />

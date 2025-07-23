@@ -1,14 +1,15 @@
 import Image from "next/image";
 import React from "react";
 import "./WhoWeAre.css"
+import  whoWeHeaderImg from "@/Image/aboutContentImg.jpg"
 const WhoWeAreHeader = () => {
   return (
     <div className="whoWeHeader-container">
       <div className="whoWeHeader-cover">
         <h2>Who We Are</h2>
       </div>
-      <img
-        src="https://mejoria.in/wp-content/uploads/2024/11/2024-05-24.jpg"
+      <Image
+        src={whoWeHeaderImg}
         alt="homeAboutUs"
         loading="lazy"
       />

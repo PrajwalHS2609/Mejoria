@@ -71,6 +71,7 @@
 
 .certification img {
   width: 100px;
+  object-fit: contain;
 }
 .diploma-images {
   /* border: solid green; */
@@ -115,6 +116,8 @@
 }
 .nsdc > img {
   width: 200px;
+  height: 100px;
+  object-fit: contain;
 }
 @media screen and (max-width: 768px) {
   .diploma-section {

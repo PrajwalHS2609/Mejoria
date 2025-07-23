@@ -240,8 +240,7 @@
 }
 
 .logos > img {
-  height: 60px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .logo.small {
@@ -294,6 +293,8 @@
 }
 .nsdc > img {
   width: 200px;
+  height: 100px;
+  object-fit: contain;
 }
 .partner-right {
   display: flex;

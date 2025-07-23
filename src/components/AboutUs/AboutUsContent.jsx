@@ -3,6 +3,8 @@ import "./AboutUs.css";
 import { FaBullseye } from "react-icons/fa6";
 import { FaUserGraduate } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
+import aboutUsContentImg from"@/Image/aboutContentImg.jpg"
+import Image from "next/image";
 
 const AboutUsContent = () => {
   return (
@@ -29,9 +31,9 @@ const AboutUsContent = () => {
           </p>
         </div>
         <div className="aboutUsContent-wrapper">
-          <img
-            src="https://mejoria.in/wp-content/uploads/2024/11/2024-05-24.jpg"
-            alt=""
+          <Image
+            src={aboutUsContentImg}
+            alt="aboutUsContentImg"
           />
         </div>
       </div>

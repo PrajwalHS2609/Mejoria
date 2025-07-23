@@ -1,43 +1,45 @@
 import React from "react";
 import "./MasterClass.css";
+import ChocolateMasterclass from "./../../Image/shortCourses/choclateMasterImg.png";
+import CakeMasterclass from "./../../Image/shortCourses/MasterclassCAKE.png";
+import FrenchPastry from "./../../Image/shortCourses/MasterclassFrenchPastry.png";
+import WeddingCake from "./../../Image/shortCourses/weddingMasterClassImg.png";
+import BreadMasterclass from "./../../Image/shortCourses/masterclassbreads.png";
+import Image from "next/image";
+
 const MasterClassCourse = () => {
   const masterclasses = [
     {
       title: "Chocolate Masterclass (3 days)",
-      image:
-        "https://mejoria.in/wp-content/uploads/2025/01/masterclassChocolate-ezgif.com-resize-600x600.webp",
+      image: ChocolateMasterclass,
       price: 25000,
       originalPrice: 30000,
       label: "Sale!",
     },
     {
       title: "Cake Masterclass",
-      image:
-        "https://mejoria.in/wp-content/uploads/2025/01/MasterclassCAKE-ezgif.com-optiwebp-2-600x600.webp",
+      image: CakeMasterclass,
       price: 25000,
       originalPrice: 30000,
       label: "Sale!",
     },
     {
       title: "French Pastry Masterclass (5 days)",
-      image:
-        "https://mejoria.in/wp-content/uploads/2025/01/MasterclassFrenchPastry-ezgif.com-resize-600x600.webp",
+      image: FrenchPastry,
       price: 25000,
       originalPrice: 30000,
       label: "Sale!",
     },
     {
       title: "Wedding Cake Masterclass (3 days)",
-      image:
-        "https://mejoria.in/wp-content/uploads/2025/01/ezgif.com-resize-600x600.webp",
+      image: WeddingCake,
       price: 25000,
       originalPrice: 30000,
       label: "Sale!",
     },
     {
-      title: "Wedding Cake Masterclass (3 days)",
-      image:
-        "https://mejoria.in/wp-content/uploads/2025/01/masterclassbreads-ezgif.com-optiwebp-1-600x600.webp",
+      title: "Bread Masterclass (3 days)",
+      image: BreadMasterclass,
       price: 25000,
       originalPrice: 30000,
       label: "Sale!",
@@ -51,7 +53,7 @@ const MasterClassCourse = () => {
           <div className="masterclass-card" key={i}>
             <div className="card-img-container">
               {cls.label && <span className="badge">{cls.label}</span>}
-              <img src={cls.image} alt={cls.title} />
+              <Image src={cls.image} alt={cls.title} />
             </div>
             <div className="card-body">
               <p className="category-label">Master Classes</p>

@@ -1,0 +1,29 @@
+.landingFooter-container {
+  /* border: solid red; */
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+}
+.landingFooter-content {
+  /* border: solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: var(--customColor1);
+  padding: 10px;
+  font-weight: bold;
+  width: 50%;
+}
+.landingFooter-content > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.landingFooter-Icon{
+    font-size: 30px;
+    color: var(--customColor1);
+}

@@ -2,7 +2,8 @@ import React from "react";
 import "./AboutUs.css";
 import Link from "next/link";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
-
+import Image from "next/image";
+import aboutUsCareerImg from "@/Image/aboutUsCareerImg.jpg"
 const AboutUsCareer = () => {
   return (
     <div className="aboutUsCareer-container">
@@ -47,8 +48,8 @@ const AboutUsCareer = () => {
         </Link>
       </div>
       <div className="aboutUsCareer-image">
-        <img
-          src="https://mejoria.in/wp-content/uploads/2024/11/portrait-smiling-young-man-showing-freshly-baked-croissant-tray-shelf_23-2148189045.jpg"
+        <Image
+          src={aboutUsCareerImg}
           alt="Young man with croissants"
         />
       </div>

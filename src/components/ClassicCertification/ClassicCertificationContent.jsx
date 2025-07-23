@@ -1,6 +1,9 @@
 import React from "react";
 import "./ClassicCertification.css";
-
+import classicCertiContentImg from "./../../Image/classicCertiContentImg.png";
+import nsdc from "@/Image/nsdc.jpeg";
+import cityguilds from "@/Image/cityGuilds.png";
+import Image from "next/image";
 const ClassicCertificationContent = () => {
   return (
     <section className="classicCerti-section">
@@ -25,15 +28,15 @@ const ClassicCertificationContent = () => {
         </a>
 
         <div className="certification">
-          <img
-            src="https://mejoria.in/wp-content/uploads/2024/11/city__guild_logo.png"
+          <Image
+            src={cityguilds}
             alt="City and Guilds"
           />
           <span>Certified by City & Guilds, London</span>
         </div>
         <div className="nsdc">
-          <img
-            src="https://mejoria.in/wp-content/uploads/2024/12/ebbafe7b-1b5c-428b-bda9-68db4460c584.jpeg"
+          <Image
+            src={nsdc} alt="nsdc"
             className=""
           />
           <p className="nsdc-desc">
@@ -46,8 +49,8 @@ const ClassicCertificationContent = () => {
 
       <div className="classicCerti-images">
         <div className="image-grid">
-          <img
-            src="https://mejoria.in/wp-content/uploads/2024/12/ClassicCertificateKickstartYourPastryCareerwithClassicCertificationCourse-ezgif.com-optiwebp-1285x1536.webp"
+          <Image
+            src={classicCertiContentImg}
             alt="Batch"
           />
         </div>

@@ -1,59 +1,61 @@
 import React from "react";
-import "./OneDayCourse.css"
+import "./OneDayCourse.css";
+import BreadMasterclass from "./../../Image/shortCourses/masterclassbreads.png";
+import TeaCakes from "./../../Image/shortCourses/TeacakeandTravelCake.png";
+import EggFreeMacrons from "./../../Image/shortCourses/Macrons.png";
+import PuffPastry from "./../../Image/shortCourses/PuffPastry.png";
+import Brownies from "./../../Image/shortCourses/choclateMasterImg.png";
+import Tarts from "./../../Image/shortCourses/Tarts.png";
+import cheeseCake from "./../../Image/shortCourses/Cheescakes.png";
+import Image from "next/image";
+
 const OneDayCourseShort = () => {
   const masterclasses = [
     {
       title: "Bread Masterclass (3 days)",
-      image:
-        "https://mejoria.in/wp-content/uploads/2025/01/masterclassbreads-ezgif.com-optiwebp-1-600x600.webp",
+      image: BreadMasterclass,
       price: 25000,
       originalPrice: 30000,
       label: "Sale!",
     },
     {
       title: "Tea Cakes and Travel Cakes",
-      image:
-        "https://mejoria.in/wp-content/uploads/2024/12/TeacakeandTravelCake1-ezgif.com-optiwebp-600x600.webp",
+      image: TeaCakes,
       price: 4200,
       originalPrice: 6000,
       label: "Sale!",
     },
     {
       title: "EggFree Macrons",
-      image:
-        "https://mejoria.in/wp-content/uploads/2024/12/Macrons-ezgif.com-optiwebp-600x600.webp",
+      image: EggFreeMacrons,
       price: 4000,
       originalPrice: 5000,
       label: "Sale!",
     },
     {
       title: "Puff Pastry",
-      image:
-        "https://mejoria.in/wp-content/uploads/2024/12/PuffPastry1-ezgif.com-optiwebp-600x600.webp",
+      image: PuffPastry,
       price: 5000,
       originalPrice: 6000,
       label: "Sale!",
     },
     {
       title: "Brownies",
-      image:
-        "https://mejoria.in/wp-content/uploads/2025/01/masterclassbreads-ezgif.com-optiwebp-1-600x600.webp",
+      image: Brownies,
       price: 4000,
       originalPrice: 5000,
       label: "Sale!",
     },
     {
       title: "Tarts",
-      image:
-        "https://mejoria.in/wp-content/uploads/2024/12/Tarts-ezgif.com-optiwebp-600x600.webp",
+      image: Tarts,
       price: 4000,
       originalPrice: 5000,
       label: "Sale!",
     },
     {
       title: "Cheese Cake",
-      image:
-        "https://mejoria.in/wp-content/uploads/2024/12/Cheescakes-ezgif.com-optiwebp-600x600.webp",
+      image: cheeseCake,
       price: 4500,
       originalPrice: 6000,
       label: "Sale!",
@@ -67,7 +69,7 @@ const OneDayCourseShort = () => {
           <div className="masterclass-card" key={i}>
             <div className="card-img-container">
               {cls.label && <span className="badge">{cls.label}</span>}
-              <img src={cls.image} alt={cls.title} />
+              <Image src={cls.image} alt={cls.title} />
             </div>
             <div className="card-body">
               <p className="category-label">One Day Course</p>

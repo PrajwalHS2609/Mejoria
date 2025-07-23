@@ -1,6 +1,9 @@
 import React from "react";
 import "./CakeMastery.css";
-
+import cakeMastery from "@/Image/CakeMastery.png"
+import nsdc from "@/Image/nsdc.jpeg"
+import cityGuilds from"@/Image/cityGuilds.png"
+import Image from "next/image";
 const CakeMasteryContent = () => {
   return (
     <section className="cakeMastery-section">
@@ -35,15 +38,15 @@ const CakeMasteryContent = () => {
         </a>
 
         <div className="certification">
-          <img
-            src="https://mejoria.in/wp-content/uploads/2024/11/city__guild_logo.png"
+          <Image
+            src={cityGuilds}
             alt="City and Guilds"
           />
           <span>Certified by City & Guilds, London</span>
         </div>
         <div className="nsdc">
-          <img
-            src="https://mejoria.in/wp-content/uploads/2024/12/ebbafe7b-1b5c-428b-bda9-68db4460c584.jpeg"
+          <Image
+            src={nsdc}
             className=""
           />
           <p className="nsdc-desc">
@@ -56,8 +59,8 @@ const CakeMasteryContent = () => {
 
       <div className="cakeMastery-images">
         <div className="image-grid">
-          <img
-            src="https://mejoria.in/wp-content/uploads/2024/12/CakeMastery2-ezgif.com-optiwebp-scaled-1-1536x2048.webp"
+          <Image
+            src={cakeMastery}
             alt="Batch"
           />
         </div>

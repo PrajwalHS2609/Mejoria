@@ -1,6 +1,7 @@
 import React from "react";
 import "./HomeBakers.css";
-
+import homeBakerImg from"../../Image/homeCourseImg.png"
+import Image from "next/image";
 const HomeBakersContent = () => {
   return (
     <section className="home-bakers-section">
@@ -61,8 +62,8 @@ const HomeBakersContent = () => {
 
         {/* Right: Image */}
         <div className="home-bakers-image">
-          <img
-            src="https://mejoria.in/wp-content/uploads/2024/12/7d6664ac-04a6-47fa-a4fe-a6e11623e480.jpeg"
+          <Image
+            src={homeBakerImg}
             alt="Home Bakers Certificate"
           />
         </div>

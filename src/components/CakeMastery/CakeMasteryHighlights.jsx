@@ -1,12 +1,14 @@
 import React from "react";
 import "./CakeMastery.css";
+import Image from "next/image";
+import chef from "@/Image/chef1.png"
 const CakeMasteryHighlights = () => {
   return (
     <div className="cake-course-section">
       <div className="cake-course-wrapper">
         <div className="chef-image-wrapper">
-          <img
-            src="https://mejoria.in/wp-content/uploads/2024/11/DSC_0039-211-scaled-1-1027x1536.jpg" // replace with your image URL
+          <Image
+            src={chef}
             alt="Chef Dhanya"
             className="chef-image"
           />

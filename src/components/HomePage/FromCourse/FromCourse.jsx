@@ -1,13 +1,17 @@
 import React from "react";
 import "./FromCourse.css";
+import Image from "next/image";
+import convocation from "@/Image/ConvocationChef.jpg"
+import nsdc from "@/Image/nsdc.jpeg"
+import cityGuild from "@/Image/cityGuilds.png"
 const FromCourse = () => {
   return (
     <div className="partner-section">
       <div className="partner-container">
         <div className="partner-left">
           <div className="logos">
-            <img
-              src="https://mejoria.in/wp-content/uploads/2024/11/city__guild_logo__1_-removebg-preview.png"
+            <Image
+              src={cityGuild}
               alt="City & Guilds"
             />
             <span className="affiliation-badge">
@@ -27,8 +31,8 @@ const FromCourse = () => {
           </p>
 
           <div className="nsdc">
-            <img
-              src="https://mejoria.in/wp-content/uploads/2024/12/ebbafe7b-1b5c-428b-bda9-68db4460c584.jpeg"
+            <Image
+              src={nsdc} alt="nsdc"
               className=""
             />
             <p className="nsdc-desc">
@@ -41,8 +45,8 @@ const FromCourse = () => {
 
         <div className="partner-right">
           <div className="image-container">
-            <img
-              src="https://mejoria.in/wp-content/uploads/2025/01/Convocation-Jaweria-2025.jpg"
+            <Image
+              src={convocation}
               alt="Mejoria Certification"
               className="partner-image"
             />

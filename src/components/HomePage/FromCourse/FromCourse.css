@@ -31,8 +31,7 @@
 }
 
 .logos > img {
-  height: 60px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .logo.small {
@@ -86,6 +85,8 @@
 }
 .nsdc > img {
   width: 200px;
+  height: 100px;
+  object-fit: contain;
 }
 .partner-right {
   display: flex;
@@ -113,12 +114,12 @@
     flex-direction: column;
   }
   .partner-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  gap: 50px;
-  flex-wrap: wrap;
-  align-items: center;
-  flex-direction: column-reverse;
-}
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
 }

@@ -1,5 +1,12 @@
 import React from "react";
 import "./EggFreeDiploma.css";
+import eggFreeContentImg1 from "@/Image/DiplomaCourse/eggFreeDiplomaImg1.jpg"
+import eggFreeContentImg2 from "@/Image/DiplomaCourse/eggFreeDiplomaImg2.jpg"
+import eggFreeContentImg3 from "@/Image/DiplomaCourse/eggFreeDiplomaImg3.jpg"
+import Image from "next/image";
+import nsdc from "@/Image/nsdc.jpeg"
+import cityguilds  from "@/Image/cityGuilds.png"
+
 const EggFreeDiplomaContent = () => {
   return (
     <section className="diploma-section">
@@ -26,15 +33,15 @@ const EggFreeDiplomaContent = () => {
         </a>
 
         <div className="certification">
-          <img
-            src="https://mejoria.in/wp-content/uploads/2024/11/city__guild_logo.png"
+          <Image 
+            src={cityguilds}
             alt="City and Guilds"
           />
           <span>Certified by City & Guilds, London</span>
         </div>
           <div className="nsdc">
-            <img
-              src="https://mejoria.in/wp-content/uploads/2024/12/ebbafe7b-1b5c-428b-bda9-68db4460c584.jpeg"
+            <Image 
+              src={nsdc} alt="nsdc"
               className=""
             />
             <p className="nsdc-desc">
@@ -47,16 +54,16 @@ const EggFreeDiplomaContent = () => {
 
       <div className="diploma-images">
         <div className="image-grid">
-          <img
-            src="https://mejoria.in/wp-content/uploads/2025/01/3J7A4894-1536x804.jpg"
+          <Image 
+            src={eggFreeContentImg1}
             alt="Batch"
           />
-          <img
-            src="https://mejoria.in/wp-content/uploads/2024/11/2023-07-21.jpg"
+          <Image 
+            src={eggFreeContentImg2}
             alt="Cake team"
           />
-          <img
-            src="https://mejoria.in/wp-content/uploads/2024/11/20230829_150924-copy1-2048x1226-1-2-1536x864.jpg"
+          <Image 
+            src={eggFreeContentImg3}
             alt="Students"
           />
         </div>

@@ -1,13 +1,14 @@
 import React from "react";
 import "./Faculty.css";
 import { FaAward } from "react-icons/fa";
-
+import Image from "next/image";
+import chef from "@/Image/chef1.png"
 const Faculty = () => {
   return (
     <div className="chef-section">
       <div className="chef-image">
-        <img
-          src="https://mejoria.in/wp-content/uploads/2024/12/ezgif.com-optiwebp-5.webp"
+        <Image
+          src={chef}
           alt="Chef Divya Saraf"
         />
       </div>

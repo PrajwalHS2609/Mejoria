@@ -1,3 +1,6 @@
+import LandingNav from "@/components/LandingPage/LandingNav/LandingNav";
+import LandingFooter from "./../../components/LandingPage/LandingFooter/LandingFooter";
+
 export default function RootLandingLayout({
   children,
 }: {
@@ -13,7 +16,9 @@ export default function RootLandingLayout({
         {/* <link rel="icon" type="image/png" href="./favicon.png" /> */}
       </head>
       <body>
+        {/* <LandingNav /> */}
         {children}
+        <LandingFooter />
       </body>
     </html>
   );

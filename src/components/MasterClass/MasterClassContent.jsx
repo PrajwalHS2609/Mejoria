@@ -1,5 +1,8 @@
 import React from "react";
 import "./MasterClass.css";
+import nsdc from "@/Image/nsdc.jpeg"
+import cityguilds  from "@/Image/cityGuilds.png"
+import Image from "next/image";
 const MasterClassContent = () => {
   return (
     <section className="masterClass-section">
@@ -17,15 +20,15 @@ const MasterClassContent = () => {
         </a>
 
         <div className="certification">
-          <img
-            src="https://mejoria.in/wp-content/uploads/2024/11/city__guild_logo.png"
+          <Image
+            src={cityguilds}
             alt="City and Guilds"
           />
           <span>Certified by City & Guilds, London</span>
         </div>
           <div className="nsdc">
-            <img
-              src="https://mejoria.in/wp-content/uploads/2024/12/ebbafe7b-1b5c-428b-bda9-68db4460c584.jpeg"
+            <Image
+              src={nsdc} alt="nsdc"
               className=""
             />
             <p className="nsdc-desc">

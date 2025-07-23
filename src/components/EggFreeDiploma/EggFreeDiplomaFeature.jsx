@@ -1,24 +1,25 @@
 import React from "react";
 import "./EggFreeDiploma.css";
+import eggFreeCourseImg1 from "@/Image/DiplomaCourse/eggFreeDiplomaCourseImg1.jpg";
+import eggFreeCourseImg2 from "@/Image/DiplomaCourse/eggFreeDiplomaCourseImg2.jpg";
+import eggFreeCourseImg3 from "@/Image/DiplomaCourse/eggFreeDiplomaCourseImg3.jpg";
+import Image from "next/image";
 const EggFreeDiplomaFeature = () => {
   const modules = [
     {
-      image:
-        "https://mejoria.in/wp-content/uploads/2024/11/pexels-elle-hughes-2696064.jpg",
+      image: eggFreeCourseImg1,
       title: "FOOD SAFETY & PERSONAL HYGIENE",
       description:
         "Food safety is a crucial skill to learn before baking. Gain knowledge on proper food handling, hygiene practices, and safety guidelines to ensure a clean, safe, & successful baking experience.",
     },
     {
-      image:
-        "https://mejoria.in/wp-content/uploads/2024/11/pexels-vaibhav-jadhav-32184671.jpg",
+      image: eggFreeCourseImg2,
       title: "BASICS OF BAKING: BREADS & COOKIES",
       description:
         "Bread & cookies blend culinary and baking skills. This module explores global bread varieties, offering hands-on experience and valuable insights into the bread industry’s business aspects.",
     },
     {
-      image:
-        "https://mejoria.in/wp-content/uploads/2024/11/pexels-rathaphon-nanthapreecha-6809019.jpg",
+      image: eggFreeCourseImg3,
       title: "EGG THEORY & FRENCH PASTRY",
       description:
         "Eggs are essential in baking and pastry. This hands-on class covers recipes for desserts, afternoon tea, egg-less options, seasonal flavors, and stunning presentations with classic cakes and tortes.",
@@ -36,7 +37,7 @@ const EggFreeDiplomaFeature = () => {
             <div className="module-card-modern" key={i}>
               <div className="module-card-img-container">
                 {" "}
-                <img
+                <Image
                   src={item.image}
                   alt={item.title}
                   className="module-image"

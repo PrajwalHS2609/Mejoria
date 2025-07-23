@@ -109,6 +109,7 @@
 
 .certification img {
   width: 100px;
+  object-fit: contain;
 }
 .masterClass-images {
   /* border: solid green; */
@@ -148,6 +149,8 @@
 }
 .nsdc > img {
   width: 200px;
+  height: 100px;
+  object-fit: contain;
 }
 @media screen and (max-width: 768px) {
   .masterClass-section {

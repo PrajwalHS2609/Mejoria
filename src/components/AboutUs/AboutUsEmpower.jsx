@@ -1,16 +1,16 @@
 import Link from "next/link";
 import React from "react";
-
+import nsdc from "@/Image/nsdc.jpeg";
+import cityGuilds from "@/Image/cityGuilds.png";
+import aboutUsEmpowerImg from "@/Image/aboutUsEmpowerImg.jpg";
+import Image from "next/image";
 const AboutUsEmpower = () => {
   return (
     <div className="partner-section">
       <div className="partner-container">
         <div className="partner-left">
           <div className="logos">
-            <img
-              src="https://mejoria.in/wp-content/uploads/2024/11/city__guild_logo__1_-removebg-preview.png"
-              alt="City & Guilds"
-            />
+            <Image src={cityGuilds} alt="City & Guilds" />
             <span className="affiliation-badge">
               Proudly Affiliated with City & Guilds London
             </span>
@@ -28,10 +28,7 @@ const AboutUsEmpower = () => {
           </p>
 
           <div className="nsdc">
-            <img
-              src="https://mejoria.in/wp-content/uploads/2024/12/ebbafe7b-1b5c-428b-bda9-68db4460c584.jpeg"
-              className=""
-            />
+            <Image src={nsdc} alt="nsdc" className="" />
             <p className="nsdc-desc">
               Food Industry Capacity & Skill Initiative (FICSI) offers skilling
               programs leading to certification, placement, capacity building &
@@ -46,8 +43,8 @@ const AboutUsEmpower = () => {
 
         <div className="partner-right">
           <div className="image-container">
-            <img
-              src="https://mejoria.in/wp-content/uploads/2024/11/DJI_20230811_143819_15-copy-768x842-1.jpg"
+            <Image
+              src={aboutUsEmpowerImg}
               alt="Mejoria Certification"
               className="partner-image"
             />

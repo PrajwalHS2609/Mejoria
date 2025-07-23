@@ -84,7 +84,8 @@
   text-align: justify;
 }
 .nsdc > img {
-  width: 200px;
+  width: 200px;height: 100px;
+object-fit: contain;
 }
 .partner-right {
   display: flex;
