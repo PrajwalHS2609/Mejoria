@@ -5,15 +5,15 @@ import Footer from "./../components/Footer/Footer";
 import Whatsapp from "./../components/Whatsapp/Whatsapp";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import LandingNav from "./../components/LandingPage/LandingNav/LandingNav";
-import { usePathname } from "next/navigation";
+// import { usePathname } from "next/navigation";
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  const pathname = usePathname();
-  const isLanding = pathname.startsWith("/landing");
+  // const pathname = usePathname();
+  // const isLanding = pathname.startsWith("/landing");
   return (
     <html>
       <head>

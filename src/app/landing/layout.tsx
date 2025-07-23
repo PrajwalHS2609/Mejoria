@@ -1,4 +1,4 @@
-import LandingFooter from "./../../components/LandingPage/LandingFooter/LandingFooter";
+// import LandingFooter from "./../../components/LandingPage/LandingFooter/LandingFooter";
 
 export default function RootLandingLayout({
   children,
@@ -6,7 +6,7 @@ export default function RootLandingLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html>
       <head>
         <meta
           name="viewport"
@@ -17,7 +17,7 @@ export default function RootLandingLayout({
       <body>
         {/* <LandingNav /> */}
         {children}
-        <LandingFooter />
+        {/* <LandingFooter /> */}
       </body>
     </html>
   );
