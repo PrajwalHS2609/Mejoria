@@ -39,13 +39,13 @@ const CafeCourseOverview = () => {
             </h5>
           </li>
         </ul>
-        <div class="special-feature-box">
+        <div className="special-feature-box">
           <h3>🍰 Special Feature</h3>
           <p>
             All our desserts are <br />
-            <span class="highlight">Egg-free</span>,
-            <span class="highlight">Gelatin-free</span>, and
-            <span class="highlight">100% Vegetarian 🌿</span>
+            <span className="highlight">Egg-free</span>,
+            <span className="highlight">Gelatin-free</span>, and
+            <span className="highlight">100% Vegetarian 🌿</span>
           </p>
         </div>
       </div>

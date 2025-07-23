@@ -67,7 +67,7 @@
   padding: 20px 25px;
   box-shadow: 0 4px 12px rgba(255, 192, 203, 0.4);
   text-align: center;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
 }
 
 .special-feature-box h3 {
@@ -85,4 +85,94 @@
 .special-feature-box .highlight {
   font-weight: bold;
   color: #2e8b57; /* green tone for vegetarian theme */
+}
+
+/* ------------------------Module-------------------------------------- */
+
+.module-cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 40px 20px;
+  border-radius: 20px;
+}
+
+.module-card-modern {
+  flex: 1 1 45%;
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid var(--customColor1);
+  border-radius: 16px;
+  padding: 25px 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  background-clip: padding-box;
+  /* border-image: linear-gradient(120deg, #ff6699, #b00050) 1; */
+  backdrop-filter: blur(10px);
+}
+
+.module-card-modern:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(176, 0, 80, 0.1);
+}
+
+.module-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #b00050;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.module-points {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.module-points li {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+  color: #222;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  line-height: 1.5;
+  list-style: disc;
+  list-style-image: var(--customColor1);
+}
+.module-desp {
+  font-size: 1.05rem;
+  line-height: 1.5;
+}
+.module-icon {
+  color: #b00050;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 2px;
+}
+.cafeCourseModule-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cafeCourseModule-heading > h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.cafeCourseModule-heading > h2 > span {
+  color: var(--customColor1);
+}
+.cafeCourseModule-container {
+  padding: 20px;
+}
+/* Responsive */
+@media (max-width: 768px) {
+  .module-card-modern {
+    flex: 1 1 100%;
+  }
+  .cafeCourseModule-heading > h2 {
+    font-size: 30px;
+  }
 }
