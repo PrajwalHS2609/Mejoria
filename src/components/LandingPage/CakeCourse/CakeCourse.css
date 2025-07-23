@@ -1,0 +1,234 @@
+.cakeCourseOverview-container {
+  /* border: solid green; */
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #fff9f7, #ffe8e4);
+  align-items: center;
+}
+.cakeCourseOverview-content {
+  width: 48%;
+}
+.cakeCourseOverview-content > p {
+  font-size: 18px;
+}
+.cakeCourseOverview-content > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px 0 30px 0;
+}
+
+.highlight-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.highlight-list li {
+  position: relative;
+  padding-left: 28px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #4a2e2e;
+}
+
+.highlight-list li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #f47c5b;
+  font-weight: bold;
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .cakeCourseOverview-container {
+    /* border: solid green; */
+    padding: 10px;
+    flex-direction: column;
+  }
+  .cakeCourseOverview-content {
+  width: 100%;
+}
+}
+/* -----------------------------------------Why------------------------------------ */
+.why-choose-wrapper {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 60px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.07);
+  overflow: hidden;
+}
+
+.why-text {
+  flex: 1 1 50%;
+  padding: 50px;
+  background: #fff;
+  border-right: 1px solid #f3f3f3;
+}
+
+.why-text h2 {
+  font-size: 32px;
+  color: var(--customColor1);
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.why-text ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.why-text ul li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  border-left: 4px solid var(--customColor1);
+  color: #333;
+}
+
+.cta-banner {
+  background: black;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: var(--customColor1);
+  font-size: 1.1rem;
+  box-shadow: 0 3px 8px rgba(244, 66, 211, 0.1);
+}
+
+.why-img {
+  flex: 1 1 50%;
+  position: relative;
+}
+
+.why-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ---------------------------Weeks------------------------------------- */
+/* Container styling */
+.cakeCourseWeek-container {
+  padding: 50px 20px;
+  background-color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Section heading */
+.cakeCourseWeek-heading {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cakeCourseWeek-heading .tag {
+  display: inline-block;
+  background-color: var(--customColor1);
+  padding: 6px 16px;
+  font-weight: 600;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.cakeCourseWeek-heading h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: black;
+}
+
+/* Module title (Week 1, Week 2, etc.) */
+.module-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #b85c00;
+  margin: 30px 0 20px;
+}
+
+/* Accordion header (Day styling) */
+.accordion-heading h6 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #fff9f7, #ffe8e4);
+  border-left: 5px solid var(--customColor1);
+  border-radius: 4px;
+  color: black;
+}
+
+/* Accordion body */
+.accordion-body {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #f0f0f0;
+}
+
+.accordion-body ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.accordion-body li {
+  margin-bottom: 6px;
+  color: #444;
+}
+.acc-Body > strong {
+  color: var(--customColor1);
+}
+.module-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+.week-image {
+  flex: 1;
+  max-width: 45%;
+}
+
+.week-image img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.week-content {
+  flex: 1;
+  max-width: 50%;
+}
+
+/* Alternate layout for Week 2 (image left) */
+.module-card.reverse-layout {
+  flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+  .module-card,
+  .module-card.reverse-layout {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .week-content,
+  .week-image {
+    max-width: 100%;
+  }
+}

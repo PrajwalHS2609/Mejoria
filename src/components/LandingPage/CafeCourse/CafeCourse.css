@@ -86,7 +86,16 @@
   font-weight: bold;
   color: #2e8b57; /* green tone for vegetarian theme */
 }
-
+@media screen and (max-width: 768px) {
+  .cafeCourseOverview-container {
+    /* border: solid green; */
+    padding: 10px;
+    flex-direction: column;
+  }
+  .cafeCourseOverview-content {
+  width: 100%;
+}
+}
 /* ------------------------Module-------------------------------------- */
 
 .module-cards-wrapper {
@@ -175,4 +184,12 @@
   .cafeCourseModule-heading > h2 {
     font-size: 30px;
   }
+  .module-cards-wrapper {
+  padding: 10px 10px;
+}
+.module-card-modern {
+  padding: 10px 10px;
+
+}
+
 }

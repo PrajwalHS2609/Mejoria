@@ -11,6 +11,7 @@
 }
 .landingCourse-container > h2 {
   font-size: 40px;
+  text-align: center;
 }
 .landingCourse-content {
   /* border: solid green; */
@@ -37,13 +38,39 @@
   align-items: center;
   width: 100%;
 }
-.landingCourse-content > button{
-    background-color: black;border: none;
+.landingCourse-content > button {
+  background-color: black;
+  border: none;
 }
-.landingCourse-content > button> h5 {
+.landingCourse-content > button > h5 {
   color: var(--customColor1);
   margin-bottom: 15px;
 }
-.landingCourse-display{
+.landingCourse-display {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .landingCourse-container {
+    /* border: solid red; */
+    padding: 10px;
+  }
+  .landingCourse-wrapper {
+    /* border: solid yellow; */
+    flex-direction: column;
+  }
+  .landingCourse-content {
+    /* border: solid green; */
+
+    height: 320px;
+    width: 300px;
+    margin: 10px;
+  }
+  .landingCourse-content > img {
     width: 100%;
+    height: 250px;
+  }
+  .landingCourse-container > h2 {
+    font-size: 30px;
+    width: 100%;
+  }
 }
