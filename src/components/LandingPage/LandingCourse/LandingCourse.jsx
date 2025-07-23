@@ -46,7 +46,7 @@ const LandingCourse = () => {
             src="https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg"
             alt="lpImg1"
           />
-          <button onClick={() => handleTabClick("cafe")}>
+          <button onClick={() => handleTabClick("cafe")} ref={courseRef}>
             <h5> CAFÉ KRAFT CERTIFICATE COURSE</h5>
           </button>
         </div>
