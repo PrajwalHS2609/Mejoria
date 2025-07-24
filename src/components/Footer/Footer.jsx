@@ -114,7 +114,11 @@ const Footer = () => {
             </div>
             <div className="footerTxt" id="footerContact-content">
               <GrLocation className="contact-icon" />
-              <a href={"/terms"}>
+              <a
+                href={
+                  "https://www.google.com/maps/place/Mejoria+International+School+of+Pastry/@22.5143114,88.3481952,17z/data=!3m1!4b1!4m6!3m5!1s0x3a02713c611b60cd:0x7c28c220839572ed!8m2!3d22.5143065!4d88.3507701!16s%2Fg%2F11v19sbxgd?entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D"
+                }
+              >
                 8, Dr.Sarat Banerjee Rd,Lake Market, Kalighat, Kolkata, West
                 Bengal 700029
               </a>

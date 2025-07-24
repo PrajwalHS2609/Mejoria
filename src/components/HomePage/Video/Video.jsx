@@ -4,7 +4,7 @@ import "./Video.css";
 import { FaArrowDown } from "react-icons/fa6";
 const Video = () => {
   return (
-    <div className="vidContainer">
+    <div className="vidContainer" id="home">
       <div className="vid-wrapper">
         <div className="vid-content">
           <video className="" src="/videos/vid1.mp4" autoPlay loop muted />

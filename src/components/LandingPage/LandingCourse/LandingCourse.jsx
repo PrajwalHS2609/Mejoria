@@ -32,7 +32,7 @@ const LandingCourse = () => {
   };
 
   return (
-    <div className="landingCourse-container">
+    <div className="landingCourse-container"  id="course">
       <h2>Certification Courses</h2>
 
       <div className="landingCourse-wrapper">

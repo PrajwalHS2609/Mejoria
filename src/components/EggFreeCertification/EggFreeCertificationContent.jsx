@@ -9,7 +9,7 @@ const EggFreeCertificationContent = () => {
     <section className="eggFreeCerti-section">
       <div className="eggFreeCerti-content">
         <span className="tag">EGGFREE CERTIFICATION COURSE</span>
-        <h2>Kickstart Your Pastry Career with Classic Certification Course</h2>
+        <h2>Kickstart Your Pastry Career with EggFree Certification Course</h2>
         <p className="desc">
           Our 2-month Professional Baking and Pastry (Egg-Free) Certificate
           Course is the ideal starting point for your journey in the world of

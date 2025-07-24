@@ -46,7 +46,7 @@ const ClassicCertificationCourse = () => {
       image: classic,
       title: "CLASSIC FRENCH BAKING",
       description:
-        "french baking includes, macarons, choux pastry, eclairs, layered mousse cakes and entremet . Classic cakes like opera, swiss rolls and tiramisu.",
+        "French baking includes, macarons, choux pastry, layered mousse cakes and entremet . Classic cakes like opera, swiss rolls and tiramisu.",
     },
     {
       image:chocolate ,
@@ -58,7 +58,7 @@ const ClassicCertificationCourse = () => {
       image: cafe,
       title: "CAFÉ STYLE BAKING",
       description:
-        " cheesecakes, cupcakes, muffins, brownies and the best of café menus put together to all those who want to ultimately start their own business.",
+        "Cheesecakes, cupcakes, muffins, brownies and the best of café menus put together to all those who want to ultimately start their own business.",
     },
     {
       image: cafe,

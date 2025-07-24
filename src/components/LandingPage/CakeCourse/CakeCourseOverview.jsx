@@ -4,7 +4,7 @@ import cakeCourseOverviewImg from "@/Image/Img/13.jpg"
 import Image from "next/image";
 const CakeCourseOverview = () => {
   return (
-    <div className="cakeCourseOverview-container">
+    <div className="cakeCourseOverview-container" id="overview">
       <div className="cakeCourseOverview-content">
         <span className="tag">FROM BASIC TO BRILLIANCE:</span>
         <h2>MASTER EGG-FREE BAKING & LAUNCH YOUR HOME BAKERY!</h2>

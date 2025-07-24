@@ -16,7 +16,7 @@ const CakeCourse = () => {
       <CakeCourseWhy />
       <CakeCourseWeeks />
       <Faculty />
-      <Testimonial />
+      <Testimonial  />
       <Nurture />
       <ServiceWhy />
       <TextLocReviews />
