@@ -7,6 +7,7 @@ import cakeCourseImg from "@/Image/Img/19.jpg";
 import cafeCourseImg from "@/Image/Img/11.jpg";
 
 import Image from "next/image";
+import Partners from "@/components/HomePage/FromCourse/FromCourse";
 const LandingCourse = () => {
   const [activeTab, setActiveTab] = useState("cake");
   const courseRef = useRef(null);
@@ -43,16 +44,15 @@ const LandingCourse = () => {
         </div>
         <div className="landingCourse-content">
           <Image src={cafeCourseImg} alt="lpImg1" />
-          <button onClick={() => handleTabClick("cafe")} ref={courseRef}>
+          <button onClick={() => handleTabClick("cafe")}>
             <h5> CAFÉ KRAFT CERTIFICATE COURSE</h5>
           </button>
         </div>
       </div>
-
+      <Partners />
+      <span ref={courseRef}></span>
       {/* SCROLL TARGET */}
-      <div className="landingCourse-display" ref={courseRef}>
-        {renderContent()}
-      </div>
+      <div className="landingCourse-display">{renderContent()}</div>
     </div>
   );
 };

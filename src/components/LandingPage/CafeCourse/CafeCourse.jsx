@@ -15,7 +15,6 @@ const CafeCourse = () => {
       <CafeCourseOverview />
       <CafeCourseModule />
       <Faculty />
-      <Partners />
       <Testimonial />
       <Nurture />
       <ServiceWhy />
