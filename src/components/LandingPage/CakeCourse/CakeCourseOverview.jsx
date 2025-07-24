@@ -1,5 +1,7 @@
 import React from "react";
 import "./CakeCourse.css";
+import cakeCourseOverviewImg from "@/Image/Img/13.jpg"
+import Image from "next/image";
 const CakeCourseOverview = () => {
   return (
     <div className="cakeCourseOverview-container">
@@ -27,9 +29,9 @@ const CakeCourseOverview = () => {
       </div>
 
       <div className="cakeCourseOverview-content">
-        <img
-          src="https://images.pexels.com/photos/1414234/pexels-photo-1414234.jpeg"
-          alt="Baking Course"
+        <Image
+          src={cakeCourseOverviewImg}
+          alt="cake Course Overview Img"
         />
       </div>
     </div>

@@ -1,12 +1,15 @@
 import React from "react";
 import "./CakeCourse.css";
+import cakeCourseWhyImg from "@/Image/Img/14.jpg"
+import Image from "next/image";
+
 const CakeCourseWhy = () => {
   return (
     <div className="why-choose-wrapper">
       <div className="why-img">
-        <img
-          src="https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg"
-          alt="Baking className"
+        <Image
+          src={cakeCourseWhyImg}
+          alt="cake Course why Img"
         />
       </div>
       <div className="why-text">

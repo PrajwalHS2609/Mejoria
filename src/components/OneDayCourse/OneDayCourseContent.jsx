@@ -1,5 +1,9 @@
 import React from "react";
-import "./OneDayCourse.css"
+import "./OneDayCourse.css";
+import cityGuild from "@/Image/cityGuilds.png";
+import nsdc from "@/Image/nsdc.jpeg";
+import Image from "next/image";
+import onedayImg from "@/Image/shortCourses/MasterclassCAKE.png"
 const OneDayCourseContent = () => {
   return (
     <section className="oneDay-section">
@@ -17,29 +21,23 @@ const OneDayCourseContent = () => {
         </a>
 
         <div className="certification">
-          <img
-            src="https://mejoria.in/wp-content/uploads/2024/11/city__guild_logo.png"
-            alt="City and Guilds"
-          />
+          <Image src={cityGuild} alt="City and Guilds" />
           <span>Certified by City & Guilds, London</span>
         </div>
-          <div className="nsdc">
-            <img
-              src="https://mejoria.in/wp-content/uploads/2024/12/ebbafe7b-1b5c-428b-bda9-68db4460c584.jpeg"
-              className=""
-            />
-            <p className="nsdc-desc">
-              Food Industry Capacity & Skill Initiative (FICSI) offers skilling
-              programs leading to certification, placement, capacity building &
-              entrepreneurship focusing on the Food Processing Industry.
-            </p>
-          </div>
+        <div className="nsdc">
+          <Image src={nsdc} alt="nsdc" className="" />
+          <p className="nsdc-desc">
+            Food Industry Capacity & Skill Initiative (FICSI) offers skilling
+            programs leading to certification, placement, capacity building &
+            entrepreneurship focusing on the Food Processing Industry.
+          </p>
+        </div>
       </div>
 
       <div className="oneDay-images">
         <div className="image-grid">
-          <img
-            src="https://mejoria.in/wp-content/uploads/2024/12/MasterclassCAKE-ezgif.com-optiwebp.webp"
+          <Image
+            src={onedayImg}
             alt="Batch"
           />
         </div>

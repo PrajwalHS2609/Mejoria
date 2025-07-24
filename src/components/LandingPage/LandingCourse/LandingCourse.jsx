@@ -3,7 +3,10 @@ import React, { useState, useRef } from "react";
 import "./LandingCourse.css";
 import CakeCourse from "../CakeCourse/CakeCourse";
 import CafeCourse from "../CafeCourse/CafeCourse";
+import cakeCourseImg from "@/Image/Img/19.jpg";
+import cafeCourseImg from "@/Image/Img/11.jpg";
 
+import Image from "next/image";
 const LandingCourse = () => {
   const [activeTab, setActiveTab] = useState("cake");
   const courseRef = useRef(null);
@@ -33,19 +36,13 @@ const LandingCourse = () => {
 
       <div className="landingCourse-wrapper">
         <div className="landingCourse-content">
-          <img
-            src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg"
-            alt="lpImg1"
-          />
+          <Image src={cakeCourseImg} alt="lpImg1" />
           <button onClick={() => handleTabClick("cake")}>
             <h5> CAKE CANVAS CERTIFICATE COURSE</h5>
           </button>
         </div>
         <div className="landingCourse-content">
-          <img
-            src="https://images.pexels.com/photos/1024359/pexels-photo-1024359.jpeg"
-            alt="lpImg1"
-          />
+          <Image src={cafeCourseImg} alt="lpImg1" />
           <button onClick={() => handleTabClick("cafe")} ref={courseRef}>
             <h5> CAFÉ KRAFT CERTIFICATE COURSE</h5>
           </button>

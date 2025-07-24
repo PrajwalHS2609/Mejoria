@@ -1,13 +1,16 @@
 "use client";
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
+import weekImg1 from "@/Image/Img/21.jpg";
+import weekImg2 from "@/Image/Img/20.jpg";
+import weekImg3 from "@/Image/Img/23.jpg";
+import Image from "next/image";
 
 const CakeCourseWeeks = () => {
   const weekData = [
     {
       title: "WEEK 1 : FUNDAMENTALS & FOUNDATIONS",
-      image:
-        "https://images.pexels.com/photos/1098592/pexels-photo-1098592.jpeg",
+      image: weekImg1,
 
       topics: [
         {
@@ -56,8 +59,7 @@ const CakeCourseWeeks = () => {
 
     {
       title: " WEEK 2: CELEBRATION & CLASSIC CAKES",
-      image:
-        "https://images.pexels.com/photos/1098592/pexels-photo-1098592.jpeg",
+      image: weekImg2,
 
       topics: [
         {
@@ -85,8 +87,7 @@ const CakeCourseWeeks = () => {
     },
     {
       title: "WEEK 3: ADVANCED DECORATING & FONDANT TECHNIQUES",
-      image:
-        "https://images.pexels.com/photos/1098592/pexels-photo-1098592.jpeg",
+      image: weekImg3,
 
       topics: [
         {
@@ -130,7 +131,7 @@ const CakeCourseWeeks = () => {
           >
             {/* IMAGE */}
             <div className="week-image">
-              <img src={module.image} alt={`Visual for ${module.title}`} />
+              <Image src={module.image} alt={`Visual for ${module.title}`} />
             </div>
 
             {/* TEXT */}

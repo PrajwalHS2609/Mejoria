@@ -1,18 +1,17 @@
-import React from 'react'
-import "./OneDayCourse.css"
+import React from "react";
+import "./OneDayCourse.css";
+import Image from "next/image";
+import oneDayBanner from "@/Image/Img/20.jpg";
 
 const OneDayCourseHeader = () => {
   return (
- <div className="oneDay-headerContainer">
+    <div className="oneDay-headerContainer">
       <div className="oneDay-headerCover">
         <h2>One Day Course</h2>
       </div>
-      <img
-        src="https://images.pexels.com/photos/239578/pexels-photo-239578.jpeg"
-        alt=""
-      />
+      <Image src={oneDayBanner} alt="One  Day  Banner" />
     </div>
-  )
-}
+  );
+};
 
-export default OneDayCourseHeader
+export default OneDayCourseHeader;

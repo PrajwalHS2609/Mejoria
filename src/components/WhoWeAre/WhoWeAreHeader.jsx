@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import "./WhoWeAre.css"
-import  whoWeHeaderImg from "@/Image/aboutContentImg.jpg"
+import  whoWeHeaderImg from "@/Image/Img/17.jpg"
 const WhoWeAreHeader = () => {
   return (
     <div className="whoWeHeader-container">

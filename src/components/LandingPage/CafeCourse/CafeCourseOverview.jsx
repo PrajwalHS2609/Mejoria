@@ -3,7 +3,8 @@ import "./CafeCourse.css";
 import { FaClock } from "react-icons/fa6";
 import { FaBirthdayCake } from "react-icons/fa";
 import { FaCalendarDays } from "react-icons/fa6";
-
+import cafeCourseOverviewImg from "@/Image/Img/12.jpg"
+import Image from "next/image";
 const CafeCourseOverview = () => {
   return (
     <div className="cafeCourseOverview-container">
@@ -50,9 +51,9 @@ const CafeCourseOverview = () => {
         </div>
       </div>
       <div className="cafeCourseOverview-content">
-        <img
-          src="https://images.pexels.com/photos/31321859/pexels-photo-31321859.jpeg"
-          alt=""
+        <Image
+          src={cafeCourseOverviewImg}
+          alt="cafe Course Overview Img"
         />
       </div>
     </div>
