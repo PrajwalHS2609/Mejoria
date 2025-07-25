@@ -6,7 +6,7 @@ export const metadata = {
   title: "Egg Free Pastry & Baking Diploma Course in Kolkata, West Bengal",
   description:
     "Egg Free Pastry & Baking Diploma Course in Kolkata, West Bengal. This program covers baking fundamentals and advanced chocolate-making techniques while refining your entrepreneurial skills.",
-  canonical: "https://mejoria.in/eggfree-diploma-baking-course",
+  canonical: "https://mejoria.in/eggfree-cake-diploma-baking-course",
   keywords: [
     "cake making classes near me",
     "pastry making classes online",

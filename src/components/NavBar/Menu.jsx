@@ -61,12 +61,12 @@ const Menu = () => {
           <Link href={"/"}>DIPLOMA PROGRAM</Link>
           <MdKeyboardArrowDown className="menuIcon" />
           <div className="menuDrop">
-            <Link href={"/eggfree-diploma-course"}>
+            <Link href={"/eggfree-cake-diploma-baking-course"}>
               <div className="dropItems">
                 <p>EGGFREE DIPLOMA COURSE</p>
               </div>
             </Link>
-            <Link href={"/classic-diploma-course"}>
+            <Link href={"/classic-cake-diploma-baking-course"}>
               <div className="dropItems">
                 <p>CLASSIC DIPLOMA COURSE</p>
               </div>
@@ -77,17 +77,17 @@ const Menu = () => {
           <Link href={"/"}>CERTIFICATION COURSES</Link>
           <MdKeyboardArrowDown className="menuIcon" />
           <div className="menuDrop">
-            <Link href={"/eggfree-certification-course"}>
+            <Link href={"/eggfree-cake-baking-certification-course"}>
               <div className="dropItems">
                 <p>EGGFREE CERTIFICATION COURSE</p>
               </div>
             </Link>
-            <Link href={"/classic-certification-course"}>
+            <Link href={"/classic-cake-baking-certification-course"}>
               <div className="dropItems">
                 <p>CLASSIC CERTIFICATION COURSE</p>
               </div>
             </Link>
-            <Link href={"/cake-mastery"}>
+            <Link href={"/cake-mastery-baking-certification-course"}>
               <div className="dropItems">
                 <p>CAKE MASTERY</p>
               </div>
@@ -113,12 +113,12 @@ const Menu = () => {
           <Link href={"/"}>SHORT COURSES</Link>
           <MdKeyboardArrowDown className="menuIcon" />
           <div className="menuDrop">
-            <Link href={"/master-classes"}>
+            <Link href={"/master-cake-pastry-and-baking-classes"}>
               <div className="dropItems">
                 <p>MASTER CLASSES</p>
               </div>
             </Link>
-            <Link href={"/one-day-courses"}>
+            <Link href={"/one-day-cake-pastry-and-baking-class"}>
               <div className="dropItems">
                 <p>ONE DAY COURSES</p>
               </div>
@@ -211,7 +211,7 @@ const Menu = () => {
                   <h4>
                     <Link
                       onClick={hideSideBar}
-                      href={"/eggfree-diploma-course"}
+                      href={"/eggfree-cake-diploma-baking-course"}
                     >
                       EGGFREE DIPLOMA COURSE
                     </Link>
@@ -221,7 +221,7 @@ const Menu = () => {
                   <h4>
                     <Link
                       onClick={hideSideBar}
-                      href={"/classic-diploma-course"}
+                      href={"/classic-cake-diploma-baking-course"}
                     >
                       CLASSIC DIPLOMA COURSE
                     </Link>
@@ -248,7 +248,7 @@ const Menu = () => {
                   <h4>
                     <Link
                       onClick={hideSideBar}
-                      href={"/eggfree-certification-course"}
+                      href={"/eggfree-cake-baking-certification-course"}
                     >
                       EGGFREE CERTIFICATION COURSE
                     </Link>
@@ -258,7 +258,7 @@ const Menu = () => {
                   <h4>
                     <Link
                       onClick={hideSideBar}
-                      href={"/eggfree-certification-course"}
+                      href={"/classic-cake-baking-certification-course"}
                     >
                       CLASSIC CERTIFICATION COURSE
                     </Link>
@@ -266,7 +266,7 @@ const Menu = () => {
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/cake-mastery"}>
+                    <Link onClick={hideSideBar} href={"/cake-mastery-baking-certification-course"}>
                       CAKE MASTERY
                     </Link>
                   </h4>
@@ -314,14 +314,14 @@ const Menu = () => {
               <span className="respMenuSpan">
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/master-classes"}>
+                    <Link onClick={hideSideBar} href={"/master-cake-pastry-and-baking-classes"}>
                       MASTER CLASSES
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/one-day-courses"}>
+                    <Link onClick={hideSideBar} href={"/one-day-cake-pastry-and-baking-class"}>
                       ONE DAY COURSE
                     </Link>
                   </h4>

@@ -6,7 +6,7 @@ export const metadata = {
   title: "Classic Pastry & Baking Diploma Course in Kolkata, West Bengal",
   description:
     "Classic Pastry & Baking Diploma Course in Kolkata, West Bengal. Classroom instruction is paired with industrial training to ensure a smooth transition from student to professional baker, pâtissier, or chocolatier.",
-  canonical: "https://mejoria.in/classic-diploma-baking-course",
+  canonical: "https://mejoria.in/classic-cake-diploma-baking-course",
   keywords: [
     "cake making classes near me",
     "pastry making classes online",
