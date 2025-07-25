@@ -1,7 +1,7 @@
 import React from "react";
 import "./CakeMastery.css";
 import Image from "next/image";
-import chef from "@/Image/chef1.png"
+import chef from "@/Image/cakeMasterHighlights.jpg"
 const CakeMasteryHighlights = () => {
   return (
     <div className="cake-course-section">

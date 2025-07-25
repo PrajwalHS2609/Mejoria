@@ -1,19 +1,28 @@
 "use client";
 import React, { useState } from "react";
 import "./CakeMastery.css";
+import workImg1 from "@/Image/works/workImg1.jpeg";
+import workImg2 from "@/Image/works/workImg2.jpeg";
+import workImg3 from "@/Image/works/workImg3.jpeg";
+import workImg4 from "@/Image/works/workImg4.jpeg";
+import workImg5 from "@/Image/works/workImg5.jpeg";
+import workImg6 from "@/Image/works/workImg6.jpeg";
+import workImg7 from "@/Image/works/workImg7.jpeg";
+import workImg8 from "@/Image/works/workImg8.jpeg";
+import Image from "next/image";
 
 const CakeMasteryWorks = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const recentWorks = [
-    "https://mejoria.in/wp-content/uploads/2024/11/WhatsApp-Image-2023-10-30-at-1.59.32-PM-768x802-1.jpeg",
-    "https://mejoria.in/wp-content/uploads/2024/11/WhatsApp-Image-2023-10-30-at-1.59.33-PM-1-768x1024-1.jpeg",
-    "https://mejoria.in/wp-content/uploads/2024/11/WhatsApp-Image-2023-10-30-at-1.59.33-PM-768x1152-1.jpeg",
-    "https://mejoria.in/wp-content/uploads/2024/11/WhatsApp-Image-2023-10-30-at-2.00.33-PM-768x1024-1.jpeg",
-    "https://mejoria.in/wp-content/uploads/2024/11/WhatsApp-Image-2023-10-28-at-5.37.24-PM-768x1024-2.jpeg",
-    "https://mejoria.in/wp-content/uploads/2024/11/WhatsApp-Image-2023-10-30-at-2.02.01-PM-768x1023-1.jpeg",
-    "https://mejoria.in/wp-content/uploads/2024/11/WhatsApp-Image-2023-10-30-at-2.06.56-PM-768x1024-1.jpeg",
-    "https://mejoria.in/wp-content/uploads/2024/11/WhatsApp-Image-2023-10-30-at-2.11.15-PM-768x1365-1.jpeg",
+    workImg1,
+    workImg2,
+    workImg3,
+    workImg4,
+    workImg5,
+    workImg6,
+    workImg7,
+    workImg8,
   ];
 
   return (
@@ -26,7 +35,7 @@ const CakeMasteryWorks = () => {
             key={idx}
             onClick={() => setSelectedImage(img)}
           >
-            <img src={img} alt={`Work ${idx + 1}`} className="work-img" />
+            <Image src={img} alt={`Work ${idx + 1}`} className="work-img" />
           </div>
         ))}
       </div>
@@ -36,7 +45,7 @@ const CakeMasteryWorks = () => {
           <span className="close-btn" onClick={() => setSelectedImage(null)}>
             &times;
           </span>
-          <img src={selectedImage} alt="Full View" className="lightbox-img" />
+          <Image src={selectedImage} alt="Full View" className="lightbox-img" />
         </div>
       )}
     </section>

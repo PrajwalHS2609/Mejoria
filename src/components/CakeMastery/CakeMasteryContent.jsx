@@ -47,7 +47,7 @@ const CakeMasteryContent = () => {
         <div className="nsdc">
           <Image
             src={nsdc}
-            className=""
+            className="" alt="nsdc"
           />
           <p className="nsdc-desc">
             Food Industry Capacity & Skill Initiative (FICSI) offers skilling

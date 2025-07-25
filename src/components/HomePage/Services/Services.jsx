@@ -68,7 +68,7 @@ const Services = () => {
         </div>
       </div>
       <div className="service-desp">
-        <p>
+        {/* <p>
           Mejoria International School of Pastry, located in Kolkata, fosters
           excellence in pastry and baking. Combining traditional methods with
           modern techniques, we offer an exceptional learning experience for
@@ -80,7 +80,7 @@ const Services = () => {
           comprehensive training and exposure to global trends. Whether refining
           skills or building a career, Mejoria is where passion meets precision,
           and dreams are shaped. Join us today!
-        </p>
+        </p> */}
         <p>
           {" "}
           Mejoria International School of Pastry in Kolkata is your gateway to
