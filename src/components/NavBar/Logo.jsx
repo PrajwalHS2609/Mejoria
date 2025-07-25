@@ -2,14 +2,13 @@ import React from "react";
 import "./Navbar2.css";
 // import scentLogo from "./../../Images/SCENT Logo.png";
 import Link from "next/link";
+import Image from "next/image";
+import logo from "@/Image/logo.png";
 const Logo = () => {
   return (
     <div className="logo">
       <Link href={"/"}>
-        <img
-          src="https://mejoria.in/wp-content/uploads/2024/11/Mejoria-Logo-ver2-blck.png"
-          alt="logo"
-        />
+        <Image src={logo} alt="logo" />
       </Link>
     </div>
   );
