@@ -10,10 +10,17 @@ import FormHeader from "./../components/Form/FormHeader";
 import Testimonial from "./../components/HomePage/Testimonial/Testimonial";
 
 export const metadata = {
-  title: "",
-  description: "",
+  title:
+    "Baking Course in Kolkata, West Bengal | Cake & Bread Baking Classes Near Me",
+  description:
+    "Baking Course in Kolkata, West Bengal. At Mejoria, we turn your passion for pastry into perfection with comprehensive training and exposure to global trends.",
   canonical: "https://mejoria.in",
-  keywords: [""],
+  keywords: [
+    "cake making classes near me",
+    "pastry making classes online",
+    "professional baking courses",
+    "learn to bake cakes",
+  ],
 };
 
 export default function Home() {
