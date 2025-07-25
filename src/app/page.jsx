@@ -6,19 +6,27 @@ import HelpNearYou from "./../components/HomePage/Help/HelpNearYou";
 import TextLocReviews from "./../components/HomePage/TextLocReviews/TextLocReviews";
 import Nurture from "./../components/HomePage/Nurture/Nurture";
 import Faculty from "./../components/HomePage/Faculty/Faculty";
-import FormHeader from './../components/Form/FormHeader';
-import Testimonial from './../components/HomePage/Testimonial/Testimonial';
+import FormHeader from "./../components/Form/FormHeader";
+import Testimonial from "./../components/HomePage/Testimonial/Testimonial";
+
+export const metadata = {
+  title: "",
+  description: "",
+  canonical: "https://mejoria.in",
+  keywords: [""],
+};
+
 export default function Home() {
   return (
     <div>
       <Video />
-      <FormHeader/>
+      <FormHeader />
       <Services />
       <Faculty />
       <Partners />
       <Nurture />
       <ServiceWhy />
-      <Testimonial/>
+      <Testimonial />
       <TextLocReviews />
     </div>
   );

@@ -30,10 +30,7 @@ const Services = () => {
       <div className="service-content">
         <div className="serviceCard-container">
           <div className="serviceCard-content">
-            <Image
-              src={classicCourse}
-              alt="Classic Certification Course"
-            />
+            <Image src={classicCourse} alt="Classic Certification Course" />
           </div>
           <h4>
             <Link href={"/classic-certification-course"}>
@@ -43,10 +40,7 @@ const Services = () => {
         </div>
         <div className="serviceCard-container">
           <div className="serviceCard-content">
-            <Image
-              src={eggFree}
-              alt="Eggfree Certification Course"
-            />
+            <Image src={eggFree} alt="Eggfree Certification Course" />
           </div>
           <h4>
             <Link href={"/eggfree-certification-course"}>
@@ -56,10 +50,7 @@ const Services = () => {
         </div>
         <div className="serviceCard-container">
           <div className="serviceCard-content">
-            <Image
-              src={homeBaker}
-              alt="Home Bakers Certificate Course"
-            />
+            <Image src={homeBaker} alt="Home Bakers Certificate Course" />
           </div>
           <h4>
             <Link href={"/home-bakers-certificate-course"}>
@@ -69,7 +60,7 @@ const Services = () => {
         </div>
         <div className="serviceCard-container">
           <div className="serviceCard-content">
-            <Image src={cakeMastery} alt="Cake Mastery"  />
+            <Image src={cakeMastery} alt="Cake Mastery" />
           </div>
           <h4>
             <Link href={"/cake-mastery"}>Cake Mastery</Link>
@@ -83,17 +74,27 @@ const Services = () => {
           modern techniques, we offer an exceptional learning experience for
           aspiring pastry chefs and enthusiasts. Join us to master the art!
         </p>
-        <p>
-          Mejoria International School of Pastry, located in Kolkata, fosters
-          excellence in pastry and baking. Combining traditional methods with
-          modern techniques, we offer an exceptional learning experience for
-          aspiring pastry chefs and enthusiasts. Join us to master the art!
-        </p>
+
         <p>
           At Mejoria, we turn your passion for pastry into perfection with
           comprehensive training and exposure to global trends. Whether refining
           skills or building a career, Mejoria is where passion meets precision,
           and dreams are shaped. Join us today!
+        </p>
+        <p>
+          {" "}
+          Mejoria International School of Pastry in Kolkata is your gateway to
+          mastering the art of baking and pastry. Blending traditional
+          techniques with modern innovations, we offer a world-class learning
+          experience for aspiring chefs and baking enthusiasts.
+        </p>
+        <p>
+          At Mejoria, we nurture your passion with expert training, hands-on
+          practice, and insights into global pastry trends. Whether you're
+          looking to refine your skills or launch a successful career, Mejoria
+          provides the perfect environment where creativity meets precision.
+          Join us and turn your love for pastry into a profession. Enroll today
+          to begin your journey toward culinary excellence!
         </p>
       </div>
       {/* <div className="serviceContent" id="serviceContent3">

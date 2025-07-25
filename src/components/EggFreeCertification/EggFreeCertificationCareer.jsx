@@ -2,7 +2,8 @@ import React from 'react'
 import "./EggFreeCertification.css"
 import { IoMdCheckmarkCircleOutline } from 'react-icons/io'
 import Link from 'next/link'
-
+import careerImg from "@/Image/aboutUsCareerImg.jpg"
+import Image from 'next/image'
 const EggFreeCertificationCareer = () => {
   return (
 <div className="aboutUsCareer-container">
@@ -47,8 +48,8 @@ const EggFreeCertificationCareer = () => {
         </Link>
       </div>
       <div className="aboutUsCareer-image">
-        <img
-          src="https://mejoria.in/wp-content/uploads/2024/12/ClassicCertificateCareerPathsAvailableAfterCompletingThisCourse-ezgif.com-optijpeg-2048x1536.jpg"
+        <Image
+          src={careerImg}
           alt="Young man with croissants"
         />
       </div>

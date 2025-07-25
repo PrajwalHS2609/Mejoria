@@ -97,6 +97,16 @@ const Menu = () => {
                 <p>HOME BAKER'S CERTIFICATION COURSE</p>
               </div>
             </Link>
+            <Link href={"/lp-baking-courses"}>
+              <div className="dropItems">
+                <p>CAKE CANVAS CERTIFICATE COURSE</p>
+              </div>
+            </Link>
+            <Link href={"/lp-baking-courses"}>
+              <div className="dropItems">
+                <p>CAFÉ KRAFT CERTIFICATE COURSE</p>
+              </div>
+            </Link>
           </div>
         </li>
         <li>
@@ -199,14 +209,20 @@ const Menu = () => {
               <span className="respMenuSpan">
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/eggfree-diploma-course"}>
+                    <Link
+                      onClick={hideSideBar}
+                      href={"/eggfree-diploma-course"}
+                    >
                       EGGFREE DIPLOMA COURSE
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/classic-diploma-course"}>
+                    <Link
+                      onClick={hideSideBar}
+                      href={"/classic-diploma-course"}
+                    >
                       CLASSIC DIPLOMA COURSE
                     </Link>
                   </h4>
@@ -230,14 +246,20 @@ const Menu = () => {
               <span className="respMenuSpan">
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/eggfree-certification-course"}>
+                    <Link
+                      onClick={hideSideBar}
+                      href={"/eggfree-certification-course"}
+                    >
                       EGGFREE CERTIFICATION COURSE
                     </Link>
                   </h4>
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/eggfree-certification-course"}>
+                    <Link
+                      onClick={hideSideBar}
+                      href={"/eggfree-certification-course"}
+                    >
                       CLASSIC CERTIFICATION COURSE
                     </Link>
                   </h4>
@@ -251,8 +273,25 @@ const Menu = () => {
                 </li>
                 <li>
                   <h4>
-                    <Link onClick={hideSideBar} href={"/home-bakers-certificate-course"}>
+                    <Link
+                      onClick={hideSideBar}
+                      href={"/home-bakers-certificate-course"}
+                    >
                       HOME BAKER'S CERTIFICATION COURSE
+                    </Link>
+                  </h4>
+                </li>
+                <li>
+                  <h4>
+                    <Link onClick={hideSideBar} href={"/lp-baking-courses"}>
+                      CAKE CANVAS CERTIFICATE COURSE
+                    </Link>
+                  </h4>
+                </li>
+                <li>
+                  <h4>
+                    <Link onClick={hideSideBar} href={"/lp-baking-courses"}>
+                      CAFÉ KRAFT CERTIFICATE COURSE
                     </Link>
                   </h4>
                 </li>

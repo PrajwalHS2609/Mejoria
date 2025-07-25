@@ -2,6 +2,12 @@ import ClassicDiplomaContent from "../../components/ClassicDiploma/ClassicDiplom
 import ClassicDiplomaHeading from "../../components/ClassicDiploma/ClassicDiplomaHeader";
 import EggFreeDiplomaIntro from './../../components/EggFreeDiploma/EggFreeDiplomaIntro';
 import EggFreeDiplomaFeature from './../../components/EggFreeDiploma/EggFreeDiplomaFeature';
+export const metadata = {
+  title: "",
+  description: "",
+  canonical: "https://mejoria.in",
+  keywords: [""],
+};
 export default function ClassicDiploma() {
   return (
     <div>

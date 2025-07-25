@@ -1,14 +1,13 @@
 import Link from "next/link";
 import React from "react";
 import "./WhoWeAre.css";
+import Image from "next/image";
+import contentImg from "@/Image/whoWeContentImg.png";
 const WhoWeAreContent = () => {
   return (
     <div className="whoWeContent-container">
       <div className="whoWeContent-wrapper">
-        <img
-          src="https://mejoria.in/wp-content/uploads/2024/12/WhowearePage-ezgif.com-optiwebp-1536x1152.webp"
-          alt=""
-        />
+        <Image src={contentImg} alt="contentImg" />
       </div>
       <div className="whoWeContent-wrapper">
         {/* <h2>Who We Are</h2> */}

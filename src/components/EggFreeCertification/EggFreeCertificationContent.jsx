@@ -35,7 +35,7 @@ const EggFreeCertificationContent = () => {
           <span>Certified by City & Guilds, London</span>
         </div>
         <div className="nsdc">
-          <Image src={nsdc} className="" />
+          <Image src={nsdc} className="" alt="nsdc"/>
           <p className="nsdc-desc">
             Food Industry Capacity & Skill Initiative (FICSI) offers skilling
             programs leading to certification, placement, capacity building &

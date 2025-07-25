@@ -4,6 +4,12 @@ import ClassicCertificationContent from "./../../components/ClassicCertification
 import ClassicCertificationCourse from "./../../components/ClassicCertification/ClassicCertificationCourse";
 import ClassicCertificationFromCourse from "./../../components/ClassicCertification/ClassicCertificationFromCourse";
 
+export const metadata = {
+  title: "",
+  description: "",
+  canonical: "https://mejoria.in",
+  keywords: [""],
+};
 export default function ClassicCertification() {
   return (
     <div>
