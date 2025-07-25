@@ -34,7 +34,7 @@ const EggFreeDiplomaFeature = () => {
       <div className="eggFreeFeature-content">
         <div className="module-cards-wrapper">
           {modules.map((item, i) => (
-            <div className="module-card-modern" key={i}>
+            <div className="feature-module-card-modern" key={i}>
               <div className="module-card-img-container">
                 {" "}
                 <Image

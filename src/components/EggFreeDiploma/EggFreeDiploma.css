@@ -364,7 +364,7 @@
   padding: 2rem;
 }
 
-.module-card-modern {
+.feature-module-card-modern {
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
@@ -379,7 +379,7 @@
   border: 2px solid transparent;
 }
 
-.module-card-modern:hover {
+.feature-module-card-modern:hover {
   transform: translateY(-6px);
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
   border-color: var(--customColor1);
@@ -396,7 +396,7 @@
 .module-card-img-container {
   overflow: hidden;
 }
-.module-card-modern:hover .module-image {
+.feature-module-card-modern:hover .module-image {
   transform: scale(1.2);
 }
 .module-title {
