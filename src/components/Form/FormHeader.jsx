@@ -45,12 +45,19 @@ const FormHeader = () => {
         <input type="text" name="name" placeholder="Name" required />
         <input type="email" name="email" placeholder="Email" required />
         <input type="tel" name="phone" placeholder="Phone" required />
+        <input type="number" name="age" placeholder="Your Age" required />
         <select name="course" required>
           <option value="">Select Course</option>
-          <option value="EggFree Certification Course">EggFree Certification Course</option>
-          <option value="Classic Certification Course">Classic Certification Course</option>
+          <option value="EggFree Certification Course">
+            EggFree Certification Course
+          </option>
+          <option value="Classic Certification Course">
+            Classic Certification Course
+          </option>
           <option value="Cake Mastery">Cake Mastery</option>
-          <option value="Home Baker's Certification Course">Home Baker's Certification Course</option>
+          <option value="Home Baker's Certification Course">
+            Home Baker's Certification Course
+          </option>
         </select>
         <button type="submit">Apply</button>
       </form>

@@ -9,7 +9,6 @@
 .horizontal-form {
   display: flex;
   gap: 20px;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -42,6 +41,7 @@
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  width: 200px;
 }
 
 .horizontal-form button:hover {

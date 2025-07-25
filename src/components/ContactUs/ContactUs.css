@@ -47,9 +47,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 3rem 1rem;
+  padding: 3rem 3rem;
   background: linear-gradient(to right, #fff7f4, #fdebe7);
   font-family: "Segoe UI", sans-serif;
+  height: 100%
 }
 
 .callback-form {
@@ -58,7 +59,7 @@
   border-radius: 16px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
   padding: 2.5rem;
-  width: 500px;
+  /* width: 500px; */
   width: 100%;
   text-align: center;
 }

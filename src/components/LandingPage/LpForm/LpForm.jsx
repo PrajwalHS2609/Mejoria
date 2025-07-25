@@ -45,6 +45,7 @@ const LpForm = () => {
         <input type="text" name="name" placeholder="Name" required />
         <input type="email" name="email" placeholder="Email" required />
         <input type="tel" name="phone" placeholder="Phone" required />
+        <input type="number" name="age" placeholder="Your Age" required />
         <select name="course" required>
           <option value="">Select Course</option>
           <option value="CAKE CANVAS CERTIFICATE COURSE">

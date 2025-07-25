@@ -3,6 +3,7 @@ import React from "react";
 import "./ContactUs.css";
 import { FaUser, FaPhone, FaEnvelope, FaCity, FaBook } from "react-icons/fa";
 import Swal from "sweetalert2"; // Make sure you have this installed
+import { MdCalendarMonth } from "react-icons/md";
 
 const ContactUsForm = () => {
   const onSubmit = async (event) => {
@@ -71,6 +72,15 @@ const ContactUsForm = () => {
           <div className="form-group">
             <FaCity className="icon" />
             <input type="text" name="city" placeholder="City" />
+          </div>
+          <div className="form-group">
+            <MdCalendarMonth className="icon" />
+            <input
+              type="number"
+              name="age"
+              placeholder="Your Age"
+              required
+            />
           </div>
           <div className="form-group">
             <FaBook className="icon" />
