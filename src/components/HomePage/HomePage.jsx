@@ -6,6 +6,7 @@ import OurSalon from "./OurSalon/OurSalon";
 import Partners from "./FromCourse/FromCourse";
 import ServiceWhy from "./../MainServicePages/ServiceWhy/ServiceWhy";
 import TextLocReviews from "./../TextLocReviews/TextLocReviews";
+import HomePageContent from "./HomePageContent/HomePageContent";
 const InstaFeed = React.lazy(() => import("./InstaFeed/InstaFeed"));
 
 const HomePage = () => {

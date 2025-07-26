@@ -8,6 +8,7 @@ import Nurture from "./../components/HomePage/Nurture/Nurture";
 import Faculty from "./../components/HomePage/Faculty/Faculty";
 import FormHeader from "./../components/Form/FormHeader";
 import Testimonial from "./../components/HomePage/Testimonial/Testimonial";
+import HomePageContent from "./../components/HomePage/HomePageContent/HomePageContent";
 
 export const metadata = {
   title:
@@ -35,6 +36,7 @@ export default function Home() {
       <ServiceWhy />
       <Testimonial />
       <TextLocReviews />
+      <HomePageContent />
     </div>
   );
 }
