@@ -2,16 +2,17 @@
 import React from "react";
 import "./ContactUs.css";
 import { FaUser, FaPhone, FaEnvelope, FaCity, FaBook } from "react-icons/fa";
-import Swal from "sweetalert2"; // Make sure you have this installed
 import { MdCalendarMonth } from "react-icons/md";
+import Swal from "sweetalert2";
+import { useRouter } from "next/navigation"; // <-- Import useRouter
 
 const ContactUsForm = () => {
+  const router = useRouter(); // <-- Initialize router
+
   const onSubmit = async (event) => {
     event.preventDefault();
     const form = event.target;
     const formData = new FormData(form);
-
-    // REQUIRED: access_key for Web3Forms
     formData.append("access_key", "d27b415e-86ae-47a8-bc5f-24e2b5d5eee2");
 
     const object = Object.fromEntries(formData.entries());
@@ -31,8 +32,11 @@ const ContactUsForm = () => {
         title: "Success!",
         text: "Mail Sent successfully",
         icon: "success",
+        confirmButtonText: "OK",
+      }).then(() => {
+        router.push("/thank-you"); // <-- Redirect after confirmation
       });
-      form.reset(); // Clear form on success
+      form.reset();
     } else {
       Swal.fire({
         title: "Error!",
@@ -75,12 +79,7 @@ const ContactUsForm = () => {
           </div>
           <div className="form-group">
             <MdCalendarMonth className="icon" />
-            <input
-              type="number"
-              name="age"
-              placeholder="Your Age"
-              required
-            />
+            <input type="number" name="age" placeholder="Your Age" required />
           </div>
           <div className="form-group">
             <FaBook className="icon" />

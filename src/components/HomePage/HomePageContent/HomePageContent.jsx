@@ -43,7 +43,7 @@ const HomePageContent = () => {
           experience to the table. The{" "}
           <a href="https://mejoria.in/classic-cake-diploma-baking-course">
             baking lessons in Kolkata by Mejoria
-          </a>
+          </a>{" "}
           include a wide variety of baking techniques and recipes, starting from
           the fundamentals and progressing to advanced baking styles. This
           ensures that you build a strong foundation before moving on to complex
@@ -154,6 +154,9 @@ const HomePageContent = () => {
             </p>
           </>
         )}
+        <button onClick={toggleReadMore} className="read-more-btn">
+          {showMore ? "Read Less" : "Read More"}
+        </button>
       </div>
     </div>
   );

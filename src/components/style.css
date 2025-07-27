@@ -1,0 +1,87 @@
+.content-container {
+  /* border: solid; */
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.8;
+  background-color: #fff;
+  box-shadow: 0 0 5px 10xpx pink;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Title */
+.content-section h1 {
+  font-size: 2rem;
+  color: var(--customColor1);
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Unified paragraph style for all content */
+.content-container {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+  padding: 1rem 1.5rem;
+  border-left: 4px solid var(--customColor1);
+  background-color: white;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+/* Links inside paragraphs */
+.content-container a {
+  color: var(--customColor1);
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.content-container a:hover {
+  color: black;
+}
+
+/* Read More Button */
+.read-more-btn {
+  display: block;
+  margin: 2rem auto 0 auto;
+  padding: 12px 28px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: var(--customColor1);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(247, 108, 108, 0.3);
+}
+
+.read-more-btn:hover {
+  background-color: black;
+  transform: translateY(-2px);
+}
+
+/* Optional: hide extra content until expanded */
+.content-section-read.collapsed p:nth-of-type(n + 2) {
+  display: none;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .content-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .read-more-btn {
+    font-size: 0.9rem;
+    padding: 10px 20px;
+  }
+
+  .content-container p {
+    font-size: 0.95rem;
+    padding: 0.8rem 1.2rem;
+  }
+}

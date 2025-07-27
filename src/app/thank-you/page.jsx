@@ -1,5 +1,9 @@
-export default function ThankYou(){
+
+import ThankYou from './../../components/ThankYou/ThankYou';
+export default function ThankYouPage(){
     return(
-        <div></div>
+        <div>
+            <ThankYou/>
+        </div>
     )
 }

@@ -26,8 +26,11 @@ const LpForm = () => {
     if (res.success) {
       Swal.fire({
         title: "Success!",
-        text: "Your application has been submitted successfully!",
+        text: "Mail Sent successfully",
         icon: "success",
+        confirmButtonText: "OK",
+      }).then(() => {
+        router.push("/thank-you"); // <-- Redirect after confirmation
       });
       form.reset();
     } else {

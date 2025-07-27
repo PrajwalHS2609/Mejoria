@@ -1,8 +1,125 @@
-.thankYou-container{
-    border: solid red;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Nunito:wght@400;600&display=swap');
+
+.thankYou-container {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ffe3e3, #fff0f5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+/* Glowing sparkles background */
+.thankYou-glow::before,
+.thankYou-glow::after {
+  content: '';
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, #ffc3a0, #ffb6b9, transparent);
+  border-radius: 50%;
+  z-index: 0;
+  filter: blur(100px);
+}
+
+.thankYou-glow::before {
+  top: -100px;
+  left: -100px;
+}
+
+.thankYou-glow::after {
+  bottom: -100px;
+  right: -100px;
+}
+
+.thankYou-card {
+  background: #fff5f8;
+  border-radius: 24px;
+  padding: 3rem 2.5rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(255, 182, 193, 0.3);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  animation: popIn 0.6s ease;
+  border: 4px dashed #ffc0cb;
+}
+
+.thankYou-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  animation: bounce 1.5s infinite;
+}
+
+.thankYou-card h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  color: #d6336c;
+  margin-bottom: 1rem;
+}
+
+.thankYou-card p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.thankYou-button {
+  background-color: #ff6b81;
+  color: #fff;
+  padding: 0.9rem 2rem;
+  border-radius: 50px;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 20px rgba(255, 107, 129, 0.4);
+}
+
+.thankYou-button:hover {
+  background-color: #ff3e57;
+  transform: translateY(-2px);
+}
+
+/* Animations */
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .thankYou-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .thankYou-card h1 {
+    font-size: 2rem;
+  }
+
+  .thankYou-button {
+    font-size: 0.95rem;
+    padding: 0.7rem 1.5rem;
+  }
 }
