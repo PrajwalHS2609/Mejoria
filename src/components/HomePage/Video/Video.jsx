@@ -20,7 +20,7 @@ const Video = () => {
         </div>
         <div className="vidHeader-cover">
           <h2>
-            Eastern India's Only <br /> Baking School
+            Eastern India's Only <br /> Baking School In Kolkata
           </h2>
         </div>
       </div>

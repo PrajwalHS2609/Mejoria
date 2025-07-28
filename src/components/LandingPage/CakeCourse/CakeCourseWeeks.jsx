@@ -14,7 +14,7 @@ const CakeCourseWeeks = () => {
 
       topics: [
         {
-          heading: "Day 1 – INTRODUCTION TO EQUIPMENT &INGREDIENTS",
+          heading: "Day 1 – INTRODUCTION TO EQUIPMENT & INGREDIENTS",
           content:
             "Understanding the science behind eggless baking, common replacements, and kitchen essentials.",
           learnings: [

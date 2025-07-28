@@ -3,7 +3,7 @@ import "./CafeCourse.css";
 import { FaClock } from "react-icons/fa6";
 import { FaBirthdayCake } from "react-icons/fa";
 import { FaCalendarDays } from "react-icons/fa6";
-import cafeCourseOverviewImg from "@/Image/Img/12.jpg"
+import cafeCourseOverviewImg from "@/Image/Img/12.jpg";
 import Image from "next/image";
 const CafeCourseOverview = () => {
   return (
@@ -45,16 +45,13 @@ const CafeCourseOverview = () => {
           <p>
             All our desserts are <br />
             <span className="highlight">Egg-free</span>,
-            <span className="highlight">Gelatin-free</span>, and
+            <span className="highlight">Gelatin-free</span>, and{" "}
             <span className="highlight">100% Vegetarian 🌿</span>
           </p>
         </div>
       </div>
       <div className="cafeCourseOverview-content">
-        <Image
-          src={cafeCourseOverviewImg}
-          alt="cafe Course Overview Img"
-        />
+        <Image src={cafeCourseOverviewImg} alt="cafe Course Overview Img" />
       </div>
     </div>
   );

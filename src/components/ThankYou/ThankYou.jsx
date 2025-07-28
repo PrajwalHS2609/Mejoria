@@ -1,5 +1,5 @@
-import React from 'react';
-import './ThankYou.css';
+import React from "react";
+import "./ThankYou.css";
 
 const ThankYou = () => {
   return (
@@ -10,10 +10,13 @@ const ThankYou = () => {
         <div className="thankYou-icon">🍰</div>
         <h1>Thank You</h1>
         <p>
-          You’ve officially taken your first step into the magical world of baking.
-          Our cake-making journey will be as delightful as a fresh slice of strawberry shortcake!
+          Your form has been successfully submitted. Our team at Mejoria
+          International School of Pastries will get in touch with you shortly.
+          We look forward to welcoming you into our world of pastry excellence!
         </p>
-        <a href="/" className="thankYou-button">Back to Home</a>
+        <a href="/" className="thankYou-button">
+          Back to Home
+        </a>
       </div>
     </div>
   );

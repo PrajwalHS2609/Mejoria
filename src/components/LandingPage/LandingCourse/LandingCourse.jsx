@@ -39,13 +39,15 @@ const LandingCourse = () => {
         <div className="landingCourse-content">
           <Image src={cakeCourseImg} alt="lpImg1" />
           <button onClick={() => handleTabClick("cake")}>
-            <h5> CAKE CANVAS CERTIFICATE COURSE</h5>
+            <b> CAKE CANVAS CERTIFICATE COURSE</b>
+            <p>Course Details</p>
           </button>
         </div>
         <div className="landingCourse-content">
           <Image src={cafeCourseImg} alt="lpImg1" />
           <button onClick={() => handleTabClick("cafe")}>
-            <h5> CAFÉ KRAFT CERTIFICATE COURSE</h5>
+            <b> CAFÉ KRAFT CERTIFICATE COURSE</b>
+            <p>Course Details</p>
           </button>
         </div>
       </div>

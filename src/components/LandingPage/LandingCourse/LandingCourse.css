@@ -41,10 +41,17 @@
 .landingCourse-content > button {
   background-color: black;
   border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.landingCourse-content > button > h5 {
+.landingCourse-content > button > b {
   color: var(--customColor1);
-  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.landingCourse-content > button > p {
+  color: var(--customColor1);
 }
 .landingCourse-display {
   width: 100%;
