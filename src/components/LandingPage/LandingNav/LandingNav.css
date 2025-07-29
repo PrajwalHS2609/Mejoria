@@ -102,6 +102,9 @@
   color: var(--lpColor2);
   font-weight: 500;
   transition: color 0.3s;
+  &:hover {
+    color: var(--customColor1);
+  }
 }
 
 /* .lpMenu-sidebar-links li a:hover,
