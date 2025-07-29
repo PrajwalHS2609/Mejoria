@@ -6,6 +6,7 @@ import { FaXmark } from "react-icons/fa6";
 import logo from "@/Image/logo.png";
 import "./LandingNav.css";
 import { FaWhatsapp } from "react-icons/fa";
+import Link from "next/link";
 
 const LandingNav = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -23,7 +24,10 @@ const LandingNav = () => {
       {/* DESKTOP NAVBAR */}
       <div className="landing-navBarContainer">
         <div className="landing-navBarContent logo">
-          <Image src={logo} alt="logo" />
+          <Link href="/">
+            {" "}
+            <Image src={logo} alt="logo" />
+          </Link>
         </div>
         <div className="landing-navBarContent nav-links">
           <ul>
