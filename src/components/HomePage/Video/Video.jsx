@@ -6,16 +6,16 @@ const Video = () => {
   return (
     <div className="vidContainer" id="home">
       <div className="vid-wrapper">
-        <div className="vid-content">
+        <div className="vid-content" id="vid-content1">
           <video className="" src="/videos/vid1.mp4" autoPlay loop muted />
         </div>
-        <div className="vid-content">
+        <div className="vid-content" id="vid-content1">
           <video className="" src="/videos/vid2.mp4" autoPlay loop muted />
         </div>
-        <div className="vid-content">
+        <div className="vid-content" id="vid-content2">
           <video className="" src="/videos/vid3.mp4" autoPlay loop muted />
         </div>
-        <div className="vid-content">
+        <div className="vid-content" id="vid-content1">
           <video className="" src="/videos/vid4.mp4" autoPlay loop muted />
         </div>
         <div className="vidHeader-cover">

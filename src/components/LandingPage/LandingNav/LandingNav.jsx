@@ -5,7 +5,7 @@ import { FaBars } from "react-icons/fa";
 import { FaXmark } from "react-icons/fa6";
 import logo from "@/Image/logo.png";
 import "./LandingNav.css";
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 const LandingNav = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -73,8 +73,9 @@ const LandingNav = () => {
               </a>
             </li>
             <li className="contact-link">
-              <a href="tel:8777575992">
-                <FaPhoneAlt className="contact-ico" /> +91 87775 75992
+              <a href="https://wa.me/918777575992">
+                <FaWhatsapp className="contact-ico" />{" "}
+                <span>Drop a Message</span>
               </a>
             </li>
           </ul>
@@ -137,7 +138,8 @@ const LandingNav = () => {
           </li>
           <li className="contact-link">
             <a href="tel:8777575992">
-              <FaPhoneAlt className="contact-ico" /> +91 87775 75992
+              <FaWhatsapp className="contact-ico" />{" "}
+              <span>Drop a Message</span>
             </a>
           </li>
         </ul>

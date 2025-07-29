@@ -1,0 +1,175 @@
+.cafe-kraft-container {
+  width: 100%;
+  height: 600px;
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  font-family: "Segoe UI", sans-serif;
+}
+.cafe-image {
+  width: 50%;
+}
+.cafe-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0 0;
+}
+
+.cafe-content {
+  padding: 30px;
+  width: 50%;
+  flex: 1 1 500px;
+  background: linear-gradient(to right, #fffaf9, #ffe6e1);
+}
+
+.launch-tag {
+  font-weight: bold;
+  color: #111;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+.course-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #000;
+}
+
+.pink-text {
+  color: #f48ca0;
+}
+
+.dream-tag {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #111;
+}
+
+.course-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.info-box {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.info-head {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.info-box p {
+  font-weight: 600;
+  margin: 2px 0;
+  color: #f48ca0;
+}
+
+/* Special styles for offer and price box */
+.strike {
+  text-decoration: line-through;
+  color: #999;
+  font-weight: 500;
+}
+
+.offer-percent {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d43c69;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #f45c8a;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.price {
+  font-size: 18px;
+  color: #f45c8a;
+  font-weight: bold;
+}
+
+.module-list {
+  margin-top: 30px;
+  font-size: 14px;
+  color: var(--customColor1);
+  font-weight: 500;
+  line-height: 1.6;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.footer-contact {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+.module-list>span::after{
+    content: " | ";
+}
+@media screen and (max-width: 768px) {
+  .cafe-kraft-container {
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+  }
+  .cafe-image {
+  width: 100%;
+}
+.cafe-content {
+  padding:20px;
+  width: 100%;
+
+}
+.module-list {
+flex-direction: column;
+}
+.module-list>span::after{
+    content: " ";
+}
+}

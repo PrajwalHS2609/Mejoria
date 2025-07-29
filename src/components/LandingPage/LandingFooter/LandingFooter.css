@@ -12,6 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 30px;
   color: var(--customColor1);
   padding: 10px;
@@ -26,4 +27,13 @@
 .landingFooter-Icon{
     font-size: 30px;
     color: var(--customColor1);
+}
+@media screen and (max-width:768px) {
+  .landingFooter-content:nth-child(1){
+    width: 60%;
+  }
+  .landingFooter-content {
+  /* border: solid blue; */
+  width: 40%;
+}
 }

@@ -57,4 +57,7 @@
   .horizontal-form select {
     flex: 1 1 100%;
   }
+  .horizontal-form button {
+  width: 100%;
+  }
 }

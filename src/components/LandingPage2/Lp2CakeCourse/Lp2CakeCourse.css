@@ -1,0 +1,223 @@
+/* Background wrapper */
+.cakeCourseLp-wrapper {
+  background: linear-gradient(to right, #fffaf9, #ffe6e1);
+}
+
+/* Container setup */
+.cakeCourseLp-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.cake-banner-container {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 2rem;
+  border-radius: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Image container */
+.cake-images {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.cake-img1Content {
+  width: 300px;
+  height: 500px;
+}
+
+.cake-img2Content {
+  width: 400px;
+  height: 220px;
+}
+
+.cake-imagesWrapper1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 500px;
+}
+
+.cake-imagesWrapper2 {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 0px;
+}
+
+.cake-img3Content {
+  height: 100%;
+  width: 48%;
+}
+
+.cake-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Content styles */
+.cake-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  border-radius: 20px;
+  background-color: #fff7f5;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  font-family: "Inter", sans-serif;
+  width: 100%;
+}
+
+/* Heading section */
+.cake-heading-box {
+  text-align: center;
+}
+
+.main-title {
+  font-size: 3.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #541212;
+  letter-spacing: 2px;
+  margin-bottom: 0.3rem;
+  font-family: "Playfair Display", serif;
+}
+
+.sub-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #9c3030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.badge {
+  background-color: #e84a5f;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Price section */
+.price {
+  /* border-top: solid 2px black;
+    border-bottom: solid 2px black; */
+
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 1.2rem;
+}
+
+.discounted-price {
+  color: #e63946;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+/* Features list */
+.cake-features {
+  padding: 1rem 1.5rem;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cake-features ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+.cake-features li {
+  background: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.cake-features li:hover {
+  transform: translateY(-3px);
+  background: #fff0ec;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .cake-banner-container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .cake-images {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .cake-img1Content {
+    width: 100%;
+    height: auto;
+  }
+
+  .cake-img2Content,
+  .cake-imagesWrapper2 {
+    width: 100%;
+  }
+
+  .cake-content {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .main-title {
+    font-size: 2.4rem;
+  }
+
+  .sub-title {
+    font-size: 1.3rem;
+  }
+
+  .discounted-price {
+    font-size: 1.8rem;
+  }
+
+  .cake-features li {
+    font-size: 1rem;
+  }
+}

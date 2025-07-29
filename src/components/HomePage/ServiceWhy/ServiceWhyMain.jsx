@@ -73,7 +73,7 @@ const ServiceWhyMain = () => {
                 {x.icon}
                 {/* <Image src={} alt=""/> */}
               </div>
-              <h3 className="course-title">{x.title}</h3>
+              <h3 className="from-course-title">{x.title}</h3>
               <p className="course-desc">{x.desp}</p>
               {/* <button className="learn-btn">Learn More</button> */}
             </div>

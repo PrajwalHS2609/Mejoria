@@ -1,14 +1,19 @@
 "use client";
-import React, { useState, useRef } from "react";
-import "./LandingCourse.css";
-import CakeCourse from "../CakeCourse/CakeCourse";
-import CafeCourse from "../CafeCourse/CafeCourse";
-import cakeCourseImg from "@/Image/Img/19.jpg";
-import cafeCourseImg from "@/Image/cafe craft/Opening picture.jpg";
 
+import React, { useState, useRef } from "react";
+import "./LandingCourse2.css";
+
+import cakeCourseImg from "@/Image/cakeLp/5.jpg";
+import cafeCourseImg from "@/Image/cafe craft/Opening picture.jpg";
 import Image from "next/image";
 import Partners from "@/components/HomePage/FromCourse/FromCourse";
-const LandingCourse = () => {
+import Lp2CafeCourse from "./Lp2CafeCourse/Lp2CafeCourse";
+import Lp2CakeCourse from "./Lp2CakeCourse/Lp2CakeCourse";
+import Faculty from "../HomePage/Faculty/Faculty";
+import Testimonial from "../HomePage/Testimonial/Testimonial";
+import ServiceWhy from "../HomePage/ServiceWhy/ServiceWhy";
+import TextLocReviews from "../HomePage/TextLocReviews/TextLocReviews";
+const LandingCourse2 = () => {
   const [activeTab, setActiveTab] = useState("cake");
   const courseRef = useRef(null);
 
@@ -23,17 +28,16 @@ const LandingCourse = () => {
   const renderContent = () => {
     switch (activeTab) {
       case "cake":
-        return <CakeCourse />;
+        return <Lp2CakeCourse />;
       case "cafe":
-        return <CafeCourse />;
+        return <Lp2CafeCourse />;
       default:
         return null;
     }
   };
-
   return (
-    <div className="landingCourse-container"  id="course">
-      <h2>Certification Courses</h2>
+    <div className="landingCourse-container" id="course">
+      <h2>Baking Certification Courses</h2>
 
       <div className="landingCourse-wrapper">
         <div className="landingCourse-content">
@@ -55,8 +59,12 @@ const LandingCourse = () => {
       <span ref={courseRef}></span>
       {/* SCROLL TARGET */}
       <div className="landingCourse-display">{renderContent()}</div>
+      <Faculty />
+      <Testimonial />
+      <ServiceWhy/>
+      <TextLocReviews />
     </div>
   );
 };
 
-export default LandingCourse;
+export default LandingCourse2;

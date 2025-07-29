@@ -48,9 +48,10 @@
 .testimonial-icons {
   display: flex;
   gap: 20px;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  padding: 10px 0;
+  padding: 10px ;
+  overflow-X: scroll;
 }
 
 .testimonial-item {
@@ -101,7 +102,14 @@
 .testimonial-item.active p {
   color: #222;
 }
-
+.testimonial-container > h2 {
+  font-size: 30px;
+  text-align: center;
+}
+.testimonial-container > h2 > span {
+  color: var(--customColor1);
+  font-size: 40px;
+}
 @media screen and (max-width: 768px) {
   .testimonial-vidWrapper > iframe {
     height: 250px;
@@ -119,5 +127,12 @@
   }
   .testimonial-item p {
     font-size: 12px;
+  }
+  .testimonial-container > h2 {
+    font-size: 30px;
+  }
+  .testimonial-container > h2 > span {
+    color: var(--customColor1);
+    font-size: 30px;
   }
 }
