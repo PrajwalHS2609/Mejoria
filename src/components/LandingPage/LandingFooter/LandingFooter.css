@@ -30,7 +30,7 @@
 }
 @media screen and (max-width: 768px) {
   .landingFooter-container {
-  flex-direction: column;
+  flex-direction: column-reverse;
   width: 100%;
   }
   .landingFooter-content:nth-child(1) {
