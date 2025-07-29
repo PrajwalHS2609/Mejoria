@@ -37,6 +37,9 @@
   justify-content: center;
   align-items: center;
   height: 100%;
+  &:hover {
+    color: var(--customColor1);
+  }
 }
 
 /* .landing-navBarContent.nav-links ul li a:hover,
@@ -119,7 +122,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   background-color: #25d366;
 }
-.contact-link > a>span{
+.contact-link > a > span {
   color: white;
 }
 /* .contact-link a:hover {

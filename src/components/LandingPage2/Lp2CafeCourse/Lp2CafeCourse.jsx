@@ -4,7 +4,7 @@ import cafeImg from "@/Image/cafe craft/Small Bites 3.jpg";
 import Image from "next/image";
 const Lp2CafeCourse = () => {
   return (
-    <div className="cafe-kraft-container">
+    <div className="cafe-kraft-container" id="cafecourse">
       <div className="cafe-image">
         <Image src={cafeImg} alt="Cafe Kraft Certificate Course" />
       </div>

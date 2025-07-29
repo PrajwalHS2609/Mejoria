@@ -1,6 +1,7 @@
 /* Background wrapper */
 .cakeCourseLp-wrapper {
   background: linear-gradient(to right, #fffaf9, #ffe6e1);
+  width: 100%;
 }
 
 /* Container setup */

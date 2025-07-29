@@ -15,26 +15,31 @@ import ServiceWhy from "../HomePage/ServiceWhy/ServiceWhy";
 import TextLocReviews from "../HomePage/TextLocReviews/TextLocReviews";
 const LandingCourse2 = () => {
   const [activeTab, setActiveTab] = useState("cake");
-  const courseRef = useRef(null);
+  const courseRef1 = useRef(null);
+  const courseRef2 = useRef(null);
 
   const handleTabClick = (tabName) => {
     setActiveTab(tabName);
     // Scroll to the content section
     setTimeout(() => {
-      courseRef.current?.scrollIntoView({ behavior: "smooth" });
-    }, 50); // Short delay ensures content is rendered before scroll
+      courseRef1.current?.scrollIntoView({ behavior: "smooth" });
+    }, 50);
+
+    setTimeout(() => {
+      courseRef2.current?.scrollIntoView({ behavior: "smooth" });
+    }, 50);
   };
 
-  const renderContent = () => {
-    switch (activeTab) {
-      case "cake":
-        return <Lp2CakeCourse />;
-      case "cafe":
-        return <Lp2CafeCourse />;
-      default:
-        return null;
-    }
-  };
+  // const renderContent = () => {
+  //   switch (activeTab) {
+  //     case "cake":
+  //       return <Lp2CakeCourse />;
+  //     case "cafe":
+  //       return <Lp2CafeCourse />;
+  //     default:
+  //       return null;
+  //   }
+  // };
   return (
     <div className="landingCourse-container" id="course">
       <h2>Baking Certification Courses</h2>
@@ -43,25 +48,32 @@ const LandingCourse2 = () => {
         <div className="landingCourse-content">
           <Image src={cakeCourseImg} alt="lpImg1" />
           <button onClick={() => handleTabClick("cake")}>
-            <b> CAKE CANVAS CERTIFICATE COURSE</b>
-            <p>Course Details</p>
+            <a href="#cakecourse">
+              <b> CAKE CANVAS CERTIFICATE COURSE</b>
+              <p>Course Details</p>
+            </a>
           </button>
         </div>
         <div className="landingCourse-content">
           <Image src={cafeCourseImg} alt="lpImg1" />
           <button onClick={() => handleTabClick("cafe")}>
-            <b> CAFÉ KRAFT CERTIFICATE COURSE</b>
-            <p>Course Details</p>
+            <a href="#cafecourse">
+              {" "}
+              <b> CAFÉ KRAFT CERTIFICATE COURSE</b>
+              <p>Course Details</p>
+            </a>
           </button>
         </div>
       </div>
       <Partners />
-      <span ref={courseRef}></span>
+      <span></span>
       {/* SCROLL TARGET */}
-      <div className="landingCourse-display">{renderContent()}</div>
+      {/* <div className="landingCourse-display">{renderContent()}</div> */}
+      <Lp2CakeCourse />
+      <Lp2CafeCourse />
       <Faculty />
       <Testimonial />
-      <ServiceWhy/>
+      <ServiceWhy />
       <TextLocReviews />
     </div>
   );
