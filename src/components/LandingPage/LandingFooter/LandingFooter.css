@@ -24,16 +24,20 @@
   justify-content: center;
   align-items: center;
 }
-.landingFooter-Icon{
-    font-size: 30px;
-    color: var(--customColor1);
+.landingFooter-Icon {
+  font-size: 30px;
+  color: var(--customColor1);
 }
-@media screen and (max-width:768px) {
-  .landingFooter-content:nth-child(1){
-    width: 60%;
+@media screen and (max-width: 768px) {
+  .landingFooter-container {
+  flex-direction: column;
+  width: 100%;
+  }
+  .landingFooter-content:nth-child(1) {
+    width: 100%;
   }
   .landingFooter-content {
-  /* border: solid blue; */
-  width: 40%;
-}
+    /* border: solid blue; */
+    width: 100%;
+  }
 }
