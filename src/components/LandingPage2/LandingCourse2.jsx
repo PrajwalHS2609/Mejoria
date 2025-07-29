@@ -47,31 +47,39 @@ const LandingCourse2 = () => {
       <div className="landingCourse-wrapper">
         <div className="landingCourse-content">
           <Image src={cakeCourseImg} alt="lpImg1" />
-          <button onClick={() => handleTabClick("cake")}>
-            <a href="#cakecourse">
-              <b> CAKE CANVAS CERTIFICATE COURSE</b>
-              <p>Course Details</p>
-            </a>
-          </button>
+
+          <a href="#cakecourse" className="course-btn">
+            <b>CAKE CANVAS CERTIFICATE COURSE</b>
+          </a>
+
+          <a href="#cakecourse" className="click-btn">
+            Course Details
+          </a>
         </div>
+
         <div className="landingCourse-content">
-          <Image src={cafeCourseImg} alt="lpImg1" />
-          <button onClick={() => handleTabClick("cafe")}>
-            <a href="#cafecourse">
-              {" "}
-              <b> CAFÉ KRAFT CERTIFICATE COURSE</b>
-              <p>Course Details</p>
-            </a>
-          </button>
+          <Image src={cafeCourseImg} alt="lpImg2" />
+
+          <a href="#cafecourse" className="course-btn">
+            <b>CAFÉ KRAFT CERTIFICATE COURSE</b>
+          </a>
+
+          <a href="#cafecourse" className="click-btn">
+            Course Details
+          </a>
         </div>
       </div>
+      <span id="affiliate"></span>
       <Partners />
-      <span></span>
+      <span id="cakecourse"></span>
       {/* SCROLL TARGET */}
       {/* <div className="landingCourse-display">{renderContent()}</div> */}
       <Lp2CakeCourse />
+      <span id="cafecourse"></span>
       <Lp2CafeCourse />
+      <span id="chef"></span>
       <Faculty />
+      <span id="testimonial"></span>
       <Testimonial />
       <ServiceWhy />
       <TextLocReviews />

@@ -17,7 +17,7 @@
   /* border: solid green; */
   border-radius: 20px;
   overflow: hidden;
-  height: 500px;
+  height: 100%;
   width: 500px;
   display: flex;
   justify-content: space-between;
@@ -59,6 +59,37 @@
 .landingCourse-display {
   width: 100%;
 }
+.course-btn {
+  background-color: black;
+  border-radius: 8px;
+  padding: 12px 16px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--customColor1);
+  width: 90%;
+  margin: 10px 0;
+  transition: background-color 0.3s;
+}
+
+.click-btn {
+  background-color: var(--customColor1);
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+    border: 2px solid transparent;
+
+}
+
+.click-btn:hover {
+  border: 2px solid var(--customColor1);
+  background-color: black;
+  color: white;
+
+}
 @media screen and (max-width: 768px) {
   .landingCourse-container {
     /* border: solid red; */
@@ -71,7 +102,7 @@
   .landingCourse-content {
     /* border: solid green; */
 
-    height: 320px;
+    height: 100%;
     width: 300px;
     margin: 10px;
   }

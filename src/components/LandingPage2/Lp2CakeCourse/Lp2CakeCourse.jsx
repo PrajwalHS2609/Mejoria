@@ -8,7 +8,7 @@ import "./Lp2CakeCourse.css";
 
 const Lp2CakeCourse = () => {
   return (
-    <div className="cakeCourseLp-wrapper" id="cakecourse">
+    <div className="cakeCourseLp-wrapper" >
       <div className="cake-banner-container">
         <div className="cake-images">
           <div className="cake-img1Content">

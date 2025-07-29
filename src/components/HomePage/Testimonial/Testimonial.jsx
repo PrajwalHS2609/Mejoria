@@ -18,7 +18,7 @@ const Testimonial = () => {
   const [activeVideo, setActiveVideo] = useState("Video1");
 
   return (
-    <div className="testimonial-container" id="testimonial">
+    <div className="testimonial-container" >
       <h2>
         <span>Success Speaks</span> Louder Than Promises
       </h2>

@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const Lp2CafeCourse = () => {
   return (
-    <div className="cakeCourseLp-wrapper" id="cafecourse">
+    <div className="cakeCourseLp-wrapper" >
       <div className="cake-banner-container">
         <div className="cake-images">
           <div className="cake-img1Content">

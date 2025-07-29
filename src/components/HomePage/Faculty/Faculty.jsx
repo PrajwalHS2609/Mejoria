@@ -5,7 +5,7 @@ import Image from "next/image";
 import chef from "@/Image/chef1.png"
 const Faculty = () => {
   return (
-    <div className="chef-section" id="chef">
+    <div className="chef-section" >
       <div className="chef-image">
         <Image
           src={chef}

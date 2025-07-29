@@ -6,7 +6,7 @@ import nsdc from "@/Image/nsdc.jpeg"
 import cityGuild from "@/Image/cityGuilds.png"
 const FromCourse = () => {
   return (
-    <div className="partner-section" id="affiliate">
+    <div className="partner-section" >
       <div className="partner-container">
         <div className="partner-left">
           <div className="logos">
