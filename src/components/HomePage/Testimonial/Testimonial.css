@@ -131,8 +131,4 @@
   .testimonial-container > h2 {
     font-size: 30px;
   }
-  .testimonial-container > h2 > span {
-    color: var(--customColor1);
-    font-size: 30px;
-  }
 }
