@@ -85,9 +85,10 @@
   text-decoration: underline;
 }
 .footerContent2 {
+  /* border: solid red; */
   border-top: 2px solid white;
   height: 80px;
-  width: 90%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,14 +107,15 @@
   width: 450px;
   height: 90px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   gap: 20px;
 }
+
 .footerCopy1 {
   /* border: solid blue; */
   height: 100%;
-  width: 50%;
+  width: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,9 +160,11 @@
 }
 .socialBlocks {
   /* border: solid white; */
-  height: 73%;
+  height: 100%;
   width: 200px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .innerSocialBlocks {
   /* border: solid red; */

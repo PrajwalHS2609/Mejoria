@@ -141,23 +141,28 @@ const Footer = () => {
                   <FaFacebook className="footerIcon" />
                 </a>
               </div>
-            </div>
-            <div className="innerSocialBlocks">
               <div className="block">
                 <a href="https://www.youtube.com/@MejoriA">
                   <FaYoutube className="footerIcon" />
                 </a>
               </div>
+            </div>
+            {/* <div className="innerSocialBlocks">
               <div className="block">
                 <a href="https://in.pinterest.com/">
                   <FaPinterest className="footerIcon" />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
       <div className="footerContent2">
+        <div className="footerCopy">
+          <div className="footerCopy1">
+            <p> Managed By Genesis Creative House</p>
+          </div>
+        </div>
         <div className="footerCopy">
           <div className="footerCopy1">
             <p>Mejoria©Copyright 2025</p>

@@ -7,6 +7,9 @@ import { FaPinterest } from "react-icons/fa";
 const LandingFooter = () => {
   return (
     <div className="landingFooter-container">
+      <div className="landingFooter-content">
+        Managed By Genesis Creative House
+      </div>
       <div className="landingFooter-content">Mejoria©Copyright 2025</div>
       <div className="landingFooter-content">
         <div className="landingFooter-item">
@@ -24,11 +27,11 @@ const LandingFooter = () => {
             <FaYoutube className="landingFooter-Icon" />
           </a>
         </div>
-        <div className="landingFooter-item">
+        {/* <div className="landingFooter-item">
           <a href="https://in.pinterest.com/">
             <FaPinterest className="landingFooter-Icon" />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

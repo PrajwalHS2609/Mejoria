@@ -38,20 +38,20 @@ const LandingNav = () => {
             </li>
             <li>
               <a
-                href="#affiliate"
-                className={activeSection === "affiliate" ? "active-link" : ""}
-                onClick={() => handleSectionClick("affiliate")}
-              >
-                Affiliate
-              </a>
-            </li>
-            <li>
-              <a
                 href="#course"
                 className={activeSection === "course" ? "active-link" : ""}
                 onClick={() => handleSectionClick("course")}
               >
                 Course
+              </a>
+            </li>
+            <li>
+              <a
+                href="#affiliate"
+                className={activeSection === "affiliate" ? "active-link" : ""}
+                onClick={() => handleSectionClick("affiliate")}
+              >
+                Affiliate
               </a>
             </li>
             <li>
@@ -138,8 +138,7 @@ const LandingNav = () => {
           </li>
           <li className="contact-link">
             <a href="tel:8777575992">
-              <FaWhatsapp className="contact-ico" />{" "}
-              <span>Drop a Message</span>
+              <FaWhatsapp className="contact-ico" /> <span>Drop a Message</span>
             </a>
           </li>
         </ul>

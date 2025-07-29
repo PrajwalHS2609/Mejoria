@@ -1,56 +1,57 @@
 import React from "react";
 import "./Lp2CafeCourse.css";
-import cafeImg from "@/Image/cafe craft/Small Bites 3.jpg";
+import cafeImg1 from "@/Image/cafe craft/Small Bites 3.jpg";
+import cafeImg2 from "@/Image/cafe craft/Bakery Module2.jpg";
+import cafeImg3 from "@/Image/cafe craft/Pastry Module 2.jpg";
+import cafeImg4 from "@/Image/cafe craft/Plated Desserts2.jpg";
+
 import Image from "next/image";
+
 const Lp2CafeCourse = () => {
   return (
-    <div className="cafe-kraft-container" id="cafecourse">
-      <div className="cafe-image">
-        <Image src={cafeImg} alt="Cafe Kraft Certificate Course" />
-      </div>
-
-      <div className="cafe-content">
-        <h4 className="launch-tag">LAUNCHING NEW.!!!</h4>
-
-        <h2 className="course-title">
-          <span className="pink-text">CAFÉ KRAFT</span>
-          <br />
-          CERTIFICATE <span className="pink-text">COURSE</span>
-        </h2>
-
-        <p className="dream-tag">
-          DREAM TO <span className="pink-text">OPEN A CAFÉ ?</span>
-        </p>
-
-        <div className="course-info">
-          <div className="info-box">
-            <b className="info-head">DURATION</b>
-            <p>1 MONTH</p>
-            <p>80 HOURS +</p>
+    <div className="cakeCourseLp-wrapper" id="cafecourse">
+      <div className="cake-banner-container">
+        <div className="cake-images">
+          <div className="cake-img1Content">
+            <Image src={cafeImg1} alt="Cake 1" />
           </div>
-
-          <div className="info-box offer-box">
-            <b className="info-head">BIRTHDAY OFFER</b>
-            <p className="">₹1 LAKH</p>
-            <p className="offer-percent">25% OFF</p>
-          </div>
-
-          <div className="info-box price-box">
-            <b className="info-head">ALL INCLUSIVE</b>
-            <p className="price">₹75,000</p>
+          <div className="cake-imagesWrapper1">
+            <div className="cake-img2Content">
+              <Image src={cafeImg2} alt="Cake 2" />
+            </div>
+            <div className="cake-imagesWrapper2">
+              <div className="cake-img3Content">
+                <Image src={cafeImg3} alt="Cake 3" />
+              </div>
+              <div className="cake-img3Content">
+                <Image src={cafeImg4} alt="Cake 4" />
+              </div>
+            </div>
           </div>
         </div>
 
-        <div className="module-list">
-          <span>PATISSERIE MODULE</span> <span>BOULONGERIE MODULE</span>
-          <span>SMALL BITES</span> <span>PLATED DESSERTS</span>
-          <span>LEARN 90+ RECIPES</span>
-        </div>
+        <div className="cake-content">
+          <div className="cake-heading-box">
+            <h2 className="main-title">CAFÉ KRAFT</h2>
+            <h3 className="sub-title">
+              CERTIFICATE COURSE <span className="badge">1 month</span>
+            </h3>
+            <div className="price">
+              <span className="original-price">₹1,00,000</span>
+              <span className="discounted-price">₹75,000</span>
+            </div>
+          </div>
 
-        {/* <div className="footer-contact">
-          <p>Mejoria International School Of Pastry</p>
-          <p>🌐 www.mejoria.in 📞 +9187775 75992</p>
-        </div> */}
+          <div className="cake-features">
+            <ul>
+              <li> Patisserie Module</li>
+              <li> Boulongerie Module</li>
+              <li> Small Bites</li>
+              <li>Plated Desserts</li>
+              <li>Learn 90+ Recipes</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );

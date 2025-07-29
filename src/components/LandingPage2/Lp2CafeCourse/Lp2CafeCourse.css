@@ -1,181 +1,225 @@
-.cafe-kraft-container {
-  width: 100%;
-  height:100%;
-  margin: 40px auto;
-  display: flex;
-  flex-wrap: wrap;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  font-family: "Segoe UI", sans-serif;
-}
-.cafe-image {
-  width: 50%;
-}
-.cafe-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 0 0;
-}
-
-.cafe-content {
-  padding: 30px;
-  width: 50%;
-  flex: 1 1 500px;
+/* Background wrapper */
+.cakeCourseLp-wrapper {
   background: linear-gradient(to right, #fffaf9, #ffe6e1);
+  width: 100%;
+  margin-top: 30px
+  ;
 }
 
-.launch-tag {
-  font-weight: bold;
-  color: #111;
-  font-size: 14px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-bottom: 12px;
+/* Container setup */
+.cakeCourseLp-container {
+  width: 100%;
+  padding: 10px;
 }
 
-.course-title {
-  font-size: 30px;
-  font-weight: 700;
-  line-height: 1.4;
-  color: #000;
-}
-
-.pink-text {
-  color: #f48ca0;
-}
-
-.dream-tag {
-  margin-top: 25px;
-  font-size: 20px;
-  font-weight: 600;
-  color: #111;
-}
-
-.course-info {
+.cake-banner-container {
   display: flex;
-  justify-content: space-evenly;
-  align-items: stretch;
-  gap: 20px;
+  flex-direction: row;
+  padding: 1rem;
+  gap: 2rem;
+  border-radius: 20px;
+  align-items: center;
   flex-wrap: wrap;
-  margin-top: 30px;
 }
 
-.info-box {
-  background: white;
-  padding: 20px;
-  border-radius: 12px;
-  text-align: center;
-  font-size: 14px;
-  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
-  width: 180px;
-  height: 180px;
+/* Image container */
+.cake-images {
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  gap: 10px;
+  padding: 10px;
 }
 
-.info-box:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+.cake-img1Content {
+  width: 300px;
+  height: 500px;
 }
 
-.info-head {
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: #333;
+.cake-img2Content {
+  width: 400px;
+  height: 220px;
 }
 
-.info-box p {
-  font-weight: 600;
-  margin: 2px 0;
-  color: #f48ca0;
-}
-
-/* Special styles for offer and price box */
-.strike {
-  text-decoration: line-through;
-  color: #999;
-  font-weight: 500;
-}
-
-.offer-percent {
-  font-size: 18px;
-  font-weight: bold;
-  color: #d43c69;
-}
-
-.price {
-  font-size: 20px;
-  font-weight: bold;
-  color: #f45c8a;
-}
-
-.strike {
-  text-decoration: line-through;
-  color: #888;
-}
-
-.price {
-  font-size: 18px;
-  color: #f45c8a;
-  font-weight: bold;
-}
-
-.module-list {
-  margin-top: 30px;
-  font-size: 14px;
-  color: var(--customColor1);
-  font-weight: 500;
-  line-height: 1.6;
+.cake-imagesWrapper1 {
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  border-radius: 10px;
-  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 500px;
 }
-.module-list > span {
-  background-color: black;
+
+.cake-imagesWrapper2 {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 0px;
+}
+
+.cake-img3Content {
+  height: 100%;
+  width: 48%;
+}
+
+.cake-images img {
   width: 100%;
-  margin-top: 10px;
-  padding: 10px;
-  border-radius: 5px;
-  font-weight: bold;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
-.footer-contact {
-  margin-top: 25px;
-  font-size: 14px;
-  color: #555;
+
+/* Content styles */
+.cake-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  border-radius: 20px;
+  background-color: #fff7f5;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  font-family: "Inter", sans-serif;
+  width: 100%;
+}
+
+/* Heading section */
+.cake-heading-box {
   text-align: center;
-  border-top: 1px solid #eee;
-  padding-top: 15px;
 }
-/* .module-list > span::after {
-  content: " | ";
-} */
+
+.main-title {
+  font-size: 3.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #541212;
+  letter-spacing: 2px;
+  margin-bottom: 0.3rem;
+  font-family: "Playfair Display", serif;
+}
+
+.sub-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #9c3030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.badge {
+  background-color: #e84a5f;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Price section */
+.price {
+  /* border-top: solid 2px black;
+    border-bottom: solid 2px black; */
+
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 1.2rem;
+}
+
+.discounted-price {
+  color: #e63946;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+/* Features list */
+.cake-features {
+  padding: 1rem 1.5rem;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cake-features ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cake-features li {
+  background: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.cake-features li:hover {
+  transform: translateY(-3px);
+  background: #fff0ec;
+}
+
+/* Responsive adjustments */
 @media screen and (max-width: 768px) {
-  .cafe-kraft-container {
-    width: 100%;
-    height: 100%;
-    margin: 0px auto;
+  .cake-banner-container {
+    flex-direction: column-reverse;
+    gap: 3rem;
   }
-  .cafe-image {
+
+  .cake-images {
     width: 100%;
-  }
-  .cafe-content {
-    padding: 20px;
-    width: 100%;
-  }
-  .module-list {
     flex-direction: column;
   }
-  .module-list > span::after {
-    content: " ";
+
+  .cake-img1Content {
+    width: 100%;
+    height: auto;
+  }
+
+  .cake-img2Content,
+  .cake-imagesWrapper2 {
+    width: 100%;
+  }
+
+  .cake-content {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .main-title {
+    font-size: 2.4rem;
+  }
+
+  .sub-title {
+    font-size: 1.3rem;
+  }
+
+  .discounted-price {
+    font-size: 1.8rem;
+  }
+
+  .cake-features li {
+    font-size: 1rem;
   }
 }

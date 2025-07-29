@@ -182,7 +182,7 @@
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
   .cake-banner-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 3rem;
   }
 
