@@ -60,10 +60,10 @@ const Services = () => {
         </div>
         <div className="serviceCard-container">
           <div className="serviceCard-content">
-            <Image src={cakeMastery} alt="Cake Mastery" />
+            <Image src={cakeMastery} alt="Cake Canvas" />
           </div>
           <h4>
-            <Link href={"/cake-mastery"}>Cake Mastery</Link>
+            <Link href={"/lp-baking-courses"}>Cake Canvas Certification Course </Link>
           </h4>
         </div>
       </div>
