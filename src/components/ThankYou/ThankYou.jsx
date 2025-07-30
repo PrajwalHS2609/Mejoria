@@ -1,7 +1,16 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import "./ThankYou.css";
 
 const ThankYou = () => {
+  useEffect(() => {
+    if (typeof window.gtag === "function") {
+      window.gtag("event", "conversion", {
+        send_to: "AW-327194309/D84ICKuvtP4YEMWtgpwB",
+      });
+    }
+  }, []);
+
   return (
     <div className="thankYou-container">
       <div className="thankYou-glow"></div>
