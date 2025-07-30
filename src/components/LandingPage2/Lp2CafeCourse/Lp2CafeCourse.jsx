@@ -65,7 +65,7 @@ const Lp2CafeCourse = () => {
           <div className="cakeCourse-btn">
             <button onClick={handleAppointment}>Apply Now</button>
             <a href="/Cafe-Craft.pdf" download>
-              Download Boucher
+              Download Brochure
             </a>
           </div>
         </div>
