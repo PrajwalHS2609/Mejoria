@@ -69,7 +69,7 @@ const EggFreeCertificationCourse = () => {
   return (
     <div className="eggFreeCertiCourse-container">
       <div className="eggFreeCertiCourse-content">
-        <h2>Classic Certification Course Module</h2>
+        <h2>EggFree Certification Course Module</h2>
       </div>
       <div className="eggFreeCertiCourse-content">
         <div className="egg-module-cards-wrapper">
