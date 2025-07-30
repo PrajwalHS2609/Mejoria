@@ -97,17 +97,11 @@ const ContactUsForm = () => {
               <option value="Eggfree Certificate Course (2 months)">
                 Eggfree Certificate Course (2 months)
               </option>
-              <option value="Cake Mastery (1 month)">
-                Cake Mastery (1 month)
+              <option value="Cake Canvas Certificate Course (12 days)">
+                Cake Canvas Certificate Course (12 days)
               </option>
-              <option value="Hands-On Short Courses">
-                Hands-On Short Courses
-              </option>
-              <option value="Weekend Certificate Courses">
-                Weekend Certificate Courses
-              </option>
-              <option value="Personalized Courses (1-on-1)">
-                Personalized Courses (1-on-1)
+              <option value="Cafe Craft Certificate Course (1 month)">
+                Cafe Craft Certificate Course (1 month)
               </option>
             </select>
           </div>
