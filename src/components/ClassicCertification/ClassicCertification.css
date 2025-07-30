@@ -313,7 +313,7 @@
   position: relative;
 }
 
-.module-cards-wrapper {
+.classic-module-cards-wrapper {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -323,7 +323,8 @@
   gap: 20px;
 }
 
-.module-card-modern {
+.classic-module-card-modern {
+  /* border: solid red; */
   background: black;
   border-radius: 18px;
   overflow: hidden;
@@ -337,25 +338,25 @@
   margin: 20px;
 }
 
-.module-card-modern:hover {
+.classic-module-card-modern:hover {
   transform: translateY(-10px);
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
   border: 2px solid var(--customColor1);
 }
 
-.module-card-img-container {
+.classic-module-card-img-container {
   height: 300px;
   overflow: hidden;
 }
 
-.module-image {
+.classic-module-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.4s ease;
 }
 
-.module-card-modern:hover .module-image {
+.classic-module-card-modern:hover .module-image {
   transform: scale(1.05);
 }
 
@@ -381,7 +382,7 @@
   .classicCertiCourse-content > h2 {
     font-size: 30px;
   }
-  .module-cards-wrapper {
+  .classic-module-cards-wrapper {
     /* border: solid red; */
     width: 100%;
     padding: 0;

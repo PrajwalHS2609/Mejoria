@@ -1,0 +1,117 @@
+.popup-form-wrapper {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 3rem;
+  background: rgba(0, 0, 0, 0.748);
+  font-family: "Segoe UI", sans-serif;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+
+.popup-form {
+  /* border: solid blue; */
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+  /* width: 500px; */
+  width: 500px;
+  text-align: center;
+}
+
+.popup-form h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #2c2c2c;
+}
+
+.popup-form p {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1.8rem;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 1.2rem;
+}
+
+.form-group .icon {
+  position: absolute;
+  top: 50%;
+  left: 14px;
+  transform: translateY(-50%);
+  color: #c88;
+  font-size: 1rem;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 12px 14px 12px 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #f39696;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--customColor1);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #000;
+}
+.popup-exit-item {
+  /* border: solid red; */
+  width: 100%;
+  position: relative;
+  height: 50px;
+}
+.popup-itemIco {
+  font-size: 30px;
+  color: red;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-weight: 800;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .popup-form {
+    /* border: solid blue; */
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 350px;
+    text-align: center;
+  }
+  .popup-itemIco {
+    right: -20px;
+    top: 0;
+  }
+}

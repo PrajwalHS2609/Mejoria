@@ -58,7 +58,7 @@ const CakeMasteryContent = () => {
       </div>
 
       <div className="cakeMastery-images">
-        <div className="image-grid">
+        <div className="cakeMastery-image-grid">
           <Image
             src={cakeMastery}
             alt="Batch"

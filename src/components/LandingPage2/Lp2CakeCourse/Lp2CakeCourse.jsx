@@ -7,6 +7,14 @@ import Image from "next/image";
 import "./Lp2CakeCourse.css";
 
 const Lp2CakeCourse = () => {
+    const handleAppointment = () => {
+    const bookPopUpElement = document.querySelector(".popup-form-wrapper");
+    if (bookPopUpElement) {
+      bookPopUpElement.style.visibility = "visible";
+    } else {
+      console.warn("Element with class 'bookPopUp' not found");
+    }
+  };
   return (
     <div className="cakeCourseLp-wrapper" >
       <div className="cake-banner-container">
@@ -51,6 +59,12 @@ const Lp2CakeCourse = () => {
               <li> Create Cakes Like a Pro</li>
               <li> Perfect to Set Up a Home Business</li>
             </ul>
+          </div>
+           <div className="cakeCourse-btn">
+            <button onClick={handleAppointment}>Apply Now</button>
+            <a href="/Cake-Canvas.pdf" download>
+              Download Boucher
+            </a>
           </div>
         </div>
       </div>

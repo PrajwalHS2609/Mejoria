@@ -4,7 +4,7 @@ import React, { useState, useRef } from "react";
 import "./LandingCourse2.css";
 
 import cakeCourseImg from "@/Image/cakeLp/5.jpg";
-import cafeCourseImg from "@/Image/cafe craft/Opening picture.jpg";
+import cafeCourseImg from "@/Image/cafe craft/mainCafeImg.jpg";
 import Image from "next/image";
 import Partners from "@/components/HomePage/FromCourse/FromCourse";
 import Lp2CafeCourse from "./Lp2CafeCourse/Lp2CafeCourse";

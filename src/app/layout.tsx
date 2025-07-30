@@ -6,6 +6,7 @@ import Whatsapp from "./../components/Whatsapp/Whatsapp";
 import "bootstrap/dist/css/bootstrap.min.css";
 import LandingNav from "./../components/LandingPage/LandingNav/LandingNav";
 import { usePathname } from "next/navigation";
+import PopUpForm from "./../components/PopUpForm/PopUpForm";
 
 export default function RootLayout({
   children,
@@ -82,6 +83,7 @@ export default function RootLayout({
         {children}
         {!isLanding && <Footer />}
         {!isLanding && <Whatsapp />}
+        <PopUpForm />
       </body>
     </html>
   );

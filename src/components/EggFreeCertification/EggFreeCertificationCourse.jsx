@@ -72,15 +72,15 @@ const EggFreeCertificationCourse = () => {
         <h2>Classic Certification Course Module</h2>
       </div>
       <div className="eggFreeCertiCourse-content">
-        <div className="module-cards-wrapper">
+        <div className="egg-module-cards-wrapper">
           {modules.map((item, i) => (
-            <div className="module-card-modern" key={i}>
-              <div className="module-card-img-container">
+            <div className="egg-module-card-modern" key={i}>
+              <div className="egg-module-card-img-container">
                 {" "}
                 <Image
                   src={item.image}
                   alt={item.title}
-                  className="module-image"
+                  className="egg-module-image"
                 />
               </div>
               <h4 className="module-title">{item.title}</h4>

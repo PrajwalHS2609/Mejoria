@@ -73,15 +73,15 @@ const ClassicCertificationCourse = () => {
         <h2>Classic Certification Course Module</h2>
       </div>
       <div className="classicCertiCourse-content">
-        <div className="module-cards-wrapper">
+        <div className="classic-module-cards-wrapper">
           {modules.map((item, i) => (
-            <div className="module-card-modern" key={i}>
-              <div className="module-card-img-container">
+            <div className="classic-module-card-modern" key={i}>
+              <div className="classic-module-card-img-container">
                 {" "}
                 <Image
                   src={item.image}
                   alt={item.title}
-                  className="module-image"
+                  className="classic-module-image"
                 />
               </div>
               <h4 className="module-title">{item.title}</h4>

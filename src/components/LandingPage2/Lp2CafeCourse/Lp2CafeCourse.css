@@ -2,8 +2,7 @@
 .cakeCourseLp-wrapper {
   background: linear-gradient(to right, #fffaf9, #ffe6e1);
   width: 100%;
-  margin-top: 30px
-  ;
+  margin-top: 30px;
 }
 
 /* Container setup */
@@ -179,7 +178,36 @@
   transform: translateY(-3px);
   background: #fff0ec;
 }
-
+.cakeCourse-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.cakeCourse-btn > button {
+  /* border: solid red; */
+  color: white;
+  background-color: var(--customColor1);
+  border-radius: 10px;
+  padding: 6px 10px;
+  border: none;
+  &:hover {
+    background-color: black;
+  }
+}
+.cakeCourse-btn > a {
+  /* border: solid red; */
+  color: white;
+  background-color: var(--customColor1);
+  border-radius: 10px;
+  padding: 6px 10px;
+  text-decoration: none;
+  border: none;
+  &:hover {
+    background-color: black;
+  }
+}
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
   .cake-banner-container {
