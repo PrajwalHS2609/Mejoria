@@ -39,7 +39,7 @@ export default function RootLayout({
   gtag('config', 'G-RXC0MQ7ZX8');
 `}
         </script>
-        <link rel="icon" type="image/png" href="./favicon.png" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

@@ -87,11 +87,11 @@ const Menu = () => {
                 <p>CLASSIC CERTIFICATION COURSE</p>
               </div>
             </Link>
-            <Link href={"/cake-mastery-baking-certification-course"}>
+            {/* <Link href={"/cake-mastery-baking-certification-course"}>
               <div className="dropItems">
                 <p>CAKE MASTERY</p>
               </div>
-            </Link>
+            </Link> */}
             <Link href={"/home-bakers-certificate-course"}>
               <div className="dropItems">
                 <p>HOME BAKER'S CERTIFICATION COURSE</p>
@@ -264,13 +264,13 @@ const Menu = () => {
                     </Link>
                   </h4>
                 </li>
-                <li>
+                {/* <li>
                   <h4>
                     <Link onClick={hideSideBar} href={"/cake-mastery-baking-certification-course"}>
                       CAKE MASTERY
                     </Link>
                   </h4>
-                </li>
+                </li> */}
                 <li>
                   <h4>
                     <Link

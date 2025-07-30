@@ -63,7 +63,7 @@ const Services = () => {
             <Image src={cakeMastery} alt="Cake Canvas" />
           </div>
           <h4>
-            <Link href={"/lp-baking-courses"}>Cake Canvas Certification Course </Link>
+            <Link href={"/lp-baking-courses"}>Cake Canvas Certificate Course </Link>
           </h4>
         </div>
       </div>
