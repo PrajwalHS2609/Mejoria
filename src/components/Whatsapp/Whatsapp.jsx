@@ -15,7 +15,7 @@ const Whatsapp = () => {
         accountName="Mejoria"
         avatar={logo.src} // Optional
         statusMessage="Typically replies within 5 min" // Optional
-        chatMessage="Welcome to Mejoria" // Optional
+        chatMessage="🍰 Welcome to Mejoria! Your sweet baking journey starts now with our expert chefs" // Optional
         placeholder="Type a message..." // Optional
       />
     </div>
