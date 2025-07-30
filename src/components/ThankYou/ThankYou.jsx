@@ -10,9 +10,9 @@ const ThankYou = () => {
         <div className="thankYou-icon">🍰</div>
         <h1>Thank You</h1>
         <p>
-          Your form has been successfully submitted. Our team at Mejoria
-          International School of Pastries will get in touch with you shortly.
-          We look forward to welcoming you into our world of pastry excellence!
+          Submission successful! The Mejoria team will connect with you shortly.
+          We look forward to having you join our vibrant pastry community and
+          crafting sweet success together.
         </p>
         <a href="/" className="thankYou-button">
           Back to Home
