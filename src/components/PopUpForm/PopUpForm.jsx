@@ -94,11 +94,11 @@ const PopUpForm = () => {
             <FaBook className="icon" />
             <select name="course" required>
               <option value="">Select Course*</option>
-              <option value="Cake Canvas Certificate Course (12 days)">
-                Cake Canvas Certificate Course (12 days)
+              <option value="Cake Canvas Certificate Course (3 weeks)">
+                Cake Canvas Certificate Course (3 weeks)
               </option>
-              <option value="Cafe Craft Certificate Course (1 month)">
-                Cafe Craft Certificate Course (1 month)
+              <option value="Cafe Craft Certificate Course (4 weeks)">
+                Cafe Craft Certificate Course (4 weeks)
               </option>
             </select>
           </div>
