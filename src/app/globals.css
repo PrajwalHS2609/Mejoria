@@ -21,3 +21,7 @@
   right: auto !important;
   left: 20px !important;
 }
+#chat-bot-message-container {
+  right: auto;
+  left: 20px;
+}
