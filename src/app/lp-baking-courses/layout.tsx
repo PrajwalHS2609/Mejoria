@@ -1,5 +1,3 @@
-// import LandingFooter from "./../../components/LandingPage/LandingFooter/LandingFooter";
-import LandingFooter from './../../components/LandingPage/LandingFooter/LandingFooter';
 import LandingPage2Footer from './../../components/LandingPage2/LandingPage2Footer';
 
 export default function RootLandingLayout({
