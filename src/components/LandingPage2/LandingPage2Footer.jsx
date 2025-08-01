@@ -1,98 +1,26 @@
 import React from "react";
-import "./Footer.css";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
 import { IoMailOutline } from "react-icons/io5";
 import { GrLocation } from "react-icons/gr";
-
 import Link from "next/link";
-const Footer = () => {
+import "./LandingCourse2.css";
+import Image from "next/image";
+import logo from "@/Image/logo.png";
+const LandingPage2Footer = () => {
   return (
     <div className="footerContainer">
       <div className="footerContent1">
-        {/* <div className="footerItem" >
-          <img src="https://mejoria.in/wp-content/uploads/2024/11/Mejoria-Logo-ver2-blck.png" alt="" />
-         </div> */}
-        <div className="footerItem1" id="footerItem1">
-          <div className="footerTxt1">
-            <h3>
-              <Link href={"/service"}>Pages</Link>
-            </h3>
-          </div>
-          <div className="footerTxt2">
-            <div className="footerTxt">
-              <Link href={"/"}>Home</Link>
-            </div>
-            <div className="footerTxt">
-              <Link href={"/"}>About Mejoria</Link>
-            </div>
-            <div className="footerTxt">
-              <Link href={"/"}>Certification Course</Link>
-            </div>
-            <div className="footerTxt">
-              <Link href={"/"}>Diploma Program</Link>
-            </div>
-            <div className="footerTxt">
-              <Link href={"/"}>Courses</Link>
-            </div>
-          </div>
-        </div>
-        {/* <div className="footerItem1" id="footerItem2">
-          <div className="footerTxt1">
-            <h3>
-              <Link href={"/about-us"}>About us</Link>
-            </h3>
-          </div>
-          <div className="footerTxt2">
-            <div className="footerTxt">
-              <Link href={"/philosophy"}>Philosophy</Link>
-            </div>
-            <div className="footerTxt">
-              <Link href={"/crew"}>Style Crew</Link>
-            </div>
-            <div className="footerTxt">
-              <Link href={"/myself"}>All About Myself</Link>
-            </div>
-          </div>
-        </div> */}
-        {/* <div className="footerItem1" id="footerItem4">
-          <div className="footerTxt1">
-            <h3>Work</h3>
-          </div>
-          <div className="footerTxt2">
-            <div className="footerTxt">
-              <Link href={"/salon-membership"}>Membership</Link>
-            </div>
-            <div className="footerTxt">
-              <Link href={"/shop"}>Shops</Link>
-            </div>
-            <div className="footerTxt">
-              <Link href={"/franchise"}>Franchise</Link>
-            </div>
-          </div>
-        </div> */}
-        <div className="footerItem1" id="footerItem5">
-          <div className="footerTxt1" id="footerTxtTerms">
-            <h3>
-              <Link href={"/terms"}>Links</Link>{" "}
-            </h3>
-          </div>
-          <div className="footerTxt2">
-            <div className="footerTxt">
-              <Link href={"/terms"}>Terms & Conditions</Link>
-            </div>
-            <div className="footerTxt">
-              <Link href={"/terms"}>Returns & Refund Policy</Link>
-            </div>
-            <div className="footerTxt">
-              <Link href={"/terms"}>Pricing Policy</Link>
-            </div>
-            <div className="footerTxt">
-              <Link href={"/terms"}>Shipping Policy</Link>
-            </div>
-          </div>
+        <div className="footer-despContainer">
+          <h3>About Us</h3>
+          <p>
+            Mejoria International School of Pastry in Kolkata is your gateway to
+            mastering the art of baking and pastry. Blending traditional
+            techniques with modern innovations, we offer a world-class learning
+            experience for aspiring chefs and baking enthusiasts.
+          </p>
         </div>
         <div className="footerItem1" id="footerItem6">
           <div className="footerTxt1" id="footerTxtTerms">
@@ -170,4 +98,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default LandingPage2Footer;

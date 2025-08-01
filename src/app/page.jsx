@@ -9,6 +9,7 @@ import Faculty from "./../components/HomePage/Faculty/Faculty";
 import FormHeader from "./../components/Form/FormHeader";
 import Testimonial from "./../components/HomePage/Testimonial/Testimonial";
 import HomePageContent from "./../components/HomePage/HomePageContent/HomePageContent";
+import ContactUsMap from "@/components/ContactUs/ContactUsMap";
 
 export const metadata = {
   title:
@@ -37,6 +38,7 @@ export default function Home() {
       <Testimonial />
       <TextLocReviews />
       <HomePageContent />
+      <ContactUsMap />
     </div>
   );
 }

@@ -2,7 +2,7 @@
   /* border: solid red; */
   position: fixed;
   z-index: 3;
-  top: 500px;
+  bottom: 20px;
   right: 10px;
   display: flex;
   justify-content: center;

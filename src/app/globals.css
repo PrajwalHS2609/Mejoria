@@ -12,3 +12,7 @@
   --customColorWhite: white;
   --customColorBlack: black;
 }
+#chat-bot-launcher-container {
+  right: auto !important;
+  left: 20px !important;
+}

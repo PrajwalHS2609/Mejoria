@@ -1,5 +1,6 @@
 // import LandingFooter from "./../../components/LandingPage/LandingFooter/LandingFooter";
 import LandingFooter from './../../components/LandingPage/LandingFooter/LandingFooter';
+import LandingPage2Footer from './../../components/LandingPage2/LandingPage2Footer';
 
 export default function RootLandingLayout({
   children,
@@ -18,7 +19,7 @@ export default function RootLandingLayout({
       <body>
         {/* <LandingNav /> */}
         {children}
-        <LandingFooter />
+        <LandingPage2Footer />
       </body>
     </html>
   );

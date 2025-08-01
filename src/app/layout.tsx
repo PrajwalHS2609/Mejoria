@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import LandingNav from "./../components/LandingPage/LandingNav/LandingNav";
 import { usePathname } from "next/navigation";
 import PopUpForm from "./../components/PopUpForm/PopUpForm";
+import Script from "next/script";
 
 export default function RootLayout({
   children,
@@ -77,6 +78,19 @@ export default function RootLayout({
             }),
           }}
         />
+        <Script id="collect-chat" strategy="afterInteractive">
+          {`
+    (function(w, d) {
+      w.CollectId = "688cb3d8a1413116b4a3593b";
+      var h = d.head || d.getElementsByTagName("head")[0];
+      var s = d.createElement("script");
+      s.setAttribute("type", "text/javascript");
+      s.async = true;
+      s.setAttribute("src", "https://collectcdn.com/launcher.js");
+      h.appendChild(s);
+    })(window, document);
+  `}
+        </Script>
       </head>
       <body>
         {isLanding ? <LandingNav /> : <NavBar />}
