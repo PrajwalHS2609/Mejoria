@@ -13,8 +13,17 @@ const ContactUsForm = () => {
     event.preventDefault();
     const form = event.target;
     const formData = new FormData(form);
-    formData.append("access_key", "d27b415e-86ae-47a8-bc5f-24e2b5d5eee2");
 
+    formData.append("access_key", "d27b415e-86ae-47a8-bc5f-24e2b5d5eee2");
+    formData.append(
+      "recipients",
+      "mejoriakol@gmail.com,manjunathmv.genesis@gmail.com"
+    );
+    formData.append(
+      "autoresponse",
+      "Thank you for contacting us. We'll get back to you shortly!"
+    );
+    
     const object = Object.fromEntries(formData.entries());
     const json = JSON.stringify(object);
 
