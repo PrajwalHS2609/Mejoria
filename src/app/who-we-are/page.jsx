@@ -1,6 +1,10 @@
+import Faculty from "@/components/HomePage/Faculty/Faculty";
 import WhoWeAreContent from "../../components/WhoWeAre/WhoWeAreContent";
 import WhoWeAreHeader from "../../components/WhoWeAre/WhoWeAreHeader";
 import WhyChoose from "./../../components/WhyChoose/WhyChoose";
+import  Partners from '@/components/HomePage/FromCourse/FromCourse';
+import ServiceWhy from "@/components/HomePage/ServiceWhy/ServiceWhy";
+import Testimonial from "@/components/HomePage/Testimonial/Testimonial";
 export const metadata = {
   title: "Who We Are - Mejoria International School of Pastry",
   description:
@@ -19,6 +23,10 @@ export default function WhoWeAre() {
       <WhoWeAreHeader />
       <WhoWeAreContent />
       <WhyChoose />
+      <Faculty />
+      <Partners />
+      <ServiceWhy />
+      <Testimonial />
     </div>
   );
 }

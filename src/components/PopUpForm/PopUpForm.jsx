@@ -86,6 +86,7 @@ const PopUpForm = () => {
               type="tel"
               name="phone"
               placeholder="Phone Number"
+                pattern="[0-9]{10}"
               required
             />
           </div>

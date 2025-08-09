@@ -1,6 +1,10 @@
+import Faculty from "@/components/HomePage/Faculty/Faculty";
 import MasterClassContent from "../../components/MasterClass/MasterClassContent";
 import MasterClassCourse from "../../components/MasterClass/MasterClassCourse";
 import MasterClassHeader from "../../components/MasterClass/MasterClassHeader";
+import Partners from "@/components/HomePage/FromCourse/FromCourse";
+import ServiceWhy from "@/components/HomePage/ServiceWhy/ServiceWhy";
+import Testimonial from "@/components/HomePage/Testimonial/Testimonial";
 export const metadata = {
   title: "Master Cake Pastry & Baking Classes in Kolkata, West Bengal",
   description:
@@ -19,6 +23,10 @@ export default function MasterClass() {
       <MasterClassHeader />
       <MasterClassContent />
       <MasterClassCourse />
+      <Faculty />
+      <Partners />
+      <ServiceWhy />
+      <Testimonial />
     </div>
   );
 }

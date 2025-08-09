@@ -4,6 +4,9 @@ import AboutUsCareer from "./../../components/AboutUs/AboutUsCareer";
 import Faculty from "@/components/HomePage/Faculty/Faculty";
 import AboutUsEmpower from "./../../components/AboutUs/AboutUsEmpower";
 import AboutUsContent from "./../../components/AboutUs/AboutUsContent";
+import ServiceWhy from "@/components/HomePage/ServiceWhy/ServiceWhy";
+import Partners from "@/components/HomePage/FromCourse/FromCourse";
+import Testimonial from "@/components/HomePage/Testimonial/Testimonial";
 export const metadata = {
   title: "About Mejoria International School of Pastry ",
   description:
@@ -25,6 +28,9 @@ export default function AboutUs() {
       <WhyChoose />
       <AboutUsCareer />
       <Faculty />
+      <Partners />
+      <ServiceWhy />
+      <Testimonial />
     </div>
   );
 }

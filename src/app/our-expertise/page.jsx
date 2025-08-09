@@ -1,5 +1,8 @@
 import ServiceWhy from "@/components/HomePage/ServiceWhy/ServiceWhy";
 import CoursePrice from "../../components/Expertise/CoursePrice";
+import Faculty from "@/components/HomePage/Faculty/Faculty";
+import Partners from "@/components/HomePage/FromCourse/FromCourse";
+import Testimonial from "@/components/HomePage/Testimonial/Testimonial";
 export const metadata = {
   title: "Our Expertise - Mejoria International School of Pastry",
   description:
@@ -17,6 +20,9 @@ export default function Expertise() {
     <div>
       <ServiceWhy />
       <CoursePrice />
+      <Faculty />
+      <Partners />
+      <Testimonial />
     </div>
   );
 }

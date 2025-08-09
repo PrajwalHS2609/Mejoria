@@ -3,6 +3,10 @@ import CakeMasteryContent from "../../components/CakeMastery/CakeMasteryContent"
 import CakeMasteryHighlights from "../../components/CakeMastery/CakeMasteryHighlights";
 import CakeMasteryLearn from "../../components/CakeMastery/CakeMasteryLearn";
 import CakeMasteryWorks from "../../components/CakeMastery/CakeMasteryWorks";
+import Faculty from "@/components/HomePage/Faculty/Faculty";
+import Partners from "@/components/HomePage/FromCourse/FromCourse";
+import ServiceWhy from "@/components/HomePage/ServiceWhy/ServiceWhy";
+import Testimonial from "@/components/HomePage/Testimonial/Testimonial";
 
 export const metadata = {
   title:
@@ -25,6 +29,10 @@ export default function CakeMastery() {
       <CakeMasteryHighlights />
       <CakeMasteryLearn />
       <CakeMasteryWorks />
+      <Faculty />
+      <Partners />
+      <ServiceWhy />
+      <Testimonial />
     </div>
   );
 }

@@ -106,7 +106,7 @@
   border-color: #f39696;
 }
 
-button[type="submit"] {
+.contactForm button[type="submit"] {
   width: 100%;
   padding: 12px;
   background-color: var(--customColor1);
@@ -119,7 +119,7 @@ button[type="submit"] {
   transition: background-color 0.3s;
 }
 
-button[type="submit"]:hover {
+.contactForm button[type="submit"]:hover {
   background-color: #000;
 }
 

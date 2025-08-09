@@ -23,7 +23,7 @@ const ContactUsForm = () => {
       "autoresponse",
       "Thank you for contacting us. We'll get back to you shortly!"
     );
-    
+
     const object = Object.fromEntries(formData.entries());
     const json = JSON.stringify(object);
 
@@ -64,7 +64,7 @@ const ContactUsForm = () => {
           details and our team will reach out to you shortly!
         </p>
 
-        <form onSubmit={onSubmit}>
+        <form onSubmit={onSubmit} className="contactForm">
           <div className="form-group">
             <FaUser className="icon" />
             <input type="text" name="name" placeholder="Your Name" required />
@@ -75,6 +75,7 @@ const ContactUsForm = () => {
               type="tel"
               name="phone"
               placeholder="Phone Number"
+              pattern="[0-9]{10}"
               required
             />
           </div>

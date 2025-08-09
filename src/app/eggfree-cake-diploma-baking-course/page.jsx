@@ -2,6 +2,10 @@ import EggFreeDiplomaContent from "../../components/EggFreeDiploma/EggFreeDiplom
 import EggFreeDiplomaHeader from "../../components/EggFreeDiploma/EggFreeDiplomaHeader";
 import EggFreeDiplomaIntro from "../../components/EggFreeDiploma/EggFreeDiplomaIntro";
 import EggFreeDiplomaFeature from "../../components/EggFreeDiploma/EggFreeDiplomaFeature";
+import Faculty from "@/components/HomePage/Faculty/Faculty";
+import Partners from "@/components/HomePage/FromCourse/FromCourse";
+import ServiceWhy from "@/components/HomePage/ServiceWhy/ServiceWhy";
+import Testimonial from "@/components/HomePage/Testimonial/Testimonial";
 export const metadata = {
   title: "Egg Free Pastry & Baking Diploma Course in Kolkata, West Bengal",
   description:
@@ -21,6 +25,10 @@ export default function EggFreeDiploma() {
       <EggFreeDiplomaContent />
       <EggFreeDiplomaIntro />
       <EggFreeDiplomaFeature />
+      <Faculty />
+      <Partners />
+      <ServiceWhy />
+      <Testimonial />
     </div>
   );
 }

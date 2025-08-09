@@ -55,7 +55,7 @@ const FormHeader = () => {
       <form className="horizontal-form" onSubmit={onSubmit}>
         <input type="text" name="name" placeholder="Name" required />
         <input type="email" name="email" placeholder="Email" required />
-        <input type="tel" name="phone" placeholder="Phone" required />
+        <input type="tel" name="phone"   pattern="[0-9]{10}" placeholder="Phone" required />
         <input type="number" name="age" placeholder="Your Age" required />
         <select name="course" required>
           <option value="">Select Course</option>

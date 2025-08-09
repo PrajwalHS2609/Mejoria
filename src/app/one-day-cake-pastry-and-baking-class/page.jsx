@@ -1,6 +1,10 @@
+import Faculty from "@/components/HomePage/Faculty/Faculty";
 import OneDayCourseContent from "../../components/OneDayCourse/OneDayCourseContent";
 import OneDayCourseHeader from "../../components/OneDayCourse/OneDayCourseHeader";
 import OneDayCourseShort from "../../components/OneDayCourse/OneDayCourseShort";
+import Partners from "@/components/HomePage/FromCourse/FromCourse";
+import ServiceWhy from "@/components/HomePage/ServiceWhy/ServiceWhy";
+import Testimonial from "@/components/HomePage/Testimonial/Testimonial";
 export const metadata = {
   title: "One Day Cake Pastry & Baking Class in Kolkata, West Bengal",
   description:
@@ -19,6 +23,10 @@ export default function OneDayCourse() {
       <OneDayCourseHeader />
       <OneDayCourseContent />
       <OneDayCourseShort />
+      <Faculty />
+      <Partners />
+      <ServiceWhy />
+      <Testimonial />
     </div>
   );
 }

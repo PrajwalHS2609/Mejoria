@@ -3,6 +3,10 @@ import ClassicCertificationHeader from "../../components/ClassicCertification/Cl
 import ClassicCertificationContent from "../../components/ClassicCertification/ClassicCertificationContent";
 import ClassicCertificationCourse from "../../components/ClassicCertification/ClassicCertificationCourse";
 import ClassicCertificationFromCourse from "../../components/ClassicCertification/ClassicCertificationFromCourse";
+import Faculty from "@/components/HomePage/Faculty/Faculty";
+import Partners from "@/components/HomePage/FromCourse/FromCourse";
+import ServiceWhy from "@/components/HomePage/ServiceWhy/ServiceWhy";
+import Testimonial from "@/components/HomePage/Testimonial/Testimonial";
 
 export const metadata = {
   title: "Classic Pastry & Baking Certification Course in Kolkata, West Bengal",
@@ -24,6 +28,10 @@ export default function ClassicCertification() {
       <ClassicCertificationCourse />
       <ClassicCertificationFromCourse />
       <AboutUsCareer />
+      <Faculty />
+      <Partners />
+      <ServiceWhy />
+      <Testimonial />
     </div>
   );
 }

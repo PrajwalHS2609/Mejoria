@@ -1,4 +1,7 @@
+import ServiceWhy from "@/components/HomePage/ServiceWhy/ServiceWhy";
 import Faculty from "./../../components/HomePage/Faculty/Faculty";
+import Partners from "@/components/HomePage/FromCourse/FromCourse";
+import Testimonial from "@/components/HomePage/Testimonial/Testimonial";
 export const metadata = {
   title: "Chef Divya Saraf — Our Esteemed Faculty ",
   description:
@@ -15,6 +18,9 @@ export default function OurFaculty() {
   return (
     <div>
       <Faculty />
+      <Partners />
+      <ServiceWhy />
+      <Testimonial />
     </div>
   );
 }
