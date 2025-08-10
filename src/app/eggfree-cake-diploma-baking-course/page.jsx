@@ -6,6 +6,7 @@ import Faculty from "@/components/HomePage/Faculty/Faculty";
 import Partners from "@/components/HomePage/FromCourse/FromCourse";
 import ServiceWhy from "@/components/HomePage/ServiceWhy/ServiceWhy";
 import Testimonial from "@/components/HomePage/Testimonial/Testimonial";
+import EggFreeDiplomaContext from './../../components/EggFreeDiploma/EggFreeDiplomaContext';
 export const metadata = {
   title: "Egg Free Pastry & Baking Diploma Course in Kolkata, West Bengal",
   description:
@@ -29,6 +30,7 @@ export default function EggFreeDiploma() {
       <Partners />
       <ServiceWhy />
       <Testimonial />
+      <EggFreeDiplomaContext/>
     </div>
   );
 }

@@ -7,6 +7,7 @@ import Faculty from "@/components/HomePage/Faculty/Faculty";
 import Partners from "@/components/HomePage/FromCourse/FromCourse";
 import ServiceWhy from "@/components/HomePage/ServiceWhy/ServiceWhy";
 import Testimonial from "@/components/HomePage/Testimonial/Testimonial";
+import ClassicCertificationContext from "@/components/ClassicCertification/ClassicCertificationContext";
 
 export const metadata = {
   title: "Classic Pastry & Baking Certification Course in Kolkata, West Bengal",
@@ -32,6 +33,7 @@ export default function ClassicCertification() {
       <Partners />
       <ServiceWhy />
       <Testimonial />
+      <ClassicCertificationContext />
     </div>
   );
 }

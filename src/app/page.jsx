@@ -37,8 +37,8 @@ export default function Home() {
       <ServiceWhy />
       <Testimonial />
       <TextLocReviews />
-      <HomePageContent />
       <ContactUsMap />
+      <HomePageContent />
     </div>
   );
 }

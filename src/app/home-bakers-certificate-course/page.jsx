@@ -1,8 +1,9 @@
 import Faculty from "@/components/HomePage/Faculty/Faculty";
 import HomeBakersContent from "../../components/HomeBakers/HomeBakersContent";
-import  Partners from '@/components/HomePage/FromCourse/FromCourse';
+import Partners from "@/components/HomePage/FromCourse/FromCourse";
 import ServiceWhy from "@/components/HomePage/ServiceWhy/ServiceWhy";
 import Testimonial from "@/components/HomePage/Testimonial/Testimonial";
+import HomeBakersContext from "./../../components/HomeBakers/HomeBakersContext";
 export const metadata = {
   title: "Home Bakers Certificate Course in Kolkata, West Bengal",
   description:
@@ -19,10 +20,11 @@ export default function HomeBakers() {
   return (
     <div>
       <HomeBakersContent />
-            <Faculty />
+      <Faculty />
       <Partners />
       <ServiceWhy />
       <Testimonial />
+      <HomeBakersContext />
     </div>
   );
 }
