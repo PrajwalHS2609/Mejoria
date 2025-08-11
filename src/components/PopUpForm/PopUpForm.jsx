@@ -7,24 +7,14 @@ import { FaUser, FaPhone, FaEnvelope, FaCity, FaBook } from "react-icons/fa";
 import { MdCalendarMonth } from "react-icons/md";
 import Swal from "sweetalert2";
 import { useRouter } from "next/navigation";
-
 const PopUpForm = () => {
-  const router = useRouter();
+  const router = useRouter(); // <-- Initialize router
 
   const onSubmit = async (event) => {
     event.preventDefault();
     const form = event.target;
     const formData = new FormData(form);
-
     formData.append("access_key", "d27b415e-86ae-47a8-bc5f-24e2b5d5eee2");
-    formData.append(
-      "recipients",
-      "mejoriakol@gmail.com,manjunathmv.genesis@gmail.com"
-    );
-    formData.append(
-      "autoresponse",
-      "Thank you for contacting us. We'll get back to you shortly!"
-    );
 
     const object = Object.fromEntries(formData.entries());
     const json = JSON.stringify(object);
@@ -45,7 +35,7 @@ const PopUpForm = () => {
         icon: "success",
         confirmButtonText: "OK",
       }).then(() => {
-        router.push("/thank-you");
+        router.push("/thank-you"); // <-- Redirect after confirmation
       });
       form.reset();
     } else {
@@ -61,7 +51,6 @@ const PopUpForm = () => {
     e.preventDefault();
     document.querySelector(".popup-form-wrapper").style.visibility = "hidden";
   };
-
   return (
     <div className="popup-form-wrapper">
       <div className="popup-exit-item">
@@ -86,7 +75,6 @@ const PopUpForm = () => {
               type="tel"
               name="phone"
               placeholder="Phone Number"
-                pattern="[0-9]{10}"
               required
             />
           </div>

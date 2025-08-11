@@ -2,22 +2,16 @@
 import React from "react";
 import "./FormHeader.css";
 import Swal from "sweetalert2";
+import { useRouter } from "next/router";
 
 const FormHeader = () => {
+    const router = useRouter(); // <-- Initialize router
+  
   const onSubmit = async (event) => {
     event.preventDefault();
     const form = event.target;
     const formData = new FormData(form);
-
     formData.append("access_key", "d27b415e-86ae-47a8-bc5f-24e2b5d5eee2");
-    formData.append(
-      "recipients",
-      "mejoriakol@gmail.com,manjunathmv.genesis@gmail.com"
-    );
-    formData.append(
-      "autoresponse",
-      "Thank you for contacting us. We'll get back to you shortly!"
-    );
 
     const object = Object.fromEntries(formData.entries());
     const json = JSON.stringify(object);
@@ -44,7 +38,7 @@ const FormHeader = () => {
     } else {
       Swal.fire({
         title: "Error!",
-        text: "Failed to submit. Please try again later.",
+        text: "Failed to send message. Please try again later.",
         icon: "error",
       });
     }
@@ -55,7 +49,13 @@ const FormHeader = () => {
       <form className="horizontal-form" onSubmit={onSubmit}>
         <input type="text" name="name" placeholder="Name" required />
         <input type="email" name="email" placeholder="Email" required />
-        <input type="tel" name="phone"   pattern="[0-9]{10}" placeholder="Phone" required />
+        <input
+          type="tel"
+          name="phone"
+          pattern="[0-9]{10}"
+          placeholder="Phone"
+          required
+        />
         <input type="number" name="age" placeholder="Your Age" required />
         <select name="course" required>
           <option value="">Select Course</option>

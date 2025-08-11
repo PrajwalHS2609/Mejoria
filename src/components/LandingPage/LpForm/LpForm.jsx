@@ -2,22 +2,17 @@
 import React from "react";
 import "./LpForm.css";
 import Swal from "sweetalert2";
+import { useRouter } from "next/router";
 
 const LpForm = () => {
-  const onSubmit = async (event) => {
+    const router = useRouter(); // <-- Initialize router
+  
+const onSubmit = async (event) => {
     event.preventDefault();
     const form = event.target;
     const formData = new FormData(form);
-
     formData.append("access_key", "d27b415e-86ae-47a8-bc5f-24e2b5d5eee2");
-    formData.append(
-      "recipients",
-      "mejoriakol@gmail.com,manjunathmv.genesis@gmail.com"
-    );
-    formData.append(
-      "autoresponse",
-      "Thank you for contacting us. We'll get back to you shortly!"
-    );
+
     const object = Object.fromEntries(formData.entries());
     const json = JSON.stringify(object);
 
@@ -43,7 +38,7 @@ const LpForm = () => {
     } else {
       Swal.fire({
         title: "Error!",
-        text: "Submission failed. Please try again later.",
+        text: "Failed to send message. Please try again later.",
         icon: "error",
       });
     }
