@@ -2,7 +2,7 @@
 import React from "react";
 import "./LpForm.css";
 import Swal from "sweetalert2";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 const LpForm = () => {
     const router = useRouter(); // <-- Initialize router

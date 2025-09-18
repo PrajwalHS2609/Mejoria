@@ -10,6 +10,7 @@ import ContactUsMap from "@/components/ContactUs/ContactUsMap";
 //   canonical: "https://mejoria.in",
 //   keywords: [""],
 // };
+
 export default function LandingPage() {
   return (
     <div>

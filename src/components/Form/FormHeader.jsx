@@ -2,11 +2,11 @@
 import React from "react";
 import "./FormHeader.css";
 import Swal from "sweetalert2";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 const FormHeader = () => {
-    const router = useRouter(); // <-- Initialize router
-  
+  const router = useRouter(); // <-- Initialize router
+
   const onSubmit = async (event) => {
     event.preventDefault();
     const form = event.target;
