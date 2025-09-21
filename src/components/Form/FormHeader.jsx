@@ -67,7 +67,7 @@ const FormHeader = () => {
           </option>
           <option value="Cake Mastery">Cake Mastery</option>
           <option value="Home Baker's Certification Course">
-            Home Baker's Certification Course
+            Home Baker's Certification Courses
           </option>
         </select>
         <button type="submit">Apply</button>
