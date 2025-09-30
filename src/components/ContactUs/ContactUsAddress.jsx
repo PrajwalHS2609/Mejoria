@@ -21,7 +21,7 @@ const ContactUsAddress = () => {
             <div className="contactUs-addressItemWrap">
               <h4>PHONE</h4>
               <b>
-                <a href="">+91-87775 75992</a>
+                <a href="tel:7019925059">+91-7019925059</a>
               </b>
             </div>
           </div>

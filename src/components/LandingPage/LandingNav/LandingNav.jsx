@@ -77,7 +77,7 @@ const LandingNav = () => {
               </a>
             </li>
             <li className="contact-link">
-              <a href="https://wa.me/918777575992">
+              <a href="https://wa.me/917019925059">
                 <FaWhatsapp className="contact-ico" />{" "}
                 <span>Drop a Message</span>
               </a>
@@ -142,7 +142,7 @@ const LandingNav = () => {
             </a>
           </li>
           <li className="contact-link">
-            <a href="tel:8777575992">
+            <a href="tel:7019925059">
               <FaWhatsapp className="contact-ico" /> <span>Drop a Message</span>
             </a>
           </li>

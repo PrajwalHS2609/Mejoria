@@ -31,7 +31,7 @@ const LandingPage2Footer = () => {
           <div className="footerTxt2">
             <div className="footerTxt" id="footerContact-content">
               <FiPhoneCall className="contact-icon" />
-              <a href="tel:8777575992">+91-87775 75992</a>
+              <a href="tel:7019925059">+91-7019925059</a>
             </div>
             <div className="footerTxt" id="footerContact-content">
               <IoMailOutline className="contact-icon" />

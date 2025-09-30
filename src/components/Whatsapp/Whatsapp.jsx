@@ -11,7 +11,7 @@ const Whatsapp = () => {
         <img src={whatsApp} alt="" />
       </a> */}
       <FloatingWhatsApp
-        phoneNumber="918777575992"
+        phoneNumber="917019925059"
         accountName="Mejoria"
         avatar={logo.src} // Optional
         statusMessage="Typically replies within 5 min" // Optional
