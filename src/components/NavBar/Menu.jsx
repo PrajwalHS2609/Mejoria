@@ -18,7 +18,7 @@ const Menu = () => {
 
   const hideSideBar = () => {
     const sideBar = document.querySelector(".respMenu");
-    sideBar.style.transform = "translateX(620px)";
+    sideBar.style.transform = "translateX(100%)";
   };
 
   const handleDropDown = (name) => {

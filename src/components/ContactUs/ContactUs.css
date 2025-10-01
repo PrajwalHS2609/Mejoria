@@ -50,7 +50,7 @@
   padding: 3rem 3rem;
   background: linear-gradient(to right, #fff7f4, #fdebe7);
   font-family: "Segoe UI", sans-serif;
-  height: 100%
+  height: 100%;
 }
 
 .callback-form {
@@ -193,6 +193,11 @@
   color: var(--customColor1);
 }
 @media screen and (max-width: 768px) {
+  .callback-form-wrapper {
+    /* border: solid red; */
+
+    padding: 20px;
+  }
   .contactUs-AddressContainer {
     /* border: solid red; */
     width: 100%;
@@ -209,6 +214,28 @@
   }
   .contactUs-addressItemWrap {
     width: 300px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .contactUs-AddressContainer {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    flex-direction: column;
+  }
+  .contactUs-AddressContent {
+    /* border: solid green; */
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .contactUs-addressItemWrap {
+    width: 300px;
+  }
+  .contactUs-addressItemWrap {
+    width: 100%;
   }
 }
 /* -----------------------map--------------------------------------- */

@@ -6,7 +6,6 @@
   align-items: center;
   flex-direction: column;
   /* background: linear-gradient(135deg, #1f1c2c, #928dab); */
-  min-height: 100vh;
 }
 
 .testimonial-content {
@@ -50,8 +49,8 @@
   gap: 20px;
   justify-content: flex-start;
   align-items: center;
-  padding: 10px ;
-  overflow-X: scroll;
+  padding: 10px;
+  overflow-x: scroll;
 }
 
 .testimonial-item {
