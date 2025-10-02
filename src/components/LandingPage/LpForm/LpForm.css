@@ -57,7 +57,15 @@
   .horizontal-form select {
     flex: 1 1 100%;
   }
-  .horizontal-form button{
+  .horizontal-form button {
     width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .horizontal-form {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }

@@ -1,1 +1,0 @@
-need to make resp at 1024px for footer,lp pages
