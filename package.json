@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sanity/image-url": "^1.2.0",
+    "@sanity/vision": "^4.10.2",
     "bootstrap": "^5.3.7",
     "next": "15.3.5",
+    "next-sanity": "^11.4.2",
     "number-counter": "^1.0.3",
     "react": "^19.0.0",
     "react-bootstrap": "^2.10.10",
@@ -22,7 +25,9 @@
     "react-player": "^3.2.0",
     "react-router-hash-link": "^2.4.3",
     "react-slick": "^0.30.3",
+    "sanity": "^4.10.2",
     "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.19",
     "sweetalert2": "^11.22.2"
   },
   "devDependencies": {

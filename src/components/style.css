@@ -86,3 +86,25 @@
     text-align: justify;
   }
 }
+
+/* ----------------------------ServiceContent---------------------------------- */
+.serviceContent-container1 {
+  /* border: solid red; */
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.serviceContent-container1 > h1 {
+  color: var(--customColor1);
+  text-align: center;
+}
+.serviceContent-container1 > p {
+  font-size: 18px;
+  text-align: justify;
+}
+.serviceContent-container1 > p > a {
+  color: var(--customColor1);
+}
