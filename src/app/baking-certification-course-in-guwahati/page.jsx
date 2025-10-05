@@ -6,6 +6,19 @@ import ServiceWhy from "@/components/HomePage/ServiceWhy/ServiceWhy";
 import Testimonial from "@/components/HomePage/Testimonial/Testimonial";
 import "./../../components/style.css";
 import { useState } from "react";
+
+export const metadata = {
+  title: "Baking Certification Course in Guwahati | Cake Baking Classes in Guwahati ",
+  description:
+    "Baking Certification Course in Guwahati a place where creative individuals are finding opportunities to learn, explore, and grow in diverse fields.",
+  canonical: "https://mejoria.in/baking-certification-course-in-guwahati",
+  keywords: [
+    "cake making classes near me",
+    "pastry making classes online",
+    "professional baking courses",
+    "learn to bake cakes",
+  ],
+};
 export default function BakingCourseGuwahati() {
   const [showMore, setShowMore] = useState(false);
 
