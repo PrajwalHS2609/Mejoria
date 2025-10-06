@@ -78,7 +78,7 @@ export default function RootLayout({
             }),
           }}
         />
-        <Script id="collect-chat" strategy="afterInteractive">
+        {/* <Script id="collect-chat" strategy="afterInteractive">
           {`
     (function(w, d) {
       w.CollectId = "688cb3d8a1413116b4a3593b";
@@ -90,14 +90,14 @@ export default function RootLayout({
       h.appendChild(s);
     })(window, document);
   `}
-        </Script>
+        </Script> */}
       </head>
       <body>
-        {isLanding ? <LandingNav /> : <NavBar />}
+        {/* {isLanding ? <LandingNav /> : <NavBar />}
         {children}
         {!isLanding && <Footer />}
         {!isLanding && <Whatsapp />}
-        <PopUpForm />
+        <PopUpForm /> */}
       </body>
     </html>
   );

@@ -16,7 +16,7 @@ const BakingCourseSiliguri = () => {
   return (
     <div>
       <div className="serviceContent-container1">
-        <h1>Baking Certification Course in Siliguri</h1>
+         <h1>Baking Certification Course in Siliguri</h1>
         <p>
           {" "}
           Siliguri, known as the gateway to North-East India, is a vibrant city
